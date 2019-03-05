@@ -23,7 +23,7 @@ let solved = doc.solved
 
 for (let i = 0; i < solved.length; i++) {
   const problem = solved[i]
-  const problem_md = `|${problem.id}|[${problem.title}](${problem.index})|[${leetcode_url + problem.index}](${github_url + problem.index})|${problem.difficulty}|\n`
+  const problem_md = `|${problem.id}|[${problem.title}](${leetcode_url + problem.index})|[${problem.index}](${github_url + problem.index})|${problem.difficulty}|\n`
   toc_md += problem_md
 }
 
