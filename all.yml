@@ -6,4 +6,5 @@ solved:
   - {id: 189, title: 旋转数组, index: rotate-array, difficulty: easy}
   - {id: 217, title: 存在重复元素, index: contains-duplicate, difficulty: easy}
   - {id: 283, title: 移动零, index: move-zeroes, difficulty: easy}
+  - {id: 344, title: 反转字符串, index: reverse-string, difficulty: easy}
   
