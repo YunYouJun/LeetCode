@@ -2,6 +2,7 @@ solved:
   - {id: 1, title: 两数之和, index: two-sum, difficulty: easy}
   - {id: 7, title: 整数反转, index: reverse-integer, difficulty: easy}
   - {id: 26, title: 删除排序数组中的重复项, index: remove-duplicates-from-sorted-array, difficulty: easy}
+  - {id: 38, title: 报数, index: count-and-say, difficulty: easy}
   - {id: 66, title: 加一, index: plus-one, difficulty: easy}
   - {id: 136, title: 只出现一次的数字, index: single-number, difficulty: easy}
   - {id: 189, title: 旋转数组, index: rotate-array, difficulty: easy}
