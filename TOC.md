@@ -8,6 +8,7 @@
 |28|[实现strStr()](https://leetcode-cn.com/problems/implement-strstr)|[implement-strstr](https://github.com/YunYouJun/LeetCode/tree/master/problems/implement-strstr)|easy|
 |38|[报数](https://leetcode-cn.com/problems/count-and-say)|[count-and-say](https://github.com/YunYouJun/LeetCode/tree/master/problems/count-and-say)|easy|
 |66|[加一](https://leetcode-cn.com/problems/plus-one)|[plus-one](https://github.com/YunYouJun/LeetCode/tree/master/problems/plus-one)|easy|
+|125|[验证回文串](https://leetcode-cn.com/problems/valid-palindrome)|[valid-palindrome](https://github.com/YunYouJun/LeetCode/tree/master/problems/valid-palindrome)|easy|
 |136|[只出现一次的数字](https://leetcode-cn.com/problems/single-number)|[single-number](https://github.com/YunYouJun/LeetCode/tree/master/problems/single-number)|easy|
 |189|[旋转数组](https://leetcode-cn.com/problems/rotate-array)|[rotate-array](https://github.com/YunYouJun/LeetCode/tree/master/problems/rotate-array)|easy|
 |217|[存在重复元素](https://leetcode-cn.com/problems/contains-duplicate)|[contains-duplicate](https://github.com/YunYouJun/LeetCode/tree/master/problems/contains-duplicate)|easy|
