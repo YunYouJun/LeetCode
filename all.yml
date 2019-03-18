@@ -3,6 +3,7 @@ solved:
   - {id: 7, title: 整数反转, index: reverse-integer, difficulty: easy}
   - {id: 9, title: 回文数, index: palindrome-number, difficulty: easy}
   - {id: 14, title: 最长公共前缀, index: longest-common-prefix, difficulty: easy}
+  - {id: 20, title: 有效的括号, index: valid-parentheses, difficulty: easy}
   - {id: 26, title: 删除排序数组中的重复项, index: remove-duplicates-from-sorted-array, difficulty: easy}
   - {id: 28, title: 实现strStr(), index: implement-strstr, difficulty: easy}
   - {id: 38, title: 报数, index: count-and-say, difficulty: easy}
