@@ -8,6 +8,7 @@
 |14|[最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix)|[longest-common-prefix](https://github.com/YunYouJun/LeetCode/tree/master/problems/longest-common-prefix)|easy|
 |20|[有效的括号](https://leetcode-cn.com/problems/valid-parentheses)|[valid-parentheses](https://github.com/YunYouJun/LeetCode/tree/master/problems/valid-parentheses)|easy|
 |26|[删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array)|[remove-duplicates-from-sorted-array](https://github.com/YunYouJun/LeetCode/tree/master/problems/remove-duplicates-from-sorted-array)|easy|
+|27|[移除元素](https://leetcode-cn.com/problems/remove-element)|[remove-element](https://github.com/YunYouJun/LeetCode/tree/master/problems/remove-element)|easy|
 |28|[实现strStr()](https://leetcode-cn.com/problems/implement-strstr)|[implement-strstr](https://github.com/YunYouJun/LeetCode/tree/master/problems/implement-strstr)|easy|
 |38|[报数](https://leetcode-cn.com/problems/count-and-say)|[count-and-say](https://github.com/YunYouJun/LeetCode/tree/master/problems/count-and-say)|easy|
 |66|[加一](https://leetcode-cn.com/problems/plus-one)|[plus-one](https://github.com/YunYouJun/LeetCode/tree/master/problems/plus-one)|easy|
