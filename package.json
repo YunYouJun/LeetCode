@@ -23,12 +23,11 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "yarn generate:TOC && lint-staged"
     }
   },
   "lint-staged": {
     "*.js": [
-      "yarn generate:TOC",
       "yarn lint",
       "git add"
     ]
