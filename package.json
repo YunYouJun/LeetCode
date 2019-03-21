@@ -8,7 +8,7 @@
   "author": "云游君 <me@yunyoujun.cn>",
   "license": "MIT",
   "scripts": {
-    "generate:TOC": "node utils/generateTOC.js && git add TOC.md",
+    "generate:TOC": "node utils/generateTOC.js",
     "lint": "eslint --fix ./**/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,10 +23,14 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn generate:TOC && lint-staged"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
+    "*.yml": [
+      "yarn generate:TOC",
+      "git add"
+    ],
     "*.js": [
       "yarn lint",
       "git add"
