@@ -3,23 +3,23 @@
  * @return {number}
  */
 var firstUniqChar = function(s) {
-  let l = s.length;
+  const l = s.length
   if (l === 1) {
-    return 0;
+    return 0
   }
-  let dic = {};
+  const dic = {}
   for (let i = 0; i < l; i++) {
-    let char = s[i];
+    const char = s[i]
     if (dic[char]) {
-      dic[char] += 1;
+      dic[char] += 1
     } else {
-      dic[char] = 1;
+      dic[char] = 1
     }
   }
   for (let i = 0; i < l; i++) {
     if (dic[s[i]] === 1) {
-      return i;
+      return i
     }
   }
-  return -1;
-};
+  return -1
+}

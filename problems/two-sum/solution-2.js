@@ -4,7 +4,7 @@
  * @return {number[]}
  */
 var twoSum = function(nums, target) {
-  let dic = {}
+  const dic = {}
   for (let i = 0; i < nums.length; i++) {
     if (nums[i] in dic) {
       return [dic[nums[i]], i]
@@ -12,4 +12,4 @@ var twoSum = function(nums, target) {
     dic[target - nums[i]] = i
   }
   return []
-};
+}

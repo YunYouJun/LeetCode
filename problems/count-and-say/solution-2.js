@@ -2,23 +2,23 @@
  * @param {number} n
  * @return {string}
  */
-let countAndSay = function(n) {
-  let say = '1';
+var countAndSay = function(n) {
+  let say = '1'
   for (let i = 1; i < n; i++) {
-    let temp = say;
-    let tag = temp[0];
-    let count = 1;
-    say = '';
+    const temp = say
+    let tag = temp[0]
+    let count = 1
+    say = ''
     for (let j = 1; j < temp.length; j++) {
       if (temp[j] === tag) {
-        count++;
+        count++
       } else {
-        say += count + tag;
-        tag = temp[j];
-        count = 1;
+        say += count + tag
+        tag = temp[j]
+        count = 1
       }
     }
-    say += count + tag;
+    say += count + tag
   }
-  return say;
-};
+  return say
+}

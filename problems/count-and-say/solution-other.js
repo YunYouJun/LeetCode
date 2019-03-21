@@ -3,33 +3,33 @@
  * @return {string}
  */
 var countAndSay = function(n) {
-  say = n.toString();
+  let say = n.toString()
   if (n > 1) {
     for (let i = 1; i < n; i++) {
-      say = countString(say);
-      console.log(say);
+      say = countString(say)
     }
   }
-  return say;
-};
+  return say
+}
 
 function countString(s) {
-  let old = s[0];
-  let count = 1;
+  let old = s[0]
+  let count = 1
   let say = ''
+  let cur
   if (s.length === 1) {
-    say = '1' + s;
+    say = '1' + s
   } else {
     for (let i = 1; i <= s.length; i++) {
-      cur = s[i];
+      cur = s[i]
       if (cur === old) {
-        count += 1;
+        count += 1
       } else {
-        say += count.toString() + old;
-        count = 1;
+        say += count.toString() + old
+        count = 1
       }
-      old = cur;
+      old = cur
     }
   }
-  return say;
+  return say
 }

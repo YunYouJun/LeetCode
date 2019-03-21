@@ -3,22 +3,22 @@
  * @return {number}
  */
 var removeDuplicates = function(nums) {
-  let oldNum = null;
+  let oldNum = null
   for (let i = 0; i < nums.length; i++) {
     if (nums[i] === oldNum) {
-      nums[i] = null;
+      nums[i] = null
     } else {
-      oldNum = nums[i];
+      oldNum = nums[i]
     }
   }
-  let order = 0;
+  let order = 0
   for (let i = 0; i < nums.length; i++) {
     if (nums[i] !== null) {
-      let temp = nums[i];
-      nums[i] = null;
-      nums[order] = temp;
-      order++;
+      const temp = nums[i]
+      nums[i] = null
+      nums[order] = temp
+      order++
     }
   }
-  return order;
-};
+  return order
+}

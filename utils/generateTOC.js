@@ -1,14 +1,15 @@
 const yaml = require('js-yaml')
-const fs   = require('fs')
+const fs = require('fs')
 
 // const
 const leetcode_url = 'https://leetcode-cn.com/problems/'
 const github_url = 'https://github.com/YunYouJun/LeetCode/tree/master/problems/'
+const toc_path = './toc.yml'
 
 // Get yaml info
-let doc = '';
+let doc = ''
 try {
-  doc = yaml.safeLoad(fs.readFileSync('./all.yml', 'utf8'))
+  doc = yaml.safeLoad(fs.readFileSync(toc_path, 'utf8'))
 } catch (e) {
   console.log(e)
 }
@@ -28,6 +29,6 @@ for (let i = 0; i < solved.length; i++) {
 }
 
 fs.writeFile('TOC.md', toc_md, (err) => {
-  if (err) throw err;
+  if (err) throw err
   console.log('Generate TOC successfully!')
 })
