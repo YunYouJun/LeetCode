@@ -29,7 +29,7 @@
   "lint-staged": {
     "*.yml": [
       "yarn generate:TOC",
-      "git add"
+      "git add TOC.md"
     ],
     "*.js": [
       "yarn lint",
