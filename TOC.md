@@ -16,6 +16,7 @@
 |101|[对称二叉树](https://leetcode-cn.com/problems/symmetric-tree)|[symmetric-tree](https://github.com/YunYouJun/LeetCode/tree/master/problems/symmetric-tree)|easy|
 |104|[二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree)|[maximum-depth-of-binary-tree](https://github.com/YunYouJun/LeetCode/tree/master/problems/maximum-depth-of-binary-tree)|easy|
 |118|[杨辉三角](https://leetcode-cn.com/problems/pascals-triangle)|[pascals-triangle](https://github.com/YunYouJun/LeetCode/tree/master/problems/pascals-triangle)|easy|
+|121|[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock)|[best-time-to-buy-and-sell-stock](https://github.com/YunYouJun/LeetCode/tree/master/problems/best-time-to-buy-and-sell-stock)|easy|
 |125|[验证回文串](https://leetcode-cn.com/problems/valid-palindrome)|[valid-palindrome](https://github.com/YunYouJun/LeetCode/tree/master/problems/valid-palindrome)|easy|
 |136|[只出现一次的数字](https://leetcode-cn.com/problems/single-number)|[single-number](https://github.com/YunYouJun/LeetCode/tree/master/problems/single-number)|easy|
 |189|[旋转数组](https://leetcode-cn.com/problems/rotate-array)|[rotate-array](https://github.com/YunYouJun/LeetCode/tree/master/problems/rotate-array)|easy|
