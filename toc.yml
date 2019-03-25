@@ -14,6 +14,7 @@ solved:
   - {id: 104, title: 二叉树的最大深度, index: maximum-depth-of-binary-tree, difficulty: easy}
   - {id: 118, title: 杨辉三角, index: pascals-triangle, difficulty: easy}
   - {id: 121, title: 买卖股票的最佳时机, index: best-time-to-buy-and-sell-stock, difficulty: easy}
+  - {id: 122, title: 买卖股票的最佳时机 II, index: best-time-to-buy-and-sell-stock-ii, difficulty: easy}
   - {id: 125, title: 验证回文串, index: valid-palindrome, difficulty: easy}
   - {id: 136, title: 只出现一次的数字, index: single-number, difficulty: easy}
   - {id: 189, title: 旋转数组, index: rotate-array, difficulty: easy}
