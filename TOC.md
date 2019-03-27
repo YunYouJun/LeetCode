@@ -20,6 +20,7 @@
 |122|[买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii)|[best-time-to-buy-and-sell-stock-ii](https://github.com/YunYouJun/LeetCode/tree/master/problems/best-time-to-buy-and-sell-stock-ii)|easy|
 |125|[验证回文串](https://leetcode-cn.com/problems/valid-palindrome)|[valid-palindrome](https://github.com/YunYouJun/LeetCode/tree/master/problems/valid-palindrome)|easy|
 |136|[只出现一次的数字](https://leetcode-cn.com/problems/single-number)|[single-number](https://github.com/YunYouJun/LeetCode/tree/master/problems/single-number)|easy|
+|141|[环形链表](https://leetcode-cn.com/problems/linked-list-cycle)|[linked-list-cycle](https://github.com/YunYouJun/LeetCode/tree/master/problems/linked-list-cycle)|easy|
 |189|[旋转数组](https://leetcode-cn.com/problems/rotate-array)|[rotate-array](https://github.com/YunYouJun/LeetCode/tree/master/problems/rotate-array)|easy|
 |217|[存在重复元素](https://leetcode-cn.com/problems/contains-duplicate)|[contains-duplicate](https://github.com/YunYouJun/LeetCode/tree/master/problems/contains-duplicate)|easy|
 |242|[有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram)|[valid-anagram](https://github.com/YunYouJun/LeetCode/tree/master/problems/valid-anagram)|easy|
