@@ -21,7 +21,9 @@
 |125|[验证回文串](https://leetcode-cn.com/problems/valid-palindrome)|[valid-palindrome](https://github.com/YunYouJun/LeetCode/tree/master/problems/valid-palindrome)|easy|
 |136|[只出现一次的数字](https://leetcode-cn.com/problems/single-number)|[single-number](https://github.com/YunYouJun/LeetCode/tree/master/problems/single-number)|easy|
 |141|[环形链表](https://leetcode-cn.com/problems/linked-list-cycle)|[linked-list-cycle](https://github.com/YunYouJun/LeetCode/tree/master/problems/linked-list-cycle)|easy|
+|175|[组合两个表](https://leetcode-cn.com/problems/combine-two-tables)|[combine-two-tables](https://github.com/YunYouJun/LeetCode/tree/master/problems/combine-two-tables)|easy|
 |189|[旋转数组](https://leetcode-cn.com/problems/rotate-array)|[rotate-array](https://github.com/YunYouJun/LeetCode/tree/master/problems/rotate-array)|easy|
+|206|[反转链表](https://leetcode-cn.com/problems/reverse-linked-list)|[reverse-linked-list](https://github.com/YunYouJun/LeetCode/tree/master/problems/reverse-linked-list)|easy|
 |217|[存在重复元素](https://leetcode-cn.com/problems/contains-duplicate)|[contains-duplicate](https://github.com/YunYouJun/LeetCode/tree/master/problems/contains-duplicate)|easy|
 |242|[有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram)|[valid-anagram](https://github.com/YunYouJun/LeetCode/tree/master/problems/valid-anagram)|easy|
 |283|[移动零](https://leetcode-cn.com/problems/move-zeroes)|[move-zeroes](https://github.com/YunYouJun/LeetCode/tree/master/problems/move-zeroes)|easy|
