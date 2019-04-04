@@ -22,6 +22,7 @@
 |136|[只出现一次的数字](https://leetcode-cn.com/problems/single-number)|[single-number](https://github.com/YunYouJun/LeetCode/tree/master/problems/single-number)|easy|
 |141|[环形链表](https://leetcode-cn.com/problems/linked-list-cycle)|[linked-list-cycle](https://github.com/YunYouJun/LeetCode/tree/master/problems/linked-list-cycle)|easy|
 |175|[组合两个表](https://leetcode-cn.com/problems/combine-two-tables)|[combine-two-tables](https://github.com/YunYouJun/LeetCode/tree/master/problems/combine-two-tables)|easy|
+|176|[第二高的薪水](https://leetcode-cn.com/problems/second-highest-salary)|[second-highest-salary](https://github.com/YunYouJun/LeetCode/tree/master/problems/second-highest-salary)|easy|
 |189|[旋转数组](https://leetcode-cn.com/problems/rotate-array)|[rotate-array](https://github.com/YunYouJun/LeetCode/tree/master/problems/rotate-array)|easy|
 |206|[反转链表](https://leetcode-cn.com/problems/reverse-linked-list)|[reverse-linked-list](https://github.com/YunYouJun/LeetCode/tree/master/problems/reverse-linked-list)|easy|
 |217|[存在重复元素](https://leetcode-cn.com/problems/contains-duplicate)|[contains-duplicate](https://github.com/YunYouJun/LeetCode/tree/master/problems/contains-duplicate)|easy|
