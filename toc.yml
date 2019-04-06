@@ -22,6 +22,7 @@ solved:
   - {id: 176, title: 第二高的薪水, index: second-highest-salary, difficulty: easy}
   - {id: 182, title: 查找重复的电子邮箱, index: duplicate-emails, difficulty: easy}
   - {id: 189, title: 旋转数组, index: rotate-array, difficulty: easy}
+  - {id: 197, title: 上升的温度, index: rising-temperature, difficulty: easy}
   - {id: 206, title: 反转链表, index: reverse-linked-list, difficulty: easy}
   - {id: 217, title: 存在重复元素, index: contains-duplicate, difficulty: easy}
   - {id: 242, title: 有效的字母异位词, index: valid-anagram, difficulty: easy}
