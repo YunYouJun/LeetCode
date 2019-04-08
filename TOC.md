@@ -26,6 +26,7 @@
 |182|[查找重复的电子邮箱](https://leetcode-cn.com/problems/duplicate-emails)|[duplicate-emails](https://github.com/YunYouJun/LeetCode/tree/master/problems/duplicate-emails)|easy|
 |183|[从不订购的客户](https://leetcode-cn.com/problems/customers-who-never-order)|[customers-who-never-order](https://github.com/YunYouJun/LeetCode/tree/master/problems/customers-who-never-order)|easy|
 |189|[旋转数组](https://leetcode-cn.com/problems/rotate-array)|[rotate-array](https://github.com/YunYouJun/LeetCode/tree/master/problems/rotate-array)|easy|
+|196|[删除重复的电子邮箱](https://leetcode-cn.com/problems/delete-duplicate-emails)|[delete-duplicate-emails](https://github.com/YunYouJun/LeetCode/tree/master/problems/delete-duplicate-emails)|easy|
 |197|[上升的温度](https://leetcode-cn.com/problems/rising-temperature)|[rising-temperature](https://github.com/YunYouJun/LeetCode/tree/master/problems/rising-temperature)|easy|
 |206|[反转链表](https://leetcode-cn.com/problems/reverse-linked-list)|[reverse-linked-list](https://github.com/YunYouJun/LeetCode/tree/master/problems/reverse-linked-list)|easy|
 |217|[存在重复元素](https://leetcode-cn.com/problems/contains-duplicate)|[contains-duplicate](https://github.com/YunYouJun/LeetCode/tree/master/problems/contains-duplicate)|easy|
