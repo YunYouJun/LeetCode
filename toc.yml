@@ -30,5 +30,6 @@ solved:
   - {id: 237, title: 删除链表中的节点, index: delete-node-in-a-linked-list, difficulty: easy}
   - {id: 242, title: 有效的字母异位词, index: valid-anagram, difficulty: easy}
   - {id: 283, title: 移动零, index: move-zeroes, difficulty: easy}
+  - {id: 292, title: Nim游戏, index: nim-game, difficulty: easy}
   - {id: 344, title: 反转字符串, index: reverse-string, difficulty: easy}
   - {id: 387, title: 字符串中的第一个唯一字符, index: first-unique-character-in-a-string, difficulty: easy}

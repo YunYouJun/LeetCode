@@ -33,5 +33,6 @@
 |237|[删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list)|[delete-node-in-a-linked-list](https://github.com/YunYouJun/LeetCode/tree/master/problems/delete-node-in-a-linked-list)|easy|
 |242|[有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram)|[valid-anagram](https://github.com/YunYouJun/LeetCode/tree/master/problems/valid-anagram)|easy|
 |283|[移动零](https://leetcode-cn.com/problems/move-zeroes)|[move-zeroes](https://github.com/YunYouJun/LeetCode/tree/master/problems/move-zeroes)|easy|
+|292|[Nim游戏](https://leetcode-cn.com/problems/nim-game)|[nim-game](https://github.com/YunYouJun/LeetCode/tree/master/problems/nim-game)|easy|
 |344|[反转字符串](https://leetcode-cn.com/problems/reverse-string)|[reverse-string](https://github.com/YunYouJun/LeetCode/tree/master/problems/reverse-string)|easy|
 |387|[字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string)|[first-unique-character-in-a-string](https://github.com/YunYouJun/LeetCode/tree/master/problems/first-unique-character-in-a-string)|easy|
