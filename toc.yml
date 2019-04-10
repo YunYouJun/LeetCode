@@ -33,3 +33,4 @@ solved:
   - {id: 292, title: Nim游戏, index: nim-game, difficulty: easy}
   - {id: 344, title: 反转字符串, index: reverse-string, difficulty: easy}
   - {id: 387, title: 字符串中的第一个唯一字符, index: first-unique-character-in-a-string, difficulty: easy}
+  - {id: 620, title: 有趣的电影, index: not-boring-movies, difficulty: easy}
