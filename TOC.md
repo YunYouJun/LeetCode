@@ -12,6 +12,7 @@
 |28|[实现strStr()](https://leetcode-cn.com/problems/implement-strstr)|[implement-strstr](https://github.com/YunYouJun/LeetCode/tree/master/problems/implement-strstr)|easy|
 |38|[报数](https://leetcode-cn.com/problems/count-and-say)|[count-and-say](https://github.com/YunYouJun/LeetCode/tree/master/problems/count-and-say)|easy|
 |66|[加一](https://leetcode-cn.com/problems/plus-one)|[plus-one](https://github.com/YunYouJun/LeetCode/tree/master/problems/plus-one)|easy|
+|70|[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs)|[climbing-stairs](https://github.com/YunYouJun/LeetCode/tree/master/problems/climbing-stairs)|easy|
 |83|[删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list)|[remove-duplicates-from-sorted-list](https://github.com/YunYouJun/LeetCode/tree/master/problems/remove-duplicates-from-sorted-list)|easy|
 |101|[对称二叉树](https://leetcode-cn.com/problems/symmetric-tree)|[symmetric-tree](https://github.com/YunYouJun/LeetCode/tree/master/problems/symmetric-tree)|easy|
 |104|[二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree)|[maximum-depth-of-binary-tree](https://github.com/YunYouJun/LeetCode/tree/master/problems/maximum-depth-of-binary-tree)|easy|
