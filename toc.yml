@@ -1,5 +1,6 @@
 solved:
   - {id: 1, title: 两数之和, index: two-sum, difficulty: easy}
+  - {id: 2, title: 两数相加, index: add-two-numbers, difficulty: medium}
   - {id: 7, title: 整数反转, index: reverse-integer, difficulty: easy}
   - {id: 9, title: 回文数, index: palindrome-number, difficulty: easy}
   - {id: 14, title: 最长公共前缀, index: longest-common-prefix, difficulty: easy}
