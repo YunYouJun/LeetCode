@@ -40,3 +40,4 @@
 |387|[字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string)|[first-unique-character-in-a-string](https://github.com/YunYouJun/LeetCode/tree/master/problems/first-unique-character-in-a-string)|easy|
 |563|[二叉树的坡度](https://leetcode-cn.com/problems/binary-tree-tilt)|[binary-tree-tilt](https://github.com/YunYouJun/LeetCode/tree/master/problems/binary-tree-tilt)|easy|
 |620|[有趣的电影](https://leetcode-cn.com/problems/not-boring-movies)|[not-boring-movies](https://github.com/YunYouJun/LeetCode/tree/master/problems/not-boring-movies)|easy|
+|872|[叶子相似的树](https://leetcode-cn.com/problems/leaf-similar-trees)|[leaf-similar-trees](https://github.com/YunYouJun/LeetCode/tree/master/problems/leaf-similar-trees)|easy|
