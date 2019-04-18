@@ -38,4 +38,5 @@ solved:
   - {id: 563, title: 二叉树的坡度, index: binary-tree-tilt, difficulty: easy}
   - {id: 620, title: 有趣的电影, index: not-boring-movies, difficulty: easy}
   - {id: 627, title: 交换工资, index: swap-salary, difficulty: easy}
+  - {id: 669, title: 修剪二叉搜索树, index: trim-a-binary-search-tree, difficulty: easy}
   - {id: 872, title: 叶子相似的树, index: leaf-similar-trees, difficulty: easy}

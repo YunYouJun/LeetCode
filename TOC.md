@@ -41,4 +41,5 @@
 |563|[二叉树的坡度](https://leetcode-cn.com/problems/binary-tree-tilt)|[binary-tree-tilt](https://github.com/YunYouJun/LeetCode/tree/master/problems/binary-tree-tilt)|easy|
 |620|[有趣的电影](https://leetcode-cn.com/problems/not-boring-movies)|[not-boring-movies](https://github.com/YunYouJun/LeetCode/tree/master/problems/not-boring-movies)|easy|
 |627|[交换工资](https://leetcode-cn.com/problems/swap-salary)|[swap-salary](https://github.com/YunYouJun/LeetCode/tree/master/problems/swap-salary)|easy|
+|669|[修剪二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree)|[trim-a-binary-search-tree](https://github.com/YunYouJun/LeetCode/tree/master/problems/trim-a-binary-search-tree)|easy|
 |872|[叶子相似的树](https://leetcode-cn.com/problems/leaf-similar-trees)|[leaf-similar-trees](https://github.com/YunYouJun/LeetCode/tree/master/problems/leaf-similar-trees)|easy|
