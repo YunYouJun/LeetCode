@@ -43,4 +43,5 @@
 |627|[交换工资](https://leetcode-cn.com/problems/swap-salary)|[swap-salary](https://github.com/YunYouJun/LeetCode/tree/master/problems/swap-salary)|easy|
 |669|[修剪二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree)|[trim-a-binary-search-tree](https://github.com/YunYouJun/LeetCode/tree/master/problems/trim-a-binary-search-tree)|easy|
 |682|[棒球比赛](https://leetcode-cn.com/problems/baseball-game)|[baseball-game](https://github.com/YunYouJun/LeetCode/tree/master/problems/baseball-game)|easy|
+|867|[转置矩阵](https://leetcode-cn.com/problems/transpose-matrix)|[transpose-matrix](https://github.com/YunYouJun/LeetCode/tree/master/problems/transpose-matrix)|easy|
 |872|[叶子相似的树](https://leetcode-cn.com/problems/leaf-similar-trees)|[leaf-similar-trees](https://github.com/YunYouJun/LeetCode/tree/master/problems/leaf-similar-trees)|easy|
