@@ -41,4 +41,5 @@ solved:
   - {id: 669, title: 修剪二叉搜索树, index: trim-a-binary-search-tree, difficulty: easy}
   - {id: 682, title: 棒球比赛, index: baseball-game, difficulty: easy}
   - {id: 867, title: 转置矩阵, index: transpose-matrix, difficulty: easy}
+  - {id: 868, title: 二进制间距, index: binary-gap, difficulty: easy}
   - {id: 872, title: 叶子相似的树, index: leaf-similar-trees, difficulty: easy}
