@@ -39,4 +39,4 @@ var smallestEquivalentString = function(A, B, S) {
 
 // smallestEquivalentString("parker", "morris", "parser")
 // smallestEquivalentString("hello", "world", "hold")
-smallestEquivalentString('leetcode', 'programs', 'sourcecode')
+// smallestEquivalentString('leetcode', 'programs', 'sourcecode')
