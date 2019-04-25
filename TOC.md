@@ -45,6 +45,7 @@
 |682|[棒球比赛](https://leetcode-cn.com/problems/baseball-game)|[baseball-game](https://github.com/YunYouJun/LeetCode/tree/master/problems/baseball-game)|easy|
 |687|[最长同值路径](https://leetcode-cn.com/problems/longest-univalue-path)|[longest-univalue-path](https://github.com/YunYouJun/LeetCode/tree/master/problems/longest-univalue-path)|easy|
 |851|[喧闹和富有](https://leetcode-cn.com/problems/loud-and-rich)|[loud-and-rich](https://github.com/YunYouJun/LeetCode/tree/master/problems/loud-and-rich)|medium|
+|859|[亲密字符串](https://leetcode-cn.com/problems/buddy-strings)|[buddy-strings](https://github.com/YunYouJun/LeetCode/tree/master/problems/buddy-strings)|easy|
 |860|[柠檬水找零](https://leetcode-cn.com/problems/lemonade-change)|[lemonade-change](https://github.com/YunYouJun/LeetCode/tree/master/problems/lemonade-change)|easy|
 |867|[转置矩阵](https://leetcode-cn.com/problems/transpose-matrix)|[transpose-matrix](https://github.com/YunYouJun/LeetCode/tree/master/problems/transpose-matrix)|easy|
 |868|[二进制间距](https://leetcode-cn.com/problems/binary-gap)|[binary-gap](https://github.com/YunYouJun/LeetCode/tree/master/problems/binary-gap)|easy|
