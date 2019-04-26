@@ -47,3 +47,4 @@ solved:
   - {id: 867, title: 转置矩阵, index: transpose-matrix, difficulty: easy}
   - {id: 868, title: 二进制间距, index: binary-gap, difficulty: easy}
   - {id: 872, title: 叶子相似的树, index: leaf-similar-trees, difficulty: easy}
+  - {id: 874, title: 模拟行走机器人, index: walking-robot-simulation, difficulty: easy}

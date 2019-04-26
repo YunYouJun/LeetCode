@@ -50,3 +50,4 @@
 |867|[转置矩阵](https://leetcode-cn.com/problems/transpose-matrix)|[transpose-matrix](https://github.com/YunYouJun/LeetCode/tree/master/problems/transpose-matrix)|easy|
 |868|[二进制间距](https://leetcode-cn.com/problems/binary-gap)|[binary-gap](https://github.com/YunYouJun/LeetCode/tree/master/problems/binary-gap)|easy|
 |872|[叶子相似的树](https://leetcode-cn.com/problems/leaf-similar-trees)|[leaf-similar-trees](https://github.com/YunYouJun/LeetCode/tree/master/problems/leaf-similar-trees)|easy|
+|874|[模拟行走机器人](https://leetcode-cn.com/problems/walking-robot-simulation)|[walking-robot-simulation](https://github.com/YunYouJun/LeetCode/tree/master/problems/walking-robot-simulation)|easy|
