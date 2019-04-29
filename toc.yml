@@ -50,3 +50,5 @@ solved:
   - {id: 874, title: 模拟行走机器人, index: walking-robot-simulation, difficulty: easy}
   - {id: 876, title: 链表的中间结点, index: middle-of-the-linked-list, difficulty: easy}
   - {id: 883, title: 三维形体投影面积, index: projection-area-of-3d-shapes, difficulty: easy}
+  - {id: 883, title: 三维形体投影面积, index: projection-area-of-3d-shapes, difficulty: easy}
+  - {id: 884, title: 两句话中的不常见单词, index: uncommon-words-from-two-sentences, difficulty: easy}
