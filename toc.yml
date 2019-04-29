@@ -52,3 +52,4 @@ solved:
   - {id: 883, title: 三维形体投影面积, index: projection-area-of-3d-shapes, difficulty: easy}
   - {id: 883, title: 三维形体投影面积, index: projection-area-of-3d-shapes, difficulty: easy}
   - {id: 884, title: 两句话中的不常见单词, index: uncommon-words-from-two-sentences, difficulty: easy}
+  - {id: 888, title: 公平的糖果交换, index: fair-candy-swap, difficulty: easy}

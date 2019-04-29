@@ -53,3 +53,6 @@
 |874|[模拟行走机器人](https://leetcode-cn.com/problems/walking-robot-simulation)|[walking-robot-simulation](https://github.com/YunYouJun/LeetCode/tree/master/problems/walking-robot-simulation)|easy|
 |876|[链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list)|[middle-of-the-linked-list](https://github.com/YunYouJun/LeetCode/tree/master/problems/middle-of-the-linked-list)|easy|
 |883|[三维形体投影面积](https://leetcode-cn.com/problems/projection-area-of-3d-shapes)|[projection-area-of-3d-shapes](https://github.com/YunYouJun/LeetCode/tree/master/problems/projection-area-of-3d-shapes)|easy|
+|883|[三维形体投影面积](https://leetcode-cn.com/problems/projection-area-of-3d-shapes)|[projection-area-of-3d-shapes](https://github.com/YunYouJun/LeetCode/tree/master/problems/projection-area-of-3d-shapes)|easy|
+|884|[两句话中的不常见单词](https://leetcode-cn.com/problems/uncommon-words-from-two-sentences)|[uncommon-words-from-two-sentences](https://github.com/YunYouJun/LeetCode/tree/master/problems/uncommon-words-from-two-sentences)|easy|
+|888|[公平的糖果交换](https://leetcode-cn.com/problems/fair-candy-swap)|[fair-candy-swap](https://github.com/YunYouJun/LeetCode/tree/master/problems/fair-candy-swap)|easy|
