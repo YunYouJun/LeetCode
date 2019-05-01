@@ -56,3 +56,4 @@
 |883|[三维形体投影面积](https://leetcode-cn.com/problems/projection-area-of-3d-shapes)|[projection-area-of-3d-shapes](https://github.com/YunYouJun/LeetCode/tree/master/problems/projection-area-of-3d-shapes)|easy|
 |884|[两句话中的不常见单词](https://leetcode-cn.com/problems/uncommon-words-from-two-sentences)|[uncommon-words-from-two-sentences](https://github.com/YunYouJun/LeetCode/tree/master/problems/uncommon-words-from-two-sentences)|easy|
 |888|[公平的糖果交换](https://leetcode-cn.com/problems/fair-candy-swap)|[fair-candy-swap](https://github.com/YunYouJun/LeetCode/tree/master/problems/fair-candy-swap)|easy|
+|892|[三维形体的表面积](https://leetcode-cn.com/problems/surface-area-of-3d-shapes)|[surface-area-of-3d-shapes](https://github.com/YunYouJun/LeetCode/tree/master/problems/surface-area-of-3d-shapes)|easy|
