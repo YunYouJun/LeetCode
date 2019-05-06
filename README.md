@@ -1,6 +1,6 @@
 # LeetCode
 
-[LeetCode](https://leetcode-cn.com) Practice
+[LeetCode](https://leetcode-cn.com) Practice [TOC](./TOC.md)
 
 ## Language
 

@@ -55,3 +55,4 @@ solved:
   - {id: 888, title: 公平的糖果交换, index: fair-candy-swap, difficulty: easy}
   - {id: 892, title: 三维形体的表面积, index: surface-area-of-3d-shapes, difficulty: easy}
   - {id: 965, title: 单值二叉树, index: univalued-binary-tree, difficulty: easy}
+  - {id: 977, title: 有序数组的平方, index: squares-of-a-sorted-array, difficulty: easy}
