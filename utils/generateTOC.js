@@ -1,5 +1,6 @@
 const yaml = require('js-yaml')
 const fs = require('fs')
+const path = require('path')
 
 // const
 const leetcode_url = 'https://leetcode-cn.com/problems/'
@@ -16,15 +17,24 @@ try {
 
 let toc_md = `# TOC
 
-|#|Title|Solution|Difficulty|
-|-|-----|--------|----------|
+|#|Title|Solution|Difficulty|Language|
+|-|-----|--------|----------|--------|
 `
 
 let solved = doc.solved
-
 for (let i = 0; i < solved.length; i++) {
   const problem = solved[i]
-  const problem_md = `|${problem.id}|[${problem.title}](${leetcode_url + problem.index})|[${problem.index}](${github_url + problem.index})|${problem.difficulty}|\n`
+  
+  // read language by ext
+  let extname = new Set()
+  let problem_path = 'problems/' + problem.index
+  let files = fs.readdirSync(problem_path)
+  for (const file of files) {
+    extname.add(path.extname(file).slice(1))
+  }
+  problem.language = [...extname].join('/')
+
+  const problem_md = `|${problem.id}|[${problem.title}](${leetcode_url + problem.index})|[${problem.index}](${github_url + problem.index})|${problem.difficulty}|${problem.language}|\n`
   toc_md += problem_md
 }
 
