@@ -57,5 +57,6 @@
 |884|[两句话中的不常见单词](https://leetcode-cn.com/problems/uncommon-words-from-two-sentences)|[uncommon-words-from-two-sentences](https://github.com/YunYouJun/LeetCode/tree/master/problems/uncommon-words-from-two-sentences)|easy|
 |888|[公平的糖果交换](https://leetcode-cn.com/problems/fair-candy-swap)|[fair-candy-swap](https://github.com/YunYouJun/LeetCode/tree/master/problems/fair-candy-swap)|easy|
 |892|[三维形体的表面积](https://leetcode-cn.com/problems/surface-area-of-3d-shapes)|[surface-area-of-3d-shapes](https://github.com/YunYouJun/LeetCode/tree/master/problems/surface-area-of-3d-shapes)|easy|
+|893|[特殊等价字符串组](https://leetcode-cn.com/problems/groups-of-special-equivalent-strings)|[groups-of-special-equivalent-strings](https://github.com/YunYouJun/LeetCode/tree/master/problems/groups-of-special-equivalent-strings)|easy|
 |965|[单值二叉树](https://leetcode-cn.com/problems/univalued-binary-tree)|[univalued-binary-tree](https://github.com/YunYouJun/LeetCode/tree/master/problems/univalued-binary-tree)|easy|
 |977|[有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array)|[squares-of-a-sorted-array](https://github.com/YunYouJun/LeetCode/tree/master/problems/squares-of-a-sorted-array)|easy|
