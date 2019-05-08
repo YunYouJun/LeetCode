@@ -22,12 +22,12 @@
 |122|[买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii)|[best-time-to-buy-and-sell-stock-ii](https://github.com/YunYouJun/LeetCode/tree/master/problems/best-time-to-buy-and-sell-stock-ii)|easy|js/py|
 |125|[验证回文串](https://leetcode-cn.com/problems/valid-palindrome)|[valid-palindrome](https://github.com/YunYouJun/LeetCode/tree/master/problems/valid-palindrome)|easy|js/py|
 |136|[只出现一次的数字](https://leetcode-cn.com/problems/single-number)|[single-number](https://github.com/YunYouJun/LeetCode/tree/master/problems/single-number)|easy|js/py|
-|141|[环形链表](https://leetcode-cn.com/problems/linked-list-cycle)|[linked-list-cycle](https://github.com/YunYouJun/LeetCode/tree/master/problems/linked-list-cycle)|easy|py/js|
+|141|[环形链表](https://leetcode-cn.com/problems/linked-list-cycle)|[linked-list-cycle](https://github.com/YunYouJun/LeetCode/tree/master/problems/linked-list-cycle)|easy|js/py|
 |175|[组合两个表](https://leetcode-cn.com/problems/combine-two-tables)|[combine-two-tables](https://github.com/YunYouJun/LeetCode/tree/master/problems/combine-two-tables)|easy|sql|
 |176|[第二高的薪水](https://leetcode-cn.com/problems/second-highest-salary)|[second-highest-salary](https://github.com/YunYouJun/LeetCode/tree/master/problems/second-highest-salary)|easy|sql|
 |182|[查找重复的电子邮箱](https://leetcode-cn.com/problems/duplicate-emails)|[duplicate-emails](https://github.com/YunYouJun/LeetCode/tree/master/problems/duplicate-emails)|easy|sql|
 |183|[从不订购的客户](https://leetcode-cn.com/problems/customers-who-never-order)|[customers-who-never-order](https://github.com/YunYouJun/LeetCode/tree/master/problems/customers-who-never-order)|easy|sql|
-|189|[旋转数组](https://leetcode-cn.com/problems/rotate-array)|[rotate-array](https://github.com/YunYouJun/LeetCode/tree/master/problems/rotate-array)|easy|py/js|
+|189|[旋转数组](https://leetcode-cn.com/problems/rotate-array)|[rotate-array](https://github.com/YunYouJun/LeetCode/tree/master/problems/rotate-array)|easy|js/py|
 |196|[删除重复的电子邮箱](https://leetcode-cn.com/problems/delete-duplicate-emails)|[delete-duplicate-emails](https://github.com/YunYouJun/LeetCode/tree/master/problems/delete-duplicate-emails)|easy|sql|
 |197|[上升的温度](https://leetcode-cn.com/problems/rising-temperature)|[rising-temperature](https://github.com/YunYouJun/LeetCode/tree/master/problems/rising-temperature)|easy|sql|
 |206|[反转链表](https://leetcode-cn.com/problems/reverse-linked-list)|[reverse-linked-list](https://github.com/YunYouJun/LeetCode/tree/master/problems/reverse-linked-list)|easy|js/py|
@@ -47,7 +47,7 @@
 |851|[喧闹和富有](https://leetcode-cn.com/problems/loud-and-rich)|[loud-and-rich](https://github.com/YunYouJun/LeetCode/tree/master/problems/loud-and-rich)|medium|js/py|
 |859|[亲密字符串](https://leetcode-cn.com/problems/buddy-strings)|[buddy-strings](https://github.com/YunYouJun/LeetCode/tree/master/problems/buddy-strings)|easy|js/py|
 |860|[柠檬水找零](https://leetcode-cn.com/problems/lemonade-change)|[lemonade-change](https://github.com/YunYouJun/LeetCode/tree/master/problems/lemonade-change)|easy|js/py|
-|867|[转置矩阵](https://leetcode-cn.com/problems/transpose-matrix)|[transpose-matrix](https://github.com/YunYouJun/LeetCode/tree/master/problems/transpose-matrix)|easy|py/js|
+|867|[转置矩阵](https://leetcode-cn.com/problems/transpose-matrix)|[transpose-matrix](https://github.com/YunYouJun/LeetCode/tree/master/problems/transpose-matrix)|easy|js/py|
 |868|[二进制间距](https://leetcode-cn.com/problems/binary-gap)|[binary-gap](https://github.com/YunYouJun/LeetCode/tree/master/problems/binary-gap)|easy|js/py|
 |872|[叶子相似的树](https://leetcode-cn.com/problems/leaf-similar-trees)|[leaf-similar-trees](https://github.com/YunYouJun/LeetCode/tree/master/problems/leaf-similar-trees)|easy|js/py|
 |874|[模拟行走机器人](https://leetcode-cn.com/problems/walking-robot-simulation)|[walking-robot-simulation](https://github.com/YunYouJun/LeetCode/tree/master/problems/walking-robot-simulation)|easy|js/py|
@@ -56,7 +56,8 @@
 |883|[三维形体投影面积](https://leetcode-cn.com/problems/projection-area-of-3d-shapes)|[projection-area-of-3d-shapes](https://github.com/YunYouJun/LeetCode/tree/master/problems/projection-area-of-3d-shapes)|easy|js/py|
 |884|[两句话中的不常见单词](https://leetcode-cn.com/problems/uncommon-words-from-two-sentences)|[uncommon-words-from-two-sentences](https://github.com/YunYouJun/LeetCode/tree/master/problems/uncommon-words-from-two-sentences)|easy|js/py|
 |888|[公平的糖果交换](https://leetcode-cn.com/problems/fair-candy-swap)|[fair-candy-swap](https://github.com/YunYouJun/LeetCode/tree/master/problems/fair-candy-swap)|easy|js/py|
-|892|[三维形体的表面积](https://leetcode-cn.com/problems/surface-area-of-3d-shapes)|[surface-area-of-3d-shapes](https://github.com/YunYouJun/LeetCode/tree/master/problems/surface-area-of-3d-shapes)|easy|md/py/js|
+|892|[三维形体的表面积](https://leetcode-cn.com/problems/surface-area-of-3d-shapes)|[surface-area-of-3d-shapes](https://github.com/YunYouJun/LeetCode/tree/master/problems/surface-area-of-3d-shapes)|easy|md/js/py|
 |893|[特殊等价字符串组](https://leetcode-cn.com/problems/groups-of-special-equivalent-strings)|[groups-of-special-equivalent-strings](https://github.com/YunYouJun/LeetCode/tree/master/problems/groups-of-special-equivalent-strings)|easy|js/py|
+|896|[单调数列](https://leetcode-cn.com/problems/monotonic-array)|[monotonic-array](https://github.com/YunYouJun/LeetCode/tree/master/problems/monotonic-array)|easy|js/py|
 |965|[单值二叉树](https://leetcode-cn.com/problems/univalued-binary-tree)|[univalued-binary-tree](https://github.com/YunYouJun/LeetCode/tree/master/problems/univalued-binary-tree)|easy|js/py|
 |977|[有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array)|[squares-of-a-sorted-array](https://github.com/YunYouJun/LeetCode/tree/master/problems/squares-of-a-sorted-array)|easy|js/py|
