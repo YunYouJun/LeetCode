@@ -61,3 +61,4 @@
 |896|[单调数列](https://leetcode-cn.com/problems/monotonic-array)|[monotonic-array](https://github.com/YunYouJun/LeetCode/tree/master/problems/monotonic-array)|easy|js/py|
 |965|[单值二叉树](https://leetcode-cn.com/problems/univalued-binary-tree)|[univalued-binary-tree](https://github.com/YunYouJun/LeetCode/tree/master/problems/univalued-binary-tree)|easy|js/py|
 |977|[有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array)|[squares-of-a-sorted-array](https://github.com/YunYouJun/LeetCode/tree/master/problems/squares-of-a-sorted-array)|easy|js/py|
+|994|[腐烂的橘子](https://leetcode-cn.com/problems/rotting-oranges)|[rotting-oranges](https://github.com/YunYouJun/LeetCode/tree/master/problems/rotting-oranges)|easy|js/py|
