@@ -61,5 +61,6 @@ solved:
   - {id: 976, title: 三角形的最大周长, index: largest-perimeter-triangle, difficulty: easy}
   - {id: 977, title: 有序数组的平方, index: squares-of-a-sorted-array, difficulty: easy}
   - {id: 985, title: 查询后的偶数和, index: sum-of-even-numbers-after-queries, difficulty: easy}
+  - {id: 989, title: 数组形式的整数加法, index: add-to-array-form-of-integer, difficulty: easy}
   - {id: 993, title: 二叉树的堂兄弟节点, index: cousins-in-binary-tree, difficulty: easy}
   - {id: 994, title: 腐烂的橘子, index: rotting-oranges, difficulty: easy}
