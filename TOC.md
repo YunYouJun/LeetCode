@@ -1,4 +1,4 @@
-# TOC
+# Problems (65)
 
 |#|Title|Solution|Difficulty|Language|
 |-|-----|--------|----------|--------|
