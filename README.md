@@ -9,9 +9,8 @@
 
 ## TOC
 
-您可以在这里查看[题目目录](./TOC.md)。
-
-You can see TOC [here](./TOC.md).
+- [Problems TOC](./TOC.md)
+- [Cards TOC](./card/)
 
 ## Usage
 
