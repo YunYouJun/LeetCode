@@ -35,35 +35,35 @@ fs.writeFile('TOC.md', toc_md, (err) => {
 })
 
 // generate card toc
-let cards = doc.card
-let cards_toc_md = `# Card
+// let cards = doc.card
+// let cards_toc_md = `# Card
 
-|Title|TOC|
-|-----|---|
-`
+// |Title|TOC|
+// |-----|---|
+// `
 
-for (const card of cards) {
-  cards_toc_md += `|[${card.title}](${card.url})|[${card.index}](${github_url + 'card/' + card.index})|\n`
-  let card_toc_md = `# [${card.title}](${card.url})\n\n`
-  console.log(card.topics)
-  for (const topic of card.topics) {
-    card_toc_md += `## ${topic.title}\n\n|#|Title|Solution|Difficulty|Language|\n|-|-----|--------|----------|--------|\n`
-    topic.set.forEach(id => {
-      let problem = getProblemById(id)
-      let problem_md = generateProblemMd(problem)
-      card_toc_md += problem_md
-    })
-  }
-  fs.writeFile('card/' + card.index + '/README.md', card_toc_md, (err) => {
-    if (err) throw err
-    console.log(`Generate ${card.index} TOC successfully!`)
-  })
-}
+// for (const card of cards) {
+//   cards_toc_md += `|[${card.title}](${card.url})|[${card.index}](${github_url + 'card/' + card.index})|\n`
+//   let card_toc_md = `# [${card.title}](${card.url})\n\n`
+//   console.log(card.topics)
+//   for (const topic of card.topics) {
+//     card_toc_md += `## ${topic.title}\n\n|#|Title|Solution|Difficulty|Language|\n|-|-----|--------|----------|--------|\n`
+//     topic.set.forEach(id => {
+//       let problem = getProblemById(id)
+//       let problem_md = generateProblemMd(problem)
+//       card_toc_md += problem_md
+//     })
+//   }
+//   fs.writeFile('card/' + card.index + '/README.md', card_toc_md, (err) => {
+//     if (err) throw err
+//     console.log(`Generate ${card.index} TOC successfully!`)
+//   })
+// }
 
-fs.writeFile('card/README.md', cards_toc_md, (err) => {
-  if (err) throw err
-  console.log('Generate cards TOC successfully!')
-})
+// fs.writeFile('card/README.md', cards_toc_md, (err) => {
+//   if (err) throw err
+//   console.log('Generate cards TOC successfully!')
+// })
 
 
 // function
