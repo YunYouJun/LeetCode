@@ -34,6 +34,7 @@ problems:
   - {id: 283, title: 移动零, index: move-zeroes, difficulty: easy}
   - {id: 292, title: Nim游戏, index: nim-game, difficulty: easy}
   - {id: 344, title: 反转字符串, index: reverse-string, difficulty: easy}
+  - {id: 350, title: 两个数组的交集 II, index: intersection-of-two-arrays-ii, difficulty: easy}
   - {id: 387, title: 字符串中的第一个唯一字符, index: first-unique-character-in-a-string, difficulty: easy}
   - {id: 563, title: 二叉树的坡度, index: binary-tree-tilt, difficulty: easy}
   - {id: 620, title: 有趣的电影, index: not-boring-movies, difficulty: easy}
@@ -64,14 +65,4 @@ problems:
   - {id: 989, title: 数组形式的整数加法, index: add-to-array-form-of-integer, difficulty: easy}
   - {id: 993, title: 二叉树的堂兄弟节点, index: cousins-in-binary-tree, difficulty: easy}
   - {id: 994, title: 腐烂的橘子, index: rotting-oranges, difficulty: easy}
-
-card:
-  -
-    index: top-interview-questions-easy  
-    title: 初级算法
-    url: 'https://leetcode-cn.com/explore/featured/card/top-interview-questions-easy'
-    topics:
-      -
-        index: array
-        title: 数组
-        set: [26, 122, 189, 217, 136, , 66, 283]
+  
