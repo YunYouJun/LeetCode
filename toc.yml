@@ -8,6 +8,7 @@ problems:
   - {id: 26, title: 删除排序数组中的重复项, index: remove-duplicates-from-sorted-array, difficulty: easy}
   - {id: 27, title: 移除元素, index: remove-element, difficulty: easy}
   - {id: 28, title: 实现strStr(), index: implement-strstr, difficulty: easy}
+  - {id: 36, title: 有效的数独, index: valid-sudoku, difficulty: ，medium}
   - {id: 38, title: 报数, index: count-and-say, difficulty: easy}
   - {id: 66, title: 加一, index: plus-one, difficulty: easy}
   - {id: 70, title: 爬楼梯, index: climbing-stairs, difficulty: easy}
