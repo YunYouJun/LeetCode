@@ -10,6 +10,7 @@ problems:
   - {id: 28, title: 实现strStr(), index: implement-strstr, difficulty: easy}
   - {id: 36, title: 有效的数独, index: valid-sudoku, difficulty: ，medium}
   - {id: 38, title: 报数, index: count-and-say, difficulty: easy}
+  - {id: 48, title: 旋转图像, index: rotate-image, difficulty: medium}
   - {id: 66, title: 加一, index: plus-one, difficulty: easy}
   - {id: 70, title: 爬楼梯, index: climbing-stairs, difficulty: easy}
   - {id: 83, title: 删除排序链表中的重复元素, index: remove-duplicates-from-sorted-list, difficulty: easy}
