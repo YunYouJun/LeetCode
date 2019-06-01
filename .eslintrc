@@ -4,6 +4,9 @@
     "node": true
   },
   "extends": "eslint:recommended",
+  "globals": {
+    "ListNode": true
+  },
   "rules": {
     "no-unused-vars": "off",
     "indent": ["error", 2],
