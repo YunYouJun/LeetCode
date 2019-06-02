@@ -49,6 +49,7 @@ problems:
   - {id: 669, title: 修剪二叉搜索树, index: trim-a-binary-search-tree, difficulty: easy}
   - {id: 682, title: 棒球比赛, index: baseball-game, difficulty: easy}
   - {id: 687, title: 最长同值路径, index: longest-univalue-path, difficulty: easy}
+  - {id: 771, title: 宝石与石头, index: jewels-and-stones, difficulty: easy}
   - {id: 851, title: 喧闹和富有, index: loud-and-rich, difficulty: medium}
   - {id: 859, title: 亲密字符串, index: buddy-strings, difficulty: easy}
   - {id: 860, title: 柠檬水找零, index: lemonade-change, difficulty: easy}
