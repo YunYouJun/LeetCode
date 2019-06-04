@@ -13,7 +13,7 @@ problems:
   - {id: 26, title: 删除排序数组中的重复项, index: remove-duplicates-from-sorted-array, difficulty: easy}
   - {id: 27, title: 移除元素, index: remove-element, difficulty: easy}
   - {id: 28, title: 实现strStr(), index: implement-strstr, difficulty: easy}
-  - {id: 36, title: 有效的数独, index: valid-sudoku, difficulty: ，medium}
+  - {id: 36, title: 有效的数独, index: valid-sudoku, difficulty: medium}
   - {id: 38, title: 报数, index: count-and-say, difficulty: easy}
   - {id: 48, title: 旋转图像, index: rotate-image, difficulty: medium}
   - {id: 66, title: 加一, index: plus-one, difficulty: easy}
@@ -74,4 +74,5 @@ problems:
   - {id: 989, title: 数组形式的整数加法, index: add-to-array-form-of-integer, difficulty: easy}
   - {id: 993, title: 二叉树的堂兄弟节点, index: cousins-in-binary-tree, difficulty: easy}
   - {id: 994, title: 腐烂的橘子, index: rotting-oranges, difficulty: easy}
+  - {id: 1021, title: 删除最外层的括号, index: remove-outermost-parentheses, difficulty: easy}
   

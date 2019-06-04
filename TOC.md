@@ -1,4 +1,4 @@
-# Problems (75)
+# Problems (76)
 
 |#|Title|Solution|Difficulty|Language|
 |-|-----|--------|----------|--------|
@@ -16,7 +16,7 @@
 |26|[删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array)|[remove-duplicates-from-sorted-array](https://github.com/YunYouJun/LeetCode/tree/master/problems/remove-duplicates-from-sorted-array)|easy|js/py|
 |27|[移除元素](https://leetcode-cn.com/problems/remove-element)|[remove-element](https://github.com/YunYouJun/LeetCode/tree/master/problems/remove-element)|easy|js/py|
 |28|[实现strStr()](https://leetcode-cn.com/problems/implement-strstr)|[implement-strstr](https://github.com/YunYouJun/LeetCode/tree/master/problems/implement-strstr)|easy|js/py|
-|36|[有效的数独](https://leetcode-cn.com/problems/valid-sudoku)|[valid-sudoku](https://github.com/YunYouJun/LeetCode/tree/master/problems/valid-sudoku)|，medium|js/py|
+|36|[有效的数独](https://leetcode-cn.com/problems/valid-sudoku)|[valid-sudoku](https://github.com/YunYouJun/LeetCode/tree/master/problems/valid-sudoku)|medium|js/py|
 |38|[报数](https://leetcode-cn.com/problems/count-and-say)|[count-and-say](https://github.com/YunYouJun/LeetCode/tree/master/problems/count-and-say)|easy|js/py|
 |48|[旋转图像](https://leetcode-cn.com/problems/rotate-image)|[rotate-image](https://github.com/YunYouJun/LeetCode/tree/master/problems/rotate-image)|medium|js/py|
 |66|[加一](https://leetcode-cn.com/problems/plus-one)|[plus-one](https://github.com/YunYouJun/LeetCode/tree/master/problems/plus-one)|easy|js/py|
@@ -77,3 +77,4 @@
 |989|[数组形式的整数加法](https://leetcode-cn.com/problems/add-to-array-form-of-integer)|[add-to-array-form-of-integer](https://github.com/YunYouJun/LeetCode/tree/master/problems/add-to-array-form-of-integer)|easy|js/py|
 |993|[二叉树的堂兄弟节点](https://leetcode-cn.com/problems/cousins-in-binary-tree)|[cousins-in-binary-tree](https://github.com/YunYouJun/LeetCode/tree/master/problems/cousins-in-binary-tree)|easy|js/py|
 |994|[腐烂的橘子](https://leetcode-cn.com/problems/rotting-oranges)|[rotting-oranges](https://github.com/YunYouJun/LeetCode/tree/master/problems/rotting-oranges)|easy|js/py|
+|1021|[删除最外层的括号](https://leetcode-cn.com/problems/remove-outermost-parentheses)|[remove-outermost-parentheses](https://github.com/YunYouJun/LeetCode/tree/master/problems/remove-outermost-parentheses)|easy|py|
