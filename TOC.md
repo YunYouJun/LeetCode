@@ -1,4 +1,4 @@
-# Problems (77)
+# Problems (78)
 
 |#|Title|Solution|Difficulty|Language|
 |-|-----|--------|----------|--------|
@@ -13,6 +13,7 @@
 |14|[最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix)|[longest-common-prefix](https://github.com/YunYouJun/LeetCode/tree/master/problems/longest-common-prefix)|easy|js/py|
 |20|[有效的括号](https://leetcode-cn.com/problems/valid-parentheses)|[valid-parentheses](https://github.com/YunYouJun/LeetCode/tree/master/problems/valid-parentheses)|easy|js/py|
 |21|[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists)|[merge-two-sorted-lists](https://github.com/YunYouJun/LeetCode/tree/master/problems/merge-two-sorted-lists)|easy|js/py|
+|22|[括号生成](https://leetcode-cn.com/problems/generate-parentheses)|[generate-parentheses](https://github.com/YunYouJun/LeetCode/tree/master/problems/generate-parentheses)|medium|py|
 |26|[删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array)|[remove-duplicates-from-sorted-array](https://github.com/YunYouJun/LeetCode/tree/master/problems/remove-duplicates-from-sorted-array)|easy|js/py|
 |27|[移除元素](https://leetcode-cn.com/problems/remove-element)|[remove-element](https://github.com/YunYouJun/LeetCode/tree/master/problems/remove-element)|easy|js/py|
 |28|[实现strStr()](https://leetcode-cn.com/problems/implement-strstr)|[implement-strstr](https://github.com/YunYouJun/LeetCode/tree/master/problems/implement-strstr)|easy|js/py|
