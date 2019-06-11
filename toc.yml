@@ -8,6 +8,7 @@ problems:
   - {id: 9, title: 回文数, index: palindrome-number, difficulty: easy}
   - {id: 13, title: 罗马数字转整数, index: roman-to-integer, difficulty: easy}
   - {id: 14, title: 最长公共前缀, index: longest-common-prefix, difficulty: easy}
+  - {id: 17, title: 电话号码的字母组合, index: letter-combinations-of-a-phone-number, difficulty: medium}
   - {id: 19, title: 删除链表的倒数第N个节点, index: remove-nth-node-from-end-of-list, difficulty: medium}
   - {id: 20, title: 有效的括号, index: valid-parentheses, difficulty: easy}
   - {id: 21, title: 合并两个有序链表, index: merge-two-sorted-lists, difficulty: easy}
