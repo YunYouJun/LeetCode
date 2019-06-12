@@ -1,4 +1,4 @@
-# Problems (80)
+# Problems (81)
 
 |#|Title|Solution|Difficulty|Language|
 |-|-----|--------|----------|--------|
@@ -25,6 +25,7 @@
 |66|[加一](https://leetcode-cn.com/problems/plus-one)|[plus-one](https://github.com/YunYouJun/LeetCode/tree/master/problems/plus-one)|easy|js/py|
 |70|[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs)|[climbing-stairs](https://github.com/YunYouJun/LeetCode/tree/master/problems/climbing-stairs)|easy|js/py|
 |83|[删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list)|[remove-duplicates-from-sorted-list](https://github.com/YunYouJun/LeetCode/tree/master/problems/remove-duplicates-from-sorted-list)|easy|js/py|
+|88|[合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array)|[merge-sorted-array](https://github.com/YunYouJun/LeetCode/tree/master/problems/merge-sorted-array)|easy|py|
 |101|[对称二叉树](https://leetcode-cn.com/problems/symmetric-tree)|[symmetric-tree](https://github.com/YunYouJun/LeetCode/tree/master/problems/symmetric-tree)|easy|js/py|
 |104|[二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree)|[maximum-depth-of-binary-tree](https://github.com/YunYouJun/LeetCode/tree/master/problems/maximum-depth-of-binary-tree)|easy|js/py|
 |118|[杨辉三角](https://leetcode-cn.com/problems/pascals-triangle)|[pascals-triangle](https://github.com/YunYouJun/LeetCode/tree/master/problems/pascals-triangle)|easy|js/py|
