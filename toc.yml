@@ -32,6 +32,7 @@ problems:
   - {id: 125, title: 验证回文串, index: valid-palindrome, difficulty: easy}
   - {id: 136, title: 只出现一次的数字, index: single-number, difficulty: easy}
   - {id: 141, title: 环形链表, index: linked-list-cycle, difficulty: easy}
+  - {id: 169, title: 求众数, index: majority-element, difficulty: easy}
   - {id: 175, title: 组合两个表, index: combine-two-tables, difficulty: easy}
   - {id: 176, title: 第二高的薪水, index: second-highest-salary, difficulty: easy}
   - {id: 182, title: 查找重复的电子邮箱, index: duplicate-emails, difficulty: easy}
