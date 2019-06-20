@@ -51,6 +51,7 @@ problems:
   - {id: 344, title: 反转字符串, index: reverse-string, difficulty: easy}
   - {id: 350, title: 两个数组的交集 II, index: intersection-of-two-arrays-ii, difficulty: easy}
   - {id: 387, title: 字符串中的第一个唯一字符, index: first-unique-character-in-a-string, difficulty: easy}
+  - {id: 412, title: Fizz Buzz, index: fizz-buzz, difficulty: easy}
   - {id: 557, title: 反转字符串中的单词 III, index: reverse-words-in-a-string-iii, difficulty: easy}
   - {id: 563, title: 二叉树的坡度, index: binary-tree-tilt, difficulty: easy}
   - {id: 620, title: 有趣的电影, index: not-boring-movies, difficulty: easy}
