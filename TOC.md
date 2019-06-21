@@ -1,4 +1,4 @@
-# Problems (86)
+# Problems (87)
 
 |#|Title|Solution|Difficulty|Language|
 |-|-----|--------|----------|--------|
@@ -43,6 +43,7 @@
 |182|[查找重复的电子邮箱](https://leetcode-cn.com/problems/duplicate-emails)|[duplicate-emails](https://github.com/YunYouJun/LeetCode/tree/master/problems/duplicate-emails)|easy|sql|
 |183|[从不订购的客户](https://leetcode-cn.com/problems/customers-who-never-order)|[customers-who-never-order](https://github.com/YunYouJun/LeetCode/tree/master/problems/customers-who-never-order)|easy|sql|
 |189|[旋转数组](https://leetcode-cn.com/problems/rotate-array)|[rotate-array](https://github.com/YunYouJun/LeetCode/tree/master/problems/rotate-array)|easy|js/py|
+|191|[位1的个数](https://leetcode-cn.com/problems/number-of-1-bits)|[number-of-1-bits](https://github.com/YunYouJun/LeetCode/tree/master/problems/number-of-1-bits)|easy|py|
 |196|[删除重复的电子邮箱](https://leetcode-cn.com/problems/delete-duplicate-emails)|[delete-duplicate-emails](https://github.com/YunYouJun/LeetCode/tree/master/problems/delete-duplicate-emails)|easy|sql|
 |197|[上升的温度](https://leetcode-cn.com/problems/rising-temperature)|[rising-temperature](https://github.com/YunYouJun/LeetCode/tree/master/problems/rising-temperature)|easy|sql|
 |206|[反转链表](https://leetcode-cn.com/problems/reverse-linked-list)|[reverse-linked-list](https://github.com/YunYouJun/LeetCode/tree/master/problems/reverse-linked-list)|easy|js/py|
