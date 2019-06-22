@@ -43,6 +43,7 @@ problems:
   - {id: 191, title: 位1的个数, index: number-of-1-bits, difficulty: easy}
   - {id: 196, title: 删除重复的电子邮箱, index: delete-duplicate-emails, difficulty: easy}
   - {id: 197, title: 上升的温度, index: rising-temperature, difficulty: easy}
+  - {id: 202, title: 快乐数, index: happy-number, difficulty: easy}
   - {id: 206, title: 反转链表, index: reverse-linked-list, difficulty: easy}
   - {id: 217, title: 存在重复元素, index: contains-duplicate, difficulty: easy}
   - {id: 237, title: 删除链表中的节点, index: delete-node-in-a-linked-list, difficulty: easy}
