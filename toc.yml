@@ -46,6 +46,7 @@ problems:
   - {id: 202, title: 快乐数, index: happy-number, difficulty: easy}
   - {id: 206, title: 反转链表, index: reverse-linked-list, difficulty: easy}
   - {id: 217, title: 存在重复元素, index: contains-duplicate, difficulty: easy}
+  - {id: 234, title: 回文链表, index: palindrome-linked-list, difficulty: easy}
   - {id: 237, title: 删除链表中的节点, index: delete-node-in-a-linked-list, difficulty: easy}
   - {id: 242, title: 有效的字母异位词, index: valid-anagram, difficulty: easy}
   - {id: 283, title: 移动零, index: move-zeroes, difficulty: easy}
