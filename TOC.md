@@ -1,4 +1,4 @@
-# Problems (90)
+# Problems (91)
 
 |#|Title|Solution|Difficulty|Language|
 |-|-----|--------|----------|--------|
@@ -24,6 +24,7 @@
 |48|[旋转图像](https://leetcode-cn.com/problems/rotate-image)|[rotate-image](https://github.com/YunYouJun/LeetCode/tree/master/problems/rotate-image)|medium|js/py|
 |53|[最大子序和](https://leetcode-cn.com/problems/maximum-subarray)|[maximum-subarray](https://github.com/YunYouJun/LeetCode/tree/master/problems/maximum-subarray)|easy|py|
 |66|[加一](https://leetcode-cn.com/problems/plus-one)|[plus-one](https://github.com/YunYouJun/LeetCode/tree/master/problems/plus-one)|easy|js/py|
+|69|[x 的平方根](https://leetcode-cn.com/problems/sqrtx)|[sqrtx](https://github.com/YunYouJun/LeetCode/tree/master/problems/sqrtx)|easy|py|
 |70|[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs)|[climbing-stairs](https://github.com/YunYouJun/LeetCode/tree/master/problems/climbing-stairs)|easy|js/py|
 |83|[删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list)|[remove-duplicates-from-sorted-list](https://github.com/YunYouJun/LeetCode/tree/master/problems/remove-duplicates-from-sorted-list)|easy|js/py|
 |88|[合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array)|[merge-sorted-array](https://github.com/YunYouJun/LeetCode/tree/master/problems/merge-sorted-array)|easy|py|

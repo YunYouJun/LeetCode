@@ -21,6 +21,7 @@ problems:
   - {id: 48, title: 旋转图像, index: rotate-image, difficulty: medium}
   - {id: 53, title: 最大子序和, index: maximum-subarray, difficulty: easy}
   - {id: 66, title: 加一, index: plus-one, difficulty: easy}
+  - {id: 69, title: x 的平方根, index: sqrtx, difficulty: easy}
   - {id: 70, title: 爬楼梯, index: climbing-stairs, difficulty: easy}
   - {id: 83, title: 删除排序链表中的重复元素, index: remove-duplicates-from-sorted-list, difficulty: easy}
   - {id: 88, title: 合并两个有序数组, index: merge-sorted-array, difficulty: easy}
