@@ -1,4 +1,4 @@
-# Problems (91)
+# Problems (92)
 
 |#|Title|Solution|Difficulty|Language|
 |-|-----|--------|----------|--------|
@@ -39,6 +39,7 @@
 |141|[环形链表](https://leetcode-cn.com/problems/linked-list-cycle)|[linked-list-cycle](https://github.com/YunYouJun/LeetCode/tree/master/problems/linked-list-cycle)|easy|js/py|
 |169|[求众数](https://leetcode-cn.com/problems/majority-element)|[majority-element](https://github.com/YunYouJun/LeetCode/tree/master/problems/majority-element)|easy|py|
 |171|[Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number)|[excel-sheet-column-number](https://github.com/YunYouJun/LeetCode/tree/master/problems/excel-sheet-column-number)|easy|py|
+|172|[阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes)|[factorial-trailing-zeroes](https://github.com/YunYouJun/LeetCode/tree/master/problems/factorial-trailing-zeroes)|easy|py|
 |175|[组合两个表](https://leetcode-cn.com/problems/combine-two-tables)|[combine-two-tables](https://github.com/YunYouJun/LeetCode/tree/master/problems/combine-two-tables)|easy|sql|
 |176|[第二高的薪水](https://leetcode-cn.com/problems/second-highest-salary)|[second-highest-salary](https://github.com/YunYouJun/LeetCode/tree/master/problems/second-highest-salary)|easy|sql|
 |182|[查找重复的电子邮箱](https://leetcode-cn.com/problems/duplicate-emails)|[duplicate-emails](https://github.com/YunYouJun/LeetCode/tree/master/problems/duplicate-emails)|easy|sql|
