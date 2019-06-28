@@ -1,4 +1,4 @@
-# Problems (93)
+# Problems (94)
 
 |#|Title|Solution|Difficulty|Language|
 |-|-----|--------|----------|--------|
@@ -67,6 +67,7 @@
 |620|[有趣的电影](https://leetcode-cn.com/problems/not-boring-movies)|[not-boring-movies](https://github.com/YunYouJun/LeetCode/tree/master/problems/not-boring-movies)|easy|sql|
 |627|[交换工资](https://leetcode-cn.com/problems/swap-salary)|[swap-salary](https://github.com/YunYouJun/LeetCode/tree/master/problems/swap-salary)|easy|sql|
 |669|[修剪二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree)|[trim-a-binary-search-tree](https://github.com/YunYouJun/LeetCode/tree/master/problems/trim-a-binary-search-tree)|easy|js/py|
+|679|[24 点游戏](https://leetcode-cn.com/problems/24-game)|[24-game](https://github.com/YunYouJun/LeetCode/tree/master/problems/24-game)|hard|py|
 |682|[棒球比赛](https://leetcode-cn.com/problems/baseball-game)|[baseball-game](https://github.com/YunYouJun/LeetCode/tree/master/problems/baseball-game)|easy|js/py|
 |687|[最长同值路径](https://leetcode-cn.com/problems/longest-univalue-path)|[longest-univalue-path](https://github.com/YunYouJun/LeetCode/tree/master/problems/longest-univalue-path)|easy|js/py|
 |709|[转换成小写字母](https://leetcode-cn.com/problems/to-lower-case)|[to-lower-case](https://github.com/YunYouJun/LeetCode/tree/master/problems/to-lower-case)|easy|js/py|
