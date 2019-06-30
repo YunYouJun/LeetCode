@@ -48,6 +48,7 @@ problems:
   - {id: 197, title: 上升的温度, index: rising-temperature, difficulty: easy}
   - {id: 198, title: 打家劫舍, index: house-robber, difficulty: easy}
   - {id: 202, title: 快乐数, index: happy-number, difficulty: easy}
+  - {id: 204, title: 计数质数, index: count-primes, difficulty: easy}
   - {id: 206, title: 反转链表, index: reverse-linked-list, difficulty: easy}
   - {id: 217, title: 存在重复元素, index: contains-duplicate, difficulty: easy}
   - {id: 234, title: 回文链表, index: palindrome-linked-list, difficulty: easy}
