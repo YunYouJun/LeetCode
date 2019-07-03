@@ -1,4 +1,4 @@
-# Problems (97)
+# Problems (99)
 
 |#|Title|Solution|Difficulty|Language|
 |-|-----|--------|----------|--------|
@@ -26,6 +26,7 @@
 |66|[加一](https://leetcode-cn.com/problems/plus-one)|[plus-one](https://github.com/YunYouJun/LeetCode/tree/master/problems/plus-one)|easy|js/py|
 |69|[x 的平方根](https://leetcode-cn.com/problems/sqrtx)|[sqrtx](https://github.com/YunYouJun/LeetCode/tree/master/problems/sqrtx)|easy|py|
 |70|[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs)|[climbing-stairs](https://github.com/YunYouJun/LeetCode/tree/master/problems/climbing-stairs)|easy|js/py|
+|78|[子集](https://leetcode-cn.com/problems/subsets)|[subsets](https://github.com/YunYouJun/LeetCode/tree/master/problems/subsets)|medium|py|
 |83|[删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list)|[remove-duplicates-from-sorted-list](https://github.com/YunYouJun/LeetCode/tree/master/problems/remove-duplicates-from-sorted-list)|easy|js/py|
 |88|[合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array)|[merge-sorted-array](https://github.com/YunYouJun/LeetCode/tree/master/problems/merge-sorted-array)|easy|py|
 |101|[对称二叉树](https://leetcode-cn.com/problems/symmetric-tree)|[symmetric-tree](https://github.com/YunYouJun/LeetCode/tree/master/problems/symmetric-tree)|easy|js/py|
@@ -60,6 +61,7 @@
 |283|[移动零](https://leetcode-cn.com/problems/move-zeroes)|[move-zeroes](https://github.com/YunYouJun/LeetCode/tree/master/problems/move-zeroes)|easy|js/py|
 |289|[生命游戏](https://leetcode-cn.com/problems/game-of-life)|[game-of-life](https://github.com/YunYouJun/LeetCode/tree/master/problems/game-of-life)|medium|py|
 |292|[Nim游戏](https://leetcode-cn.com/problems/nim-game)|[nim-game](https://github.com/YunYouJun/LeetCode/tree/master/problems/nim-game)|easy|js/py|
+|326|[3的幂](https://leetcode-cn.com/problems/power-of-three)|[power-of-three](https://github.com/YunYouJun/LeetCode/tree/master/problems/power-of-three)|easy|py|
 |344|[反转字符串](https://leetcode-cn.com/problems/reverse-string)|[reverse-string](https://github.com/YunYouJun/LeetCode/tree/master/problems/reverse-string)|easy|js/py|
 |350|[两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii)|[intersection-of-two-arrays-ii](https://github.com/YunYouJun/LeetCode/tree/master/problems/intersection-of-two-arrays-ii)|easy|js/py|
 |371|[两整数之和](https://leetcode-cn.com/problems/sum-of-two-integers)|[sum-of-two-integers](https://github.com/YunYouJun/LeetCode/tree/master/problems/sum-of-two-integers)|easy|py|

@@ -23,6 +23,7 @@ problems:
   - {id: 66, title: 加一, index: plus-one, difficulty: easy}
   - {id: 69, title: x 的平方根, index: sqrtx, difficulty: easy}
   - {id: 70, title: 爬楼梯, index: climbing-stairs, difficulty: easy}
+  - {id: 78, title: 子集, index: subsets, difficulty: medium}
   - {id: 83, title: 删除排序链表中的重复元素, index: remove-duplicates-from-sorted-list, difficulty: easy}
   - {id: 88, title: 合并两个有序数组, index: merge-sorted-array, difficulty: easy}
   - {id: 101, title: 对称二叉树, index: symmetric-tree, difficulty: easy}
@@ -57,6 +58,7 @@ problems:
   - {id: 283, title: 移动零, index: move-zeroes, difficulty: easy}
   - {id: 289, title: 生命游戏, index: game-of-life, difficulty: medium}
   - {id: 292, title: Nim游戏, index: nim-game, difficulty: easy}
+  - {id: 326, title: 3的幂, index: power-of-three, difficulty: easy}
   - {id: 344, title: 反转字符串, index: reverse-string, difficulty: easy}
   - {id: 350, title: 两个数组的交集 II, index: intersection-of-two-arrays-ii, difficulty: easy}
   - {id: 371, title: 两整数之和, index: sum-of-two-integers, difficulty: easy}
