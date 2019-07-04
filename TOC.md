@@ -1,4 +1,4 @@
-# Problems (99)
+# Problems (100)
 
 |#|Title|Solution|Difficulty|Language|
 |-|-----|--------|----------|--------|
@@ -21,6 +21,7 @@
 |28|[实现strStr()](https://leetcode-cn.com/problems/implement-strstr)|[implement-strstr](https://github.com/YunYouJun/LeetCode/tree/master/problems/implement-strstr)|easy|js/py|
 |36|[有效的数独](https://leetcode-cn.com/problems/valid-sudoku)|[valid-sudoku](https://github.com/YunYouJun/LeetCode/tree/master/problems/valid-sudoku)|medium|js/py|
 |38|[报数](https://leetcode-cn.com/problems/count-and-say)|[count-and-say](https://github.com/YunYouJun/LeetCode/tree/master/problems/count-and-say)|easy|js/py|
+|46|[全排列](https://leetcode-cn.com/problems/permutations)|[permutations](https://github.com/YunYouJun/LeetCode/tree/master/problems/permutations)|medium|py|
 |48|[旋转图像](https://leetcode-cn.com/problems/rotate-image)|[rotate-image](https://github.com/YunYouJun/LeetCode/tree/master/problems/rotate-image)|medium|js/py|
 |53|[最大子序和](https://leetcode-cn.com/problems/maximum-subarray)|[maximum-subarray](https://github.com/YunYouJun/LeetCode/tree/master/problems/maximum-subarray)|easy|py|
 |66|[加一](https://leetcode-cn.com/problems/plus-one)|[plus-one](https://github.com/YunYouJun/LeetCode/tree/master/problems/plus-one)|easy|js/py|
