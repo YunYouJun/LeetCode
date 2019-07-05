@@ -27,6 +27,7 @@ problems:
   - {id: 78, title: 子集, index: subsets, difficulty: medium}
   - {id: 83, title: 删除排序链表中的重复元素, index: remove-duplicates-from-sorted-list, difficulty: easy}
   - {id: 88, title: 合并两个有序数组, index: merge-sorted-array, difficulty: easy}
+  - {id: 94, title: 二叉树的中序遍历, index: binary-tree-inorder-traversal, difficulty: medium}
   - {id: 101, title: 对称二叉树, index: symmetric-tree, difficulty: easy}
   - {id: 104, title: 二叉树的最大深度, index: maximum-depth-of-binary-tree, difficulty: easy}
   - {id: 108, title: 将有序数组转换为二叉搜索树, index: convert-sorted-array-to-binary-search-tree, difficulty: easy}
