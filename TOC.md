@@ -1,4 +1,4 @@
-# Problems (101)
+# Problems (102)
 
 |#|Title|Solution|Difficulty|Language|
 |-|-----|--------|----------|--------|
@@ -60,6 +60,7 @@
 |234|[回文链表](https://leetcode-cn.com/problems/palindrome-linked-list)|[palindrome-linked-list](https://github.com/YunYouJun/LeetCode/tree/master/problems/palindrome-linked-list)|easy|py|
 |237|[删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list)|[delete-node-in-a-linked-list](https://github.com/YunYouJun/LeetCode/tree/master/problems/delete-node-in-a-linked-list)|easy|js/py|
 |242|[有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram)|[valid-anagram](https://github.com/YunYouJun/LeetCode/tree/master/problems/valid-anagram)|easy|js/py|
+|268|[缺失数字](https://leetcode-cn.com/problems/missing-number)|[missing-number](https://github.com/YunYouJun/LeetCode/tree/master/problems/missing-number)|easy|py|
 |283|[移动零](https://leetcode-cn.com/problems/move-zeroes)|[move-zeroes](https://github.com/YunYouJun/LeetCode/tree/master/problems/move-zeroes)|easy|js/py|
 |289|[生命游戏](https://leetcode-cn.com/problems/game-of-life)|[game-of-life](https://github.com/YunYouJun/LeetCode/tree/master/problems/game-of-life)|medium|py|
 |292|[Nim游戏](https://leetcode-cn.com/problems/nim-game)|[nim-game](https://github.com/YunYouJun/LeetCode/tree/master/problems/nim-game)|easy|js/py|

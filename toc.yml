@@ -57,6 +57,7 @@ problems:
   - {id: 234, title: 回文链表, index: palindrome-linked-list, difficulty: easy}
   - {id: 237, title: 删除链表中的节点, index: delete-node-in-a-linked-list, difficulty: easy}
   - {id: 242, title: 有效的字母异位词, index: valid-anagram, difficulty: easy}
+  - {id: 268, title: 缺失数字, index: missing-number, difficulty: easy}
   - {id: 283, title: 移动零, index: move-zeroes, difficulty: easy}
   - {id: 289, title: 生命游戏, index: game-of-life, difficulty: medium}
   - {id: 292, title: Nim游戏, index: nim-game, difficulty: easy}
