@@ -1,4 +1,4 @@
-# Problems (102)
+# Problems (103)
 
 |#|Title|Solution|Difficulty|Language|
 |-|-----|--------|----------|--------|
@@ -57,6 +57,7 @@
 |204|[计数质数](https://leetcode-cn.com/problems/count-primes)|[count-primes](https://github.com/YunYouJun/LeetCode/tree/master/problems/count-primes)|easy|py|
 |206|[反转链表](https://leetcode-cn.com/problems/reverse-linked-list)|[reverse-linked-list](https://github.com/YunYouJun/LeetCode/tree/master/problems/reverse-linked-list)|easy|js/py|
 |217|[存在重复元素](https://leetcode-cn.com/problems/contains-duplicate)|[contains-duplicate](https://github.com/YunYouJun/LeetCode/tree/master/problems/contains-duplicate)|easy|js/py|
+|230|[二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst)|[kth-smallest-element-in-a-bst](https://github.com/YunYouJun/LeetCode/tree/master/problems/kth-smallest-element-in-a-bst)|medium|py|
 |234|[回文链表](https://leetcode-cn.com/problems/palindrome-linked-list)|[palindrome-linked-list](https://github.com/YunYouJun/LeetCode/tree/master/problems/palindrome-linked-list)|easy|py|
 |237|[删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list)|[delete-node-in-a-linked-list](https://github.com/YunYouJun/LeetCode/tree/master/problems/delete-node-in-a-linked-list)|easy|js/py|
 |242|[有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram)|[valid-anagram](https://github.com/YunYouJun/LeetCode/tree/master/problems/valid-anagram)|easy|js/py|
