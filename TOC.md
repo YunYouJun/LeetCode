@@ -1,4 +1,4 @@
-# Problems (103)
+# Problems (104)
 
 |#|Title|Solution|Difficulty|Language|
 |-|-----|--------|----------|--------|
@@ -38,6 +38,7 @@
 |121|[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock)|[best-time-to-buy-and-sell-stock](https://github.com/YunYouJun/LeetCode/tree/master/problems/best-time-to-buy-and-sell-stock)|easy|js/py|
 |122|[买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii)|[best-time-to-buy-and-sell-stock-ii](https://github.com/YunYouJun/LeetCode/tree/master/problems/best-time-to-buy-and-sell-stock-ii)|easy|js/py|
 |125|[验证回文串](https://leetcode-cn.com/problems/valid-palindrome)|[valid-palindrome](https://github.com/YunYouJun/LeetCode/tree/master/problems/valid-palindrome)|easy|js/py|
+|131|[分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning)|[palindrome-partitioning](https://github.com/YunYouJun/LeetCode/tree/master/problems/palindrome-partitioning)|medium|py/js|
 |136|[只出现一次的数字](https://leetcode-cn.com/problems/single-number)|[single-number](https://github.com/YunYouJun/LeetCode/tree/master/problems/single-number)|easy|js/py|
 |141|[环形链表](https://leetcode-cn.com/problems/linked-list-cycle)|[linked-list-cycle](https://github.com/YunYouJun/LeetCode/tree/master/problems/linked-list-cycle)|easy|js/py|
 |169|[求众数](https://leetcode-cn.com/problems/majority-element)|[majority-element](https://github.com/YunYouJun/LeetCode/tree/master/problems/majority-element)|easy|py|

@@ -35,6 +35,7 @@ problems:
   - {id: 121, title: 买卖股票的最佳时机, index: best-time-to-buy-and-sell-stock, difficulty: easy}
   - {id: 122, title: 买卖股票的最佳时机 II, index: best-time-to-buy-and-sell-stock-ii, difficulty: easy}
   - {id: 125, title: 验证回文串, index: valid-palindrome, difficulty: easy}
+  - {id: 131, title: 分割回文串, index: palindrome-partitioning, difficulty: medium}
   - {id: 136, title: 只出现一次的数字, index: single-number, difficulty: easy}
   - {id: 141, title: 环形链表, index: linked-list-cycle, difficulty: easy}
   - {id: 169, title: 求众数, index: majority-element, difficulty: easy}
