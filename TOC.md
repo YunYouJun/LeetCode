@@ -1,4 +1,4 @@
-# Problems (104)
+# Problems (105)
 
 |#|Title|Solution|Difficulty|Language|
 |-|-----|--------|----------|--------|
@@ -106,3 +106,4 @@
 |993|[二叉树的堂兄弟节点](https://leetcode-cn.com/problems/cousins-in-binary-tree)|[cousins-in-binary-tree](https://github.com/YunYouJun/LeetCode/tree/master/problems/cousins-in-binary-tree)|easy|js/py|
 |994|[腐烂的橘子](https://leetcode-cn.com/problems/rotting-oranges)|[rotting-oranges](https://github.com/YunYouJun/LeetCode/tree/master/problems/rotting-oranges)|easy|js/py|
 |1021|[删除最外层的括号](https://leetcode-cn.com/problems/remove-outermost-parentheses)|[remove-outermost-parentheses](https://github.com/YunYouJun/LeetCode/tree/master/problems/remove-outermost-parentheses)|easy|py|
+|1108|[IP 地址无效化](https://leetcode-cn.com/problems/defanging-an-ip-address)|[defanging-an-ip-address](https://github.com/YunYouJun/LeetCode/tree/master/problems/defanging-an-ip-address)|easy|py|
