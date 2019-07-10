@@ -58,6 +58,7 @@ problems:
   - {id: 230, title: 二叉搜索树中第K小的元素, index: kth-smallest-element-in-a-bst, difficulty: medium}
   - {id: 234, title: 回文链表, index: palindrome-linked-list, difficulty: easy}
   - {id: 237, title: 删除链表中的节点, index: delete-node-in-a-linked-list, difficulty: easy}
+  - {id: 238, title: 除自身以外数组的乘积, index: product-of-array-except-self, difficulty: medium}
   - {id: 242, title: 有效的字母异位词, index: valid-anagram, difficulty: easy}
   - {id: 268, title: 缺失数字, index: missing-number, difficulty: easy}
   - {id: 283, title: 移动零, index: move-zeroes, difficulty: easy}
