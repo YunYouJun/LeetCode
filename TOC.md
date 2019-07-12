@@ -1,4 +1,4 @@
-# Problems (107)
+# Problems (108)
 
 |#|Title|Solution|Difficulty|Language|
 |-|-----|--------|----------|--------|
@@ -75,6 +75,7 @@
 |387|[字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string)|[first-unique-character-in-a-string](https://github.com/YunYouJun/LeetCode/tree/master/problems/first-unique-character-in-a-string)|easy|js/py|
 |412|[Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz)|[fizz-buzz](https://github.com/YunYouJun/LeetCode/tree/master/problems/fizz-buzz)|easy|py|
 |557|[反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii)|[reverse-words-in-a-string-iii](https://github.com/YunYouJun/LeetCode/tree/master/problems/reverse-words-in-a-string-iii)|easy|js/py|
+|561|[数组拆分 I](https://leetcode-cn.com/problems/array-partition-i)|[array-partition-i](https://github.com/YunYouJun/LeetCode/tree/master/problems/array-partition-i)|easy|py|
 |563|[二叉树的坡度](https://leetcode-cn.com/problems/binary-tree-tilt)|[binary-tree-tilt](https://github.com/YunYouJun/LeetCode/tree/master/problems/binary-tree-tilt)|easy|js/py|
 |620|[有趣的电影](https://leetcode-cn.com/problems/not-boring-movies)|[not-boring-movies](https://github.com/YunYouJun/LeetCode/tree/master/problems/not-boring-movies)|easy|sql|
 |627|[交换工资](https://leetcode-cn.com/problems/swap-salary)|[swap-salary](https://github.com/YunYouJun/LeetCode/tree/master/problems/swap-salary)|easy|sql|
