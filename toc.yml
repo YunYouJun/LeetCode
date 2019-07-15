@@ -38,6 +38,7 @@ problems:
   - {id: 131, title: 分割回文串, index: palindrome-partitioning, difficulty: medium}
   - {id: 136, title: 只出现一次的数字, index: single-number, difficulty: easy}
   - {id: 141, title: 环形链表, index: linked-list-cycle, difficulty: easy}
+  - {id: 148, title: 排序链表, index: sort-list, difficulty: medium}
   - {id: 155, title: 最小栈, index: min-stack, difficulty: easy}
   - {id: 160, title: 相交链表, index: intersection-of-two-linked-lists, difficulty: easy}
   - {id: 169, title: 求众数, index: majority-element, difficulty: easy}
