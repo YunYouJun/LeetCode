@@ -2,6 +2,7 @@ problems:
   - {id: 1, title: 两数之和, index: two-sum, difficulty: easy}
   - {id: 2, title: 两数相加, index: add-two-numbers, difficulty: medium}
   - {id: 3, title: 无重复字符的最长子串, index: longest-substring-without-repeating-characters, difficulty: medium}
+  - {id: 5, title: 最长回文子串, index: longest-palindromic-substring, difficulty: medium}
   - {id: 6, title: Z 字形变换, index: zigzag-conversion, difficulty: medium}
   - {id: 7, title: 整数反转, index: reverse-integer, difficulty: easy}
   - {id: 8, title: 字符串转换整数 (atoi), index: string-to-integer-atoi, difficulty: medium}
