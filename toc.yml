@@ -105,6 +105,7 @@ problems:
   - {id: 892, title: 三维形体的表面积, index: surface-area-of-3d-shapes, difficulty: easy}
   - {id: 893, title: 特殊等价字符串组, index: groups-of-special-equivalent-strings, difficulty: easy}
   - {id: 896, title: 单调数列, index: monotonic-array, difficulty: easy}
+  - {id: 897, title: 递增顺序查找树, index: increasing-order-search-tree, difficulty: easy}
   - {id: 965, title: 单值二叉树, index: univalued-binary-tree, difficulty: easy}
   - {id: 970, title: 强整数, index: powerful-integers, difficulty: easy}
   - {id: 976, title: 三角形的最大周长, index: largest-perimeter-triangle, difficulty: easy}
