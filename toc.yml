@@ -66,6 +66,7 @@ problems:
   - {id: 237, title: 删除链表中的节点, index: delete-node-in-a-linked-list, difficulty: easy}
   - {id: 238, title: 除自身以外数组的乘积, index: product-of-array-except-self, difficulty: medium}
   - {id: 242, title: 有效的字母异位词, index: valid-anagram, difficulty: easy}
+  - {id: 257, title: 二叉树的所有路径, index: binary-tree-paths, difficulty: easy}
   - {id: 268, title: 缺失数字, index: missing-number, difficulty: easy}
   - {id: 283, title: 移动零, index: move-zeroes, difficulty: easy}
   - {id: 289, title: 生命游戏, index: game-of-life, difficulty: medium}
