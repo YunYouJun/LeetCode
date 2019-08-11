@@ -89,6 +89,7 @@ problems:
   - {id: 679, title: 24 点游戏, index: 24-game, difficulty: hard}
   - {id: 682, title: 棒球比赛, index: baseball-game, difficulty: easy}
   - {id: 687, title: 最长同值路径, index: longest-univalue-path, difficulty: easy}
+  - {id: 693, title: 交替位二进制数, index: binary-number-with-alternating-bits, difficulty: easy}
   - {id: 709, title: 转换成小写字母, index: to-lower-case, difficulty: easy}
   - {id: 771, title: 宝石与石头, index: jewels-and-stones, difficulty: easy}
   - {id: 851, title: 喧闹和富有, index: loud-and-rich, difficulty: medium}
