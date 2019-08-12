@@ -117,6 +117,7 @@ problems:
   - {id: 993, title: 二叉树的堂兄弟节点, index: cousins-in-binary-tree, difficulty: easy}
   - {id: 994, title: 腐烂的橘子, index: rotting-oranges, difficulty: easy}
   - {id: 1021, title: 删除最外层的括号, index: remove-outermost-parentheses, difficulty: easy}
+  - {id: 1047, title: 删除字符串中的所有相邻重复项, index: remove-all-adjacent-duplicates-in-string, difficulty: easy}
   - {id: 1103, title: 分糖果 II, index: distribute-candies-to-people, difficulty: easy}
   - {id: 1108, title: IP 地址无效化, index: defanging-an-ip-address, difficulty: easy}
   
