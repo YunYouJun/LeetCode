@@ -14,6 +14,7 @@ problems:
   - {id: 20, title: 有效的括号, index: valid-parentheses, difficulty: easy}
   - {id: 21, title: 合并两个有序链表, index: merge-two-sorted-lists, difficulty: easy}
   - {id: 22, title: 括号生成, index: generate-parentheses, difficulty: medium}
+  - {id: 24, title: 两两交换链表中的节点, index: swap-nodes-in-pairs, difficulty: medium}
   - {id: 26, title: 删除排序数组中的重复项, index: remove-duplicates-from-sorted-array, difficulty: easy}
   - {id: 27, title: 移除元素, index: remove-element, difficulty: easy}
   - {id: 28, title: 实现strStr(), index: implement-strstr, difficulty: easy}
