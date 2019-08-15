@@ -81,6 +81,7 @@ problems:
   - {id: 412, title: Fizz Buzz, index: fizz-buzz, difficulty: easy}
   - {id: 485, title: 最大连续1的个数, index: max-consecutive-ones, difficulty: easy}
   - {id: 496, title: 下一个更大元素 I, index: next-greater-element-i, difficulty: easy}
+  - {id: 509, title: 斐波那契数, index: fibonacci-number, difficulty: easy}
   - {id: 557, title: 反转字符串中的单词 III, index: reverse-words-in-a-string-iii, difficulty: easy}
   - {id: 561, title: 数组拆分 I, index: array-partition-i, difficulty: easy}
   - {id: 563, title: 二叉树的坡度, index: binary-tree-tilt, difficulty: easy}
