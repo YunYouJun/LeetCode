@@ -22,6 +22,7 @@ problems:
   - {id: 38, title: 报数, index: count-and-say, difficulty: easy}
   - {id: 46, title: 全排列, index: permutations, difficulty: medium}
   - {id: 48, title: 旋转图像, index: rotate-image, difficulty: medium}
+  - {id: 50, title: Pow(x, n), index: powx-n, difficulty: medium}
   - {id: 53, title: 最大子序和, index: maximum-subarray, difficulty: easy}
   - {id: 66, title: 加一, index: plus-one, difficulty: easy}
   - {id: 69, title: x 的平方根, index: sqrtx, difficulty: easy}
