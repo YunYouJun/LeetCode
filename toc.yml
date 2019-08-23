@@ -26,6 +26,7 @@ problems:
   - {id: 53, title: 最大子序和, index: maximum-subarray, difficulty: easy}
   - {id: 54, title: 螺旋矩阵, index: spiral-matrix, difficulty: medium}
   - {id: 66, title: 加一, index: plus-one, difficulty: easy}
+  - {id: 67, title: 二进制求和, index: add-binary, difficulty: easy}
   - {id: 69, title: x 的平方根, index: sqrtx, difficulty: easy}
   - {id: 70, title: 爬楼梯, index: climbing-stairs, difficulty: easy}
   - {id: 78, title: 子集, index: subsets, difficulty: medium}
