@@ -94,6 +94,7 @@ problems:
   - {id: 561, title: 数组拆分 I, index: array-partition-i, difficulty: easy}
   - {id: 563, title: 二叉树的坡度, index: binary-tree-tilt, difficulty: easy}
   - {id: 620, title: 有趣的电影, index: not-boring-movies, difficulty: easy}
+  - {id: 622, title: 设计循环队列, index: design-circular-queue, difficulty: medium}
   - {id: 627, title: 交换工资, index: swap-salary, difficulty: easy}
   - {id: 637, title: 二叉树的层平均值, index: average-of-levels-in-binary-tree, difficulty: easy}
   - {id: 669, title: 修剪二叉搜索树, index: trim-a-binary-search-tree, difficulty: easy}

@@ -1,4 +1,4 @@
-# Problems (135)
+# Problems (136)
 
 |#|Title|Solution|Difficulty|Language|
 |-|-----|--------|----------|--------|
@@ -97,6 +97,7 @@
 |561|[数组拆分 I](https://leetcode-cn.com/problems/array-partition-i)|[array-partition-i](https://github.com/YunYouJun/LeetCode/tree/master/problems/array-partition-i)|easy|py|
 |563|[二叉树的坡度](https://leetcode-cn.com/problems/binary-tree-tilt)|[binary-tree-tilt](https://github.com/YunYouJun/LeetCode/tree/master/problems/binary-tree-tilt)|easy|js/py|
 |620|[有趣的电影](https://leetcode-cn.com/problems/not-boring-movies)|[not-boring-movies](https://github.com/YunYouJun/LeetCode/tree/master/problems/not-boring-movies)|easy|sql|
+|622|[设计循环队列](https://leetcode-cn.com/problems/design-circular-queue)|[design-circular-queue](https://github.com/YunYouJun/LeetCode/tree/master/problems/design-circular-queue)|medium|py|
 |627|[交换工资](https://leetcode-cn.com/problems/swap-salary)|[swap-salary](https://github.com/YunYouJun/LeetCode/tree/master/problems/swap-salary)|easy|sql|
 |637|[二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree)|[average-of-levels-in-binary-tree](https://github.com/YunYouJun/LeetCode/tree/master/problems/average-of-levels-in-binary-tree)|easy|py|
 |669|[修剪二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree)|[trim-a-binary-search-tree](https://github.com/YunYouJun/LeetCode/tree/master/problems/trim-a-binary-search-tree)|easy|js/py|
