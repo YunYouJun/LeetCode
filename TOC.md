@@ -1,4 +1,4 @@
-# Problems (137)
+# Problems (138)
 
 |#|Title|Solution|Difficulty|Language|
 |-|-----|--------|----------|--------|
@@ -109,6 +109,7 @@
 |709|[转换成小写字母](https://leetcode-cn.com/problems/to-lower-case)|[to-lower-case](https://github.com/YunYouJun/LeetCode/tree/master/problems/to-lower-case)|easy|js/py|
 |724|[寻找数组的中心索引](https://leetcode-cn.com/problems/find-pivot-index)|[find-pivot-index](https://github.com/YunYouJun/LeetCode/tree/master/problems/find-pivot-index)|easy|py|
 |747|[至少是其他数字两倍的最大数](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others)|[largest-number-at-least-twice-of-others](https://github.com/YunYouJun/LeetCode/tree/master/problems/largest-number-at-least-twice-of-others)|easy|py|
+|752|[打开转盘锁](https://leetcode-cn.com/problems/open-the-lock)|[open-the-lock](https://github.com/YunYouJun/LeetCode/tree/master/problems/open-the-lock)|medium|py|
 |771|[宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones)|[jewels-and-stones](https://github.com/YunYouJun/LeetCode/tree/master/problems/jewels-and-stones)|easy|js/py|
 |779|[第K个语法符号](https://leetcode-cn.com/problems/k-th-symbol-in-grammar)|[k-th-symbol-in-grammar](https://github.com/YunYouJun/LeetCode/tree/master/problems/k-th-symbol-in-grammar)|easy|py|
 |851|[喧闹和富有](https://leetcode-cn.com/problems/loud-and-rich)|[loud-and-rich](https://github.com/YunYouJun/LeetCode/tree/master/problems/loud-and-rich)|medium|js/py|
