@@ -106,6 +106,7 @@ problems:
   - {id: 693, title: 交替位二进制数, index: binary-number-with-alternating-bits, difficulty: easy}
   - {id: 709, title: 转换成小写字母, index: to-lower-case, difficulty: easy}
   - {id: 724, title: 寻找数组的中心索引, index: find-pivot-index, difficulty: easy}
+  - {id: 739, title: 每日温度, index: daily-temperatures, difficulty: medium}
   - {id: 747, title: 至少是其他数字两倍的最大数, index: largest-number-at-least-twice-of-others, difficulty: easy}
   - {id: 752, title: 打开转盘锁, index: open-the-lock, difficulty: medium}
   - {id: 771, title: 宝石与石头, index: jewels-and-stones, difficulty: easy}
