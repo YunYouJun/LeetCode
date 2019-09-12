@@ -1,4 +1,4 @@
-# Problems (141)
+# Problems (142)
 
 |#|Title|Solution|Difficulty|Language|
 |-|-----|--------|----------|--------|
@@ -126,6 +126,7 @@
 |883|[三维形体投影面积](https://leetcode-cn.com/problems/projection-area-of-3d-shapes)|[projection-area-of-3d-shapes](https://github.com/YunYouJun/LeetCode/tree/master/problems/projection-area-of-3d-shapes)|easy|js/py|
 |883|[三维形体投影面积](https://leetcode-cn.com/problems/projection-area-of-3d-shapes)|[projection-area-of-3d-shapes](https://github.com/YunYouJun/LeetCode/tree/master/problems/projection-area-of-3d-shapes)|easy|js/py|
 |884|[两句话中的不常见单词](https://leetcode-cn.com/problems/uncommon-words-from-two-sentences)|[uncommon-words-from-two-sentences](https://github.com/YunYouJun/LeetCode/tree/master/problems/uncommon-words-from-two-sentences)|easy|js/py|
+|886|[可能的二分法](https://leetcode-cn.com/problems/possible-bipartition)|[possible-bipartition](https://github.com/YunYouJun/LeetCode/tree/master/problems/possible-bipartition)|medium|py|
 |888|[公平的糖果交换](https://leetcode-cn.com/problems/fair-candy-swap)|[fair-candy-swap](https://github.com/YunYouJun/LeetCode/tree/master/problems/fair-candy-swap)|easy|js/py|
 |892|[三维形体的表面积](https://leetcode-cn.com/problems/surface-area-of-3d-shapes)|[surface-area-of-3d-shapes](https://github.com/YunYouJun/LeetCode/tree/master/problems/surface-area-of-3d-shapes)|easy|md/js/py|
 |893|[特殊等价字符串组](https://leetcode-cn.com/problems/groups-of-special-equivalent-strings)|[groups-of-special-equivalent-strings](https://github.com/YunYouJun/LeetCode/tree/master/problems/groups-of-special-equivalent-strings)|easy|js/py|
