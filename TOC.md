@@ -1,4 +1,4 @@
-# Problems (145)
+# Problems (146)
 
 |#|Title|Solution|Difficulty|Language|
 |-|-----|--------|----------|--------|
@@ -76,6 +76,7 @@
 |217|[存在重复元素](https://leetcode-cn.com/problems/contains-duplicate)|[contains-duplicate](https://github.com/YunYouJun/LeetCode/tree/master/problems/contains-duplicate)|easy|js/py|
 |225|[用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues)|[implement-stack-using-queues](https://github.com/YunYouJun/LeetCode/tree/master/problems/implement-stack-using-queues)|easy|py|
 |230|[二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst)|[kth-smallest-element-in-a-bst](https://github.com/YunYouJun/LeetCode/tree/master/problems/kth-smallest-element-in-a-bst)|medium|py|
+|232|[用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks)|[implement-queue-using-stacks](https://github.com/YunYouJun/LeetCode/tree/master/problems/implement-queue-using-stacks)|easy|py|
 |234|[回文链表](https://leetcode-cn.com/problems/palindrome-linked-list)|[palindrome-linked-list](https://github.com/YunYouJun/LeetCode/tree/master/problems/palindrome-linked-list)|easy|py|
 |235|[二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree)|[lowest-common-ancestor-of-a-binary-search-tree](https://github.com/YunYouJun/LeetCode/tree/master/problems/lowest-common-ancestor-of-a-binary-search-tree)|easy|py|
 |237|[删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list)|[delete-node-in-a-linked-list](https://github.com/YunYouJun/LeetCode/tree/master/problems/delete-node-in-a-linked-list)|easy|js/py|

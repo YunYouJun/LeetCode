@@ -73,6 +73,7 @@ problems:
   - {id: 217, title: 存在重复元素, index: contains-duplicate, difficulty: easy}
   - {id: 225, title: 用队列实现栈, index: implement-stack-using-queues, difficulty: easy}
   - {id: 230, title: 二叉搜索树中第K小的元素, index: kth-smallest-element-in-a-bst, difficulty: medium}
+  - {id: 232, title: 用栈实现队列, index: implement-queue-using-stacks, difficulty: easy}
   - {id: 234, title: 回文链表, index: palindrome-linked-list, difficulty: easy}
   - {id: 235, title: 二叉搜索树的最近公共祖先, index: lowest-common-ancestor-of-a-binary-search-tree, difficulty: easy}
   - {id: 237, title: 删除链表中的节点, index: delete-node-in-a-linked-list, difficulty: easy}
