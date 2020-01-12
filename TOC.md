@@ -119,7 +119,7 @@
 |752|[打开转盘锁](https://leetcode-cn.com/problems/open-the-lock)|[open-the-lock](https://github.com/YunYouJun/LeetCode/tree/master/problems/open-the-lock)|medium|py|
 |771|[宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones)|[jewels-and-stones](https://github.com/YunYouJun/LeetCode/tree/master/problems/jewels-and-stones)|easy|js/py|
 |779|[第K个语法符号](https://leetcode-cn.com/problems/k-th-symbol-in-grammar)|[k-th-symbol-in-grammar](https://github.com/YunYouJun/LeetCode/tree/master/problems/k-th-symbol-in-grammar)|easy|py|
-|847|[第K个语法符号](https://leetcode-cn.com/problems/shortest-path-visiting-all-nodes)|[shortest-path-visiting-all-nodes](https://github.com/YunYouJun/LeetCode/tree/master/problems/shortest-path-visiting-all-nodes)|hard|py|
+|847|[访问所有节点的最短路径](https://leetcode-cn.com/problems/shortest-path-visiting-all-nodes)|[shortest-path-visiting-all-nodes](https://github.com/YunYouJun/LeetCode/tree/master/problems/shortest-path-visiting-all-nodes)|hard|py|
 |851|[喧闹和富有](https://leetcode-cn.com/problems/loud-and-rich)|[loud-and-rich](https://github.com/YunYouJun/LeetCode/tree/master/problems/loud-and-rich)|medium|js/py|
 |859|[亲密字符串](https://leetcode-cn.com/problems/buddy-strings)|[buddy-strings](https://github.com/YunYouJun/LeetCode/tree/master/problems/buddy-strings)|easy|js/py|
 |860|[柠檬水找零](https://leetcode-cn.com/problems/lemonade-change)|[lemonade-change](https://github.com/YunYouJun/LeetCode/tree/master/problems/lemonade-change)|easy|js/py|

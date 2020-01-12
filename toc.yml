@@ -116,7 +116,7 @@ problems:
   - {id: 752, title: 打开转盘锁, index: open-the-lock, difficulty: medium}
   - {id: 771, title: 宝石与石头, index: jewels-and-stones, difficulty: easy}
   - {id: 779, title: 第K个语法符号, index: k-th-symbol-in-grammar, difficulty: easy}
-  - {id: 847, title: 第K个语法符号, index: shortest-path-visiting-all-nodes, difficulty: hard}
+  - {id: 847, title: 访问所有节点的最短路径, index: shortest-path-visiting-all-nodes, difficulty: hard}
   - {id: 851, title: 喧闹和富有, index: loud-and-rich, difficulty: medium}
   - {id: 859, title: 亲密字符串, index: buddy-strings, difficulty: easy}
   - {id: 860, title: 柠檬水找零, index: lemonade-change, difficulty: easy}
