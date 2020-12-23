@@ -1,4 +1,9 @@
+# custom
+yarn.lock
+package-lock.json
+
 temp
+dist
 node_modules
 .vscode
 .DS_Store

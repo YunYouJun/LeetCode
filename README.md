@@ -5,6 +5,7 @@
 ## Language
 
 - JavaScript
+- TypeScript
 - Python3
 
 ## TOC

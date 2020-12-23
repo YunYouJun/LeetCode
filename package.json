@@ -5,7 +5,11 @@
   "description": "LeetCode Practice",
   "main": "all.yml",
   "repository": "https://github.com/YunYouJun/LeetCode.git",
-  "author": "云游君 <me@yunyoujun.cn>",
+  "author": {
+    "email": "me@yunyoujun.cn",
+    "name": "云游君",
+    "url": "https://www.yunyoujun.cn"
+  },
   "license": "MIT",
   "scripts": {
     "generate:TOC": "node utils/generateTOC.js",
@@ -13,13 +17,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "js-yaml": "^3.13.1"
+    "js-yaml": "^3.14.1"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint": "^6.2.2",
-    "husky": "^3.0.4",
-    "lint-staged": "^9.2.5"
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.16.0",
+    "husky": "^4.3.6",
+    "lint-staged": "^10.5.3",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
   },
   "husky": {
     "hooks": {

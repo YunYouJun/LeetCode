@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {number}
  */
-var firstUniqChar = function(s) {
+var firstUniqChar = function (s) {
   const l = s.length
   for (let i = 0; i < l; i++) {
     const char = s[i]
