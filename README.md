@@ -1,6 +1,8 @@
 # LeetCode
 
-[LeetCode](https://leetcode-cn.com) Practice [TOC 目录](https://yunyoujun.cn/LeetCode/TOC)
+![LeetCode TOC](https://github.com/YunYouJun/LeetCode/workflows/LeetCode%20TOC/badge.svg)
+
+[LeetCode](https://leetcode-cn.com) Practice [TOC 目录](https://yunyoujun.cn/LeetCode/)
 
 ## Language
 

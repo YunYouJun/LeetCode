@@ -26,5 +26,5 @@ if (!fs.existsSync(distFolder)) {
   fs.mkdirSync(distFolder)
 }
 
-fs.writeFileSync(`${distFolder}/TOC.md`, toc_md)
+fs.writeFileSync(`${distFolder}/README.md`, toc_md)
 console.info('生成 LeetCode 目录~')

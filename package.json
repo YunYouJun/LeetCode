@@ -14,7 +14,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "yarn generate:TOC",
+    "build": "yarn generate:TOC && cp public/* dist",
     "generate:TOC": "node scripts/generateTOC.js",
     "lint": "eslint --fix ./**/*.js",
     "start": "leet start",
