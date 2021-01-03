@@ -1,0 +1,6 @@
+{
+  "id": 230,
+  "title": "二叉搜索树中第K小的元素",
+  "index": "kth-smallest-element-in-a-bst",
+  "difficulty": "medium"
+}

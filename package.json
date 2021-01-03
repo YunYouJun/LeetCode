@@ -1,10 +1,12 @@
 {
   "name": "leetcode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "LeetCode Practice",
-  "main": "all.yml",
   "repository": "https://github.com/YunYouJun/LeetCode.git",
+  "bin": {
+    "leet": "./cli/index.js"
+  },
   "author": {
     "email": "me@yunyoujun.cn",
     "name": "云游君",
@@ -12,15 +14,20 @@
   },
   "license": "MIT",
   "scripts": {
-    "generate:TOC": "node utils/generateTOC.js",
+    "build": "yarn generate:TOC",
+    "generate:TOC": "node scripts/generateTOC.js",
     "lint": "eslint --fix ./**/*.js",
+    "start": "leet start",
+    "solve": "leet solve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "js-yaml": "^3.14.1"
+    "commander": "^6.2.1",
+    "inquirer": "^7.3.3",
+    "js-yaml": "^3.14.1",
+    "shelljs": "^0.8.4"
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
     "eslint": "^7.17.0",
     "husky": "^4.3.6",
     "lint-staged": "^10.5.3",
@@ -33,10 +40,6 @@
     }
   },
   "lint-staged": {
-    "*.yml": [
-      "yarn generate:TOC",
-      "git add TOC.md"
-    ],
     "*.js": [
       "yarn lint",
       "git add"

@@ -1,0 +1,6 @@
+{
+  "id": 19,
+  "title": "删除链表的倒数第N个节点",
+  "index": "remove-nth-node-from-end-of-list",
+  "difficulty": "medium"
+}

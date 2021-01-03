@@ -1,4 +1,7 @@
 {
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
   "env": {
     "es6": true,
     "node": true
@@ -13,6 +16,5 @@
     "quotes": ["error", "single"],
     "semi": ["error", "never"],
     "no-console": "off"
-  },
-  "parser": "babel-eslint"
+  }
 }

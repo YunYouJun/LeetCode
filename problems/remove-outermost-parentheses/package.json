@@ -1,0 +1,6 @@
+{
+  "id": 1021,
+  "title": "删除最外层的括号",
+  "index": "remove-outermost-parentheses",
+  "difficulty": "easy"
+}
