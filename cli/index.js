@@ -9,10 +9,12 @@ const { getAllProblems } = require('../utils/toc')
 program.name('leet').version(pkg.version)
 
 const problemsFolder = './problems'
+// all problems info
+const problems = getAllProblems()
 
 // 开始问题
 program.command('start').action(async () => {
-  const questions = [
+  const firstQuestion = [
     {
       type: 'input',
       name: 'id',
@@ -25,6 +27,18 @@ program.command('start').action(async () => {
         }
       },
     },
+  ]
+
+  const firstAnswer = await inquirer.prompt(firstQuestion)
+  const curProblem = problems.find((problem) => {
+    return problem.id === parseInt(firstAnswer.id)
+  })
+  if (curProblem) {
+    console.log('当前题号已存在。')
+    return
+  }
+
+  const questions = [
     {
       type: 'input',
       name: 'title',
@@ -42,15 +56,8 @@ program.command('start').action(async () => {
       choices: ['easy', 'medium', 'hard'],
     },
   ]
-
   const answers = await inquirer.prompt(questions)
-
-  const problemFolder = `${problemsFolder}/${answers.index}`
-  fs.mkdirSync(problemFolder)
-  fs.writeFileSync(
-    `${problemFolder}/package.json`,
-    JSON.stringify(answers, null, 2)
-  )
+  writeProblemInfo(Object.assign({ id: parseInt(firstAnswer.id) }, answers))
 })
 
 // 解决问题
@@ -80,13 +87,16 @@ program
       problemId = answers.id
     }
 
-    const problems = getAllProblems()
     const curProblem = problems.find((problem) => {
       return problem.id === parseInt(problemId)
     })
 
     // 提交
-    pushSolvedProblem(curProblem)
+    if (curProblem) {
+      pushSolvedProblem(curProblem)
+    } else {
+      console.log('当前题号不存在！请先通过 `leet start` 新建。')
+    }
   })
 
 /**
@@ -97,6 +107,21 @@ function pushSolvedProblem(problem) {
   shell.exec('git add -A')
   shell.exec(`git commit -m "✅ solve ${problem.index}"`)
   shell.exec('git push')
+}
+
+/**
+ * 写入题目信息 package.json
+ * @param {*} info 题目信息
+ */
+function writeProblemInfo(info) {
+  const problemFolder = `${problemsFolder}/${info.index}`
+  if (!fs.existsSync(problemFolder)) {
+    fs.mkdirSync(problemFolder)
+  }
+  fs.writeFileSync(
+    `${problemFolder}/package.json`,
+    JSON.stringify(info, null, 2)
+  )
 }
 
 program.parse(process.argv)

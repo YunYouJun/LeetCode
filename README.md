@@ -1,8 +1,8 @@
 # LeetCode
 
-![LeetCode TOC](https://github.com/YunYouJun/LeetCode/workflows/LeetCode%20TOC/badge.svg)
+[![LeetCode TOC](https://github.com/YunYouJun/LeetCode/workflows/LeetCode%20TOC/badge.svg)](https://github.com/YunYouJun/LeetCode/actions?query=workflow%3A%22LeetCode+TOC%22)
 
-[LeetCode](https://leetcode-cn.com) Practice [TOC 目录](https://yunyoujun.cn/LeetCode/)
+[LeetCode](https://leetcode-cn.com) Practice [TOC 目录](https://yunyoujun.cn/LeetCode/index.html)
 
 ## Language
 
@@ -39,6 +39,7 @@ yarn lint
 
 ```sh
 yarn link
+# chmod +x /usr/local/bin/leet
 ```
 
 ### 开始解题
