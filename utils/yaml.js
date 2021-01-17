@@ -8,7 +8,7 @@ const fs = require('fs')
 function loadYaml(path) {
   let data
   try {
-    data = yaml.safeLoad(fs.readFileSync(path, 'utf8'))
+    data = yaml.load(fs.readFileSync(path, 'utf8'))
   } catch (e) {
     console.log(e)
   }

@@ -16,4 +16,4 @@ function largeGroupPositions(s: string): number[][] {
 
 const testSet = ["aaa", "abbxxxxzzy", "abc", "abcdddeeeeaabbbcd"];
 import { testFunction } from "../../utils/test";
-testFunction(testSet, largeGroupPositions);
+testFunction(largeGroupPositions, testSet);

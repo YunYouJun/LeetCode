@@ -37,15 +37,10 @@ yarn lint
 
 ### Link Cli
 
-```sh
-yarn link
-# chmod +x /usr/local/bin/leet
-```
-
 ### 开始解题
 
 ```sh
-leet start
+yarn start
 ```
 
 跟随提示，输入题目 ID，标题，索引，难易度，将会自动建立对应文件夹并记录信息至 `package.json`。
@@ -53,7 +48,7 @@ leet start
 ### 解题完毕
 
 ```sh
-leet solve
+yarn solve
 ```
 
 输入对应题目 ID，将会通过自动提交带有题目信息的 git commit。
