@@ -14,11 +14,7 @@ export function testFunction(
 
   testcases.forEach((testcase, i) => {
     let result;
-    if (Array.isArray(testcase)) {
-      result = callback(...testcase);
-    } else {
-      result = callback(testcase);
-    }
+    result = callback(testcase);
     console.log(`测试 ${i + 1}`);
     console.log(`输入:`, testcase);
     console.log("输出:", result);
