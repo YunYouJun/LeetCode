@@ -56,6 +56,13 @@ program.command("start").action(async () => {
       message: "请输入题目难易度: ",
       choices: ["easy", "medium", "hard"],
     },
+    {
+      type: "list",
+      name: "language",
+      message: "使用语言: ",
+      choices: ["py", "js", "ts"],
+      default: "py",
+    },
   ];
   const answers = await inquirer.prompt(questions);
   writeProblemInfo(Object.assign(extraInfo, answers));

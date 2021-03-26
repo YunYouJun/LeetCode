@@ -51,4 +51,6 @@ yarn start
 yarn solve
 ```
 
-输入对应题目 ID，将会通过自动提交带有题目信息的 git commit。
+输入对应题目 ID，将会通过自动提交带有题目信息的 `commit`。
+
+如：`git commit -m "✅ solve palindrome-number"`

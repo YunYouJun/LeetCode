@@ -3,6 +3,7 @@ const shell = require("shelljs");
 const inquirer = require("inquirer");
 
 const { getAllProblems } = require("../utils/toc");
+const logger = require("./logger");
 const problemsFolder = "./problems";
 // all problems info
 const problems = getAllProblems();
@@ -30,6 +31,22 @@ function writeProblemInfo(info) {
     `${problemFolder}/package.json`,
     JSON.stringify(info, null, 2)
   );
+
+  const templateText = getTemplateByLanguage(info.language);
+  fs.writeFileSync(`${problemFolder}/solution.${info.language}`, templateText);
+}
+
+/**
+ * 获取语言对应模板
+ * @param {string} language
+ */
+function getTemplateByLanguage(language) {
+  const template = `templates/solution.${language}`;
+  if (fs.existsSync(template)) {
+    return fs.readFileSync(template, "utf-8");
+  } else {
+    logger.error(`检查模版文件夹或对应语言模版 ${template} 是否存在！`);
+  }
 }
 
 /**
