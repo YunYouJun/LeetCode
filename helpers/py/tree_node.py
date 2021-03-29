@@ -15,7 +15,7 @@ class TreeNodeOperation:
         return self.binary_tree(data, i)
 
     def binary_tree(self, data: List[int], i=0):
-        if i < len(data):
+        if i < len(data) and data[i] is not None:
             root = TreeNode(data[i])
             root.left = self.binary_tree(data, 2 * i + 1)
             root.right = self.binary_tree(data, 2 * i + 2)
@@ -51,22 +51,21 @@ class TreeNodeOperation:
         self.pre_order(head.left)
         self.pre_order(head.right)
 
-    def print(self, head: TreeNode):
+    def print(self, root: TreeNode):
         """
         层次遍历
         """
-        q = Queue()
-        data = []
-        if not head:
-            return
-        q.put(head)
-        data.append(head.val)
-        while not q.empty():
-            node = q.get()
+        import collections
+        if not root:
+            return []
+        res, queue = [], collections.deque()
+        queue.append(root)
+        while queue:
+            node = queue.popleft()
+            res.append(node.val)
             if node.left:
-                data.append(node.left.val)
-                q.put(node.left)
+                queue.append(node.left)
             if node.right:
-                data.append(node.right.val)
-                q.put(node.right)
-        print(data)
+                queue.append(node.right)
+        print(res)
+        return res
