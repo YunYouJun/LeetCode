@@ -10,18 +10,29 @@ export function testFunction(
   expectedReults?: any[]
 ) {
   console.log("Problem:", callback.name);
-  console.log();
 
   testcases.forEach((testcase, i) => {
     let result;
     result = callback(testcase);
-    console.log(`测试 ${i + 1}`);
+    console.log();
+    let title = `测试 ${i + 1}`;
+    if (expectedReults) {
+      title += ": ";
+      if (result === expectedReults[i]) {
+        title += "✅";
+      } else {
+        title += "❌";
+      }
+    }
+
+    console.log(title);
     console.log(`输入:`, testcase);
     console.log("输出:", result);
-    console.log();
 
     if (expectedReults) {
-      console.log("预期结果：", expectedReults[i]);
+      console.log("预期结果:", expectedReults[i]);
+    } else {
+      console.log();
     }
   });
 }

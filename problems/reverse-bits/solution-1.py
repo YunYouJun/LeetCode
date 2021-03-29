@@ -1,5 +1,3 @@
 class Solution:
-    # @param n, an integer
-    # @return an integer
-    def reverseBits(self, n):
+    def reverseBits(self, n: int) -> int:
         return int(bin(n)[2:].zfill(32)[::-1], base=2)
