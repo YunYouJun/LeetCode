@@ -19,6 +19,7 @@ if __name__ == '__main__':
     for case in test_cases:
         case[0] = TreeNodeOperation().create_binary_tree(case[0])
         TreeNodeOperation().print(case[0])
+        TreeNodeOperation().pre_order(case[0])
         case[1] = TreeNodeOperation().create_binary_tree(case[1])
         TreeNodeOperation().print(case[1])
         ans = Solution().isSubStructure(*case)

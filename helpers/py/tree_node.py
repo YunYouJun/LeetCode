@@ -23,6 +23,34 @@ class TreeNodeOperation:
         else:
             return None
 
+    def pre_order(self, head: TreeNode):
+        """
+        非递归
+        先序遍历
+        """
+        stack = [head]
+        ans = []
+        while stack:
+            head = stack.pop()
+            ans.append(head.val)
+            if head.right:
+                stack.append(head.right)
+            if head.left:
+                stack.append(head.left)
+
+        print(ans)
+
+    def pre_order_2(self, head: TreeNode):
+        """
+        递归
+        先序遍历
+        """
+        if not head:
+            return
+        print(head.val)
+        self.pre_order(head.left)
+        self.pre_order(head.right)
+
     def print(self, head: TreeNode):
         """
         层次遍历
