@@ -7,7 +7,7 @@ temp/
 dist/
 node_modules/
 .idea
-.vscode
+# .vscode
 .DS_Store
 
 # python
