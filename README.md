@@ -2,6 +2,8 @@
 
 [![LeetCode TOC](https://github.com/YunYouJun/LeetCode/workflows/LeetCode%20TOC/badge.svg)](https://github.com/YunYouJun/LeetCode/actions?query=workflow%3A%22LeetCode+TOC%22)
 
+> 用优雅的方式刷题吧！
+
 [LeetCode](https://leetcode-cn.com) Practice [TOC 目录](https://yunyoujun.cn/LeetCode/index.html)
 
 ## Language
