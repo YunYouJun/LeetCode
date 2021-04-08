@@ -13,7 +13,7 @@ export function testFunction(
 
   testcases.forEach((testcase, i) => {
     let result;
-    result = callback(testcase);
+    result = callback(...testcase);
     console.log();
     let title = `测试 ${i + 1}`;
     if (expectedReults) {
@@ -26,7 +26,7 @@ export function testFunction(
     }
 
     console.log(title);
-    console.log(`输入:`, testcase);
+    console.log(`输入:`, ...testcase);
     console.log("输出:", result);
 
     if (expectedReults) {

@@ -13,7 +13,7 @@ function twoSum(nums: number[], target: number): number[] {
     }
     hashMap.set(num, i);
   }
-  return [1];
+  return [];
 }
 
 import { testFunction } from "../../utils/test";
