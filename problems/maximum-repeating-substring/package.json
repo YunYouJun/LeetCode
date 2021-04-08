@@ -1,0 +1,7 @@
+{
+  "id": 1668,
+  "title": "最大重复子字符串",
+  "index": "maximum-repeating-substring",
+  "difficulty": "easy",
+  "language": "ts"
+}
