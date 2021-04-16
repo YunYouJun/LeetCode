@@ -2,11 +2,19 @@ const fs = require("fs");
 const shell = require("shelljs");
 const inquirer = require("inquirer");
 
-const { getAllProblems } = require("../utils/toc");
+const { getAllProblems } = require("./toc");
 const logger = require("./logger");
 const problemsFolder = "./problems";
 // all problems info
 const problems = getAllProblems();
+
+const { categoryMap } = require("./common");
+const choices = Object.keys(categoryMap).map((key) => {
+  return {
+    name: categoryMap[key],
+    value: key,
+  };
+});
 
 /**
  * 提交到 Git
@@ -59,16 +67,7 @@ async function promptCategory() {
       type: "list",
       name: "category",
       message: "题目类型",
-      choices: [
-        {
-          name: "剑指 Offer",
-          value: "offer",
-        },
-        {
-          name: "LeetCode",
-          value: "leetcode",
-        },
-      ],
+      choices,
     },
   ];
 
@@ -101,8 +100,8 @@ async function promptID(category = "leetcode") {
 
 function findProblemByID(id, category = "leetcode") {
   return problems.find((problem) => {
-    if (category === "offer") {
-      return problem.category === "剑指 Offer" && problem.id === id;
+    if (category === "lcof") {
+      return problem.category === category && problem.id === id;
     } else if (category === "leetcode") {
       return problem.id === parseInt(id);
     }

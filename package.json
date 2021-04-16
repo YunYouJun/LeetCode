@@ -2,11 +2,11 @@
   "name": "leetcode",
   "version": "1.0.1",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "description": "LeetCode Practice",
   "repository": "https://github.com/YunYouJun/LeetCode.git",
-  "bin": {
-    "leet": "./cli/index.js"
-  },
   "author": {
     "email": "me@yunyoujun.cn",
     "name": "云游君",
@@ -15,7 +15,7 @@
   "license": "MIT",
   "scripts": {
     "build": "yarn generate:TOC && cp public/* dist",
-    "generate:TOC": "node scripts/generateTOC.js",
+    "generate:TOC": "leet generate",
     "lint": "eslint --fix ./**/*.js",
     "start": "leet start",
     "solve": "leet solve",
@@ -25,7 +25,6 @@
     "@yunyoujun/logger": "^0.1.2",
     "commander": "^7.2.0",
     "inquirer": "^8.0.0",
-    "js-yaml": "^4.0.0",
     "shelljs": "^0.8.4"
   },
   "devDependencies": {

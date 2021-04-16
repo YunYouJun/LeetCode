@@ -1,0 +1,18 @@
+{
+  "name": "@yunyoujun/leetcode",
+  "version": "0.0.1",
+  "license": "MIT",
+  "bin": {
+    "leet": "index.js"
+  },
+  "dependencies": {
+    "@yunyoujun/logger": "^0.1.2",
+    "commander": "^7.2.0",
+    "inquirer": "^8.0.0"
+  },
+  "author": {
+    "email": "me@yunyoujun.cn",
+    "name": "云游君",
+    "url": "https://www.yunyoujun.cn"
+  }
+}

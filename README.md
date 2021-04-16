@@ -56,3 +56,9 @@ yarn solve
 输入对应题目 ID，将会通过自动提交带有题目信息的 `commit`。
 
 如：`git commit -m "✅ solve palindrome-number"`
+
+## 题目类型
+
+- `lcof`: 剑指 Offer
+- `leetcode`: LeetCode
+- `lcp`: 力扣杯

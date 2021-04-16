@@ -12,7 +12,9 @@ const {
 
 const logger = require("./logger");
 
-const pkg = require("../package.json");
+const pkg = require("./package.json");
+const { generateToc } = require("./generateTOC");
+
 program.name("leet").version(pkg.version);
 
 // 开始问题
@@ -27,15 +29,20 @@ program.command("start").action(async () => {
 
   // 额外信息
   let extraInfo;
-
-  if (category === "offer") {
-    extraInfo = {
-      id,
-      category: "剑指 Offer",
-    };
-  } else if (category === "leetcode") {
+  if (category === "leetcode") {
     extraInfo = {
       id: parseInt(id),
+    };
+  } else if (category === "lcof") {
+    extraInfo = {
+      id,
+      category,
+    };
+  } else {
+    // lcp and other
+    extraInfo = {
+      id: parseInt(id),
+      category,
     };
   }
 
@@ -89,5 +96,10 @@ program
       logger.error("当前题号不存在！请先通过 `leet start` 新建。");
     }
   });
+
+// 生成目录
+program.command("generate").action(() => {
+  generateToc();
+});
 
 program.parse(process.argv);
