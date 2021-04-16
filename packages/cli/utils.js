@@ -104,6 +104,8 @@ function findProblemByID(id, category = "leetcode") {
       return problem.category === category && problem.id === id;
     } else if (category === "leetcode") {
       return problem.id === parseInt(id);
+    } else if (category === "lcp") {
+      return problem.category === category && problem.id === parseInt(id);
     }
   });
 }
