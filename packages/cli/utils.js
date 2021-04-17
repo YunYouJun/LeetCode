@@ -11,7 +11,7 @@ const problems = getAllProblems();
 const { categoryMap } = require("./common");
 const choices = Object.keys(categoryMap).map((key) => {
   return {
-    name: categoryMap[key],
+    name: categoryMap[key].name,
     value: key,
   };
 });
@@ -84,7 +84,7 @@ async function promptID(category = "leetcode") {
     },
   ];
 
-  if (category === "leetcode") {
+  if (categoryMap[category].id.type === "number") {
     questions[0].validate = (val) => {
       if (Number.isInteger(parseInt(val))) {
         return true;
@@ -98,15 +98,28 @@ async function promptID(category = "leetcode") {
   return answers.id;
 }
 
+/**
+ * 根据 ID 查找问题
+ * @param {*} id
+ * @param {*} category
+ * @returns
+ */
 function findProblemByID(id, category = "leetcode") {
   return problems.find((problem) => {
-    if (category === "lcof") {
-      return problem.category === category && problem.id === id;
-    } else if (category === "leetcode") {
-      return problem.id === parseInt(id);
-    } else if (category === "lcp") {
-      return problem.category === category && problem.id === parseInt(id);
+    let isValidId = false;
+    let isValidCategory = problem.category === category;
+
+    if (categoryMap[category].id.type === "number") {
+      isValidId = problem.id === parseInt(id);
+    } else {
+      isValidId = problem.id === id;
     }
+
+    if (category === "leetcode") {
+      isValidCategory = true;
+    }
+
+    return isValidCategory && isValidId;
   });
 }
 

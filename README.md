@@ -35,36 +35,6 @@ yarn generate:TOC
 yarn lint
 ```
 
-## Cli(@yunyoujun/leetcode)
+## packages
 
-[![npm (scoped)](https://img.shields.io/npm/v/@yunyoujun/leetcode)](https://www.npmjs.com/package/@yunyoujun/leetcode)
-
-### 开始解题
-
-```sh
-yarn start
-```
-
-跟随提示，输入题目 ID，标题，索引，难易度，将会自动建立对应文件夹并记录信息至 `package.json`。
-
-### 解题完毕
-
-```sh
-yarn solve
-```
-
-输入对应题目 ID，将会通过自动提交带有题目信息的 `commit`。
-
-如：`git commit -m "✅ solve palindrome-number"`
-
-### 生成目录
-
-```sh
-yarn generate
-```
-
-## 题目类型
-
-- `lcof`: 剑指 Offer
-- `leetcode`: LeetCode
-- `lcp`: 力扣杯
+- [cli: @yunyoujun/leetcode](./packages/cli): [![npm (scoped)](https://img.shields.io/npm/v/@yunyoujun/leetcode)](https://www.npmjs.com/package/@yunyoujun/leetcode)

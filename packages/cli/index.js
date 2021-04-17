@@ -14,6 +14,7 @@ const logger = require("./logger");
 
 const pkg = require("./package.json");
 const { generateToc } = require("./generateTOC");
+const { categoryMap } = require("./common");
 
 program.name("leet").version(pkg.version);
 
@@ -28,22 +29,16 @@ program.command("start").action(async () => {
   }
 
   // 额外信息
-  let extraInfo;
-  if (category === "leetcode") {
-    extraInfo = {
-      id: parseInt(id),
-    };
-  } else if (category === "lcof") {
-    extraInfo = {
-      id,
-      category,
-    };
-  } else {
-    // lcp and other
-    extraInfo = {
-      id: parseInt(id),
-      category,
-    };
+  let extraInfo = {
+    id,
+  };
+
+  if (categoryMap[category].id.type === "number") {
+    extraInfo.id = parseInt(id);
+  }
+
+  if (category !== "leetcode") {
+    extraInfo.category = category;
   }
 
   const questions = [
