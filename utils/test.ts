@@ -18,7 +18,7 @@ export function testFunction(
     let title = `测试 ${i + 1}`;
     if (expectedResults) {
       title += ": ";
-      if (result === expectedResults[i]) {
+      if (isEqual(result, expectedResults[i])) {
         title += "✅";
       } else {
         title += "❌";
@@ -35,4 +35,30 @@ export function testFunction(
       console.log();
     }
   });
+}
+
+/**
+ * 深层比较
+ * @param a 
+ * @param b 
+ * @returns 
+ */
+function isEqual(a: any, b: any) {
+  // 除了引用类型都可以判断
+  if (!(a instanceof Object) || !(b instanceof Object)) {
+    return Object.is(a, b);
+  }
+  if (Object.keys(a).length !== Object.keys(b).length) {
+    return false;
+  }
+
+  const keysA = Object.keys(a);
+  let result = true;
+  for (const key of keysA) {
+    result &&= isEqual(a[key], b[key]);
+    if (!result) {
+      return false;
+    }
+  }
+  return true;
 }
