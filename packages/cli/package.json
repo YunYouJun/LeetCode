@@ -3,12 +3,20 @@
   "version": "0.0.3",
   "license": "MIT",
   "bin": {
-    "leet": "index.js"
+    "leet": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "dev": "npm run build --watch",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "@yunyoujun/logger": "^0.2.3",
     "commander": "^9.3.0",
-    "inquirer": "^9.0.0"
+    "execa": "5",
+    "inquirer": "8"
   },
   "author": {
     "email": "me@yunyoujun.cn",

@@ -1,7 +1,12 @@
 /**
  * 题目种类
  */
-const categoryMap = {
+export const categoryMap: Record<string, {
+  name: string
+  id: {
+    type: string
+  }
+}> = {
   offer: {
     name: "剑指 Offer",
     id: {
@@ -26,8 +31,4 @@ const categoryMap = {
       type: "number",
     },
   },
-};
-
-module.exports = {
-  categoryMap,
 };

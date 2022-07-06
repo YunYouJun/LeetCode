@@ -4,5 +4,9 @@
   "files.associations": {
     "vector": "cpp"
   },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
   "python.envFile": "${workspaceFolder}/.env"
 }

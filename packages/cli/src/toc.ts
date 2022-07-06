@@ -1,19 +1,21 @@
-const path = require('path')
-const fs = require('fs')
+import fs from 'node:fs'
+import path from 'node:path'
 
 const leetcode_url = 'https://leetcode-cn.com/problems/'
 const github_url = 'https://github.com/YunYouJun/LeetCode/tree/master/'
 
+import { Problem } from "./types";
+
 /**
  * 获取当前已完成的所有题目信息
  */
-function getAllProblems() {
+export function getAllProblems() {
   const rootFolder = process.cwd()
   const problemsPath = './problems'
 
   let problemsFolder = fs.readdirSync(problemsPath)
 
-  const problems = []
+  const problems: Problem[] = []
 
   // 过滤非文件夹文件
   problemsFolder = problemsFolder.filter((filename) => {
@@ -38,14 +40,14 @@ function getAllProblems() {
  * read language by ext
  * @param {*} problem
  */
-function readLanguageByExt(problem) {
-  let extname = new Set()
+export function readLanguageByExt(problem: Problem) {
+  let extname = new Set<string>()
   let problem_path = 'problems/' + problem.index
   let files = fs.readdirSync(problem_path)
   for (const file of files) {
     extname.add(path.extname(file).slice(1))
   }
-  return [...extname].join('/')
+  return [...Array.from(extname)].join('/')
 }
 
 /**
@@ -54,7 +56,7 @@ function readLanguageByExt(problem) {
  * @param {*} id
  * @returns
  */
-function getProblemById(id, problems) {
+export function getProblemById(id: string, problems: Problem[]) {
   return problems.find((problem) => {
     return problem.id === parseInt(id)
   })
@@ -64,17 +66,10 @@ function getProblemById(id, problems) {
  *  return md by problem info
  * @param {*} problem
  */
-function generateProblemMd(problem) {
+export function generateProblemMd(problem: Problem) {
   return `|${problem.id}|[${problem.title}](${leetcode_url + problem.index})|[${
     problem.index
   }](${github_url + 'problems/' + problem.index})|${problem.difficulty}|${
     problem.language
   }|\n`
-}
-
-module.exports = {
-  getAllProblems,
-  generateProblemMd,
-  readLanguageByExt,
-  getProblemById,
 }

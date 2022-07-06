@@ -1,16 +1,16 @@
-const fs = require("fs");
-const {
+import fs from 'node:fs'
+import {
   getAllProblems,
   generateProblemMd,
   readLanguageByExt,
-} = require("./toc");
+} from "./toc"
 
 const distFolder = "./dist";
 
 /**
  * 生成目录
  */
-function generateToc() {
+export function generateToc() {
   // Get yaml info
   let problems = getAllProblems();
   let toc_md = `# Problems (${problems.length})
@@ -34,7 +34,3 @@ function generateToc() {
   const logger = require("./logger");
   logger.info("生成 LeetCode 目录~");
 }
-
-module.exports = {
-  generateToc,
-};
