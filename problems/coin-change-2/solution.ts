@@ -13,7 +13,7 @@ function change(amount: number, coins: number[]): number {
   return dp[amount];
 }
 
-import { testFunction } from "../../utils";
+import { testFunction } from "@/utils";
 const testcases = [
   [5, [1, 2, 5]],
   [3, [2]],

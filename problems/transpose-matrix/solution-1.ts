@@ -25,5 +25,5 @@ const testSet = [
     [4, 5, 6],
   ],
 ];
-import { testFunction } from "../../utils/test";
+import { testFunction } from "@/utils";
 testFunction(transpose, testSet);

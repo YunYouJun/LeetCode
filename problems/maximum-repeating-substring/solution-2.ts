@@ -11,7 +11,7 @@ function maxRepeating(sequence: string, word: string): number {
   return count - 1;
 }
 
-import { testFunction } from "../../utils";
+import { testFunction } from "@/utils";
 const testcases = [
   ["ababc", "ab"],
   ["ababc", "ba"],

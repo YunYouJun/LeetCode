@@ -16,7 +16,7 @@ function twoSum(nums: number[], target: number): number[] {
   return [];
 }
 
-import { testFunction } from "../../utils/test";
+import { testFunction } from "@/utils";
 const testcases = [
   [[2, 7, 11, 15], 9],
   [[3, 2, 4], 6],

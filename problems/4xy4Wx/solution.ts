@@ -14,7 +14,7 @@ function purchasePlans(nums: number[], target: number): number {
   return ans % 1000000007;
 }
 
-import { testFunction } from "../../utils";
+import { testFunction } from "@/utils";
 const testcases = [
   [[2, 5, 3, 5], 6],
   [[2, 2, 1, 9], 10],

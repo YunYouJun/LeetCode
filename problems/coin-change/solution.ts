@@ -11,7 +11,7 @@ function coinChange(coins: number[], amount: number): number {
   return dp[amount] === Infinity ? -1 : dp[amount];
 }
 
-import { testFunction } from "../../utils";
+import { testFunction } from "@/utils";
 const testcases = [
   [[1, 2, 5], 11],
   [[2], 3],
