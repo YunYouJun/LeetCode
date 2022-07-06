@@ -89,7 +89,7 @@ program
     // 提交
     const curProblem = findProblemByID(problemId, category)
     if (curProblem) {
-      pushSolvedProblem(curProblem)
+      await pushSolvedProblem(curProblem)
     } else {
       logger.error('当前题号不存在！请先通过 `leet start` 新建。')
     }

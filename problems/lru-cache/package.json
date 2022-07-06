@@ -1,0 +1,7 @@
+{
+  "id": 146,
+  "title": "LRU 缓存",
+  "index": "lru-cache",
+  "difficulty": "medium",
+  "language": "ts"
+}

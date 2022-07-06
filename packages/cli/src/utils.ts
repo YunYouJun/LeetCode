@@ -1,9 +1,10 @@
 import fs from 'node:fs'
-import execa from 'execa'
 import inquirer from 'inquirer'
 
 import { getAllProblems } from './toc'
 import { logger } from './logger'
+
+import { $ } from 'zx'
 
 const problemsFolder = './problems'
 // all problems info
@@ -17,16 +18,16 @@ const choices = Object.keys(categoryMap).map((key) => {
   }
 })
 
-import { Problem } from "./types";
+import { Problem } from './types'
 
 /**
  * 提交到 Git
  * @param {*} problem
  */
-export function pushSolvedProblem(problem: Problem) {
-  execa('git add -A')
-  execa(`git commit -m "✅ solve ${problem.index}"`)
-  execa('git push')
+export async function pushSolvedProblem(problem: Problem) {
+  await $`git add -A`
+  await $`git commit -m "✅ solve ${problem.index}"`
+  await $`git push`
 }
 
 /**
