@@ -22,7 +22,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@yunyoujun/leetcode": "workspace:*",
+    "@yunyoujun/leetcode": "./packages/cli",
     "@yunyoujun/logger": "^0.2.3",
     "commander": "^9.3.0",
     "inquirer": "^9.0.0"
