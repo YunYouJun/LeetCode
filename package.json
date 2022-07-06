@@ -14,8 +14,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "yarn generate:TOC && cp public/* dist",
-    "generate:TOC": "leet generate",
+    "build": "npm run generate:TOC && cp public/* dist",
+    "generate:TOC": "tsx ./packages/cli/src/index.ts generate",
     "lint": "eslint --fix ./**/*.js",
     "start": "leet start",
     "solve": "leet solve",
