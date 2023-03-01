@@ -1,16 +1,26 @@
 {
   "name": "@yunyoujun/leetcode",
+  "type": "module",
   "version": "0.0.3",
   "license": "MIT",
   "bin": {
     "leet": "dist/index.js"
   },
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup",
-    "dev": "npm run build --watch",
-    "prepublishOnly": "npm run build"
+    "build": "unbuild",
+    "dev": "unbuild --stub",
+    "prepublishOnly": "npm run build",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@yunyoujun/logger": "^0.3.5",

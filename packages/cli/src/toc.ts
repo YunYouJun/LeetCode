@@ -1,10 +1,10 @@
-import fs from 'node:fs'
+import fs from 'fs-extra'
 import path from 'node:path'
 
 const leetcode_url = 'https://leetcode-cn.com/problems/'
 const github_url = 'https://github.com/YunYouJun/LeetCode/tree/master/'
 
-import { Problem } from "./types";
+import { Problem } from './types'
 
 /**
  * 获取当前已完成的所有题目信息
@@ -24,13 +24,15 @@ export function getAllProblems() {
   })
 
   problemsFolder.forEach((problemFolder) => {
-    const info = require(`${rootFolder}/${problemsPath}/${problemFolder}/package.json`)
+    const info = fs.readJsonSync(
+      `${rootFolder}/${problemsPath}/${problemFolder}/package.json`
+    )
     problems.push(info)
   })
 
   // 按序号升序排序
   problems.sort((a, b) => {
-    return a.id - b.id
+    return (a.id as number) - (b.id as number)
   })
 
   return problems

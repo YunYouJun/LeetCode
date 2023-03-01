@@ -21,7 +21,7 @@
 ### Generate TOC
 
 ```sh
-yarn generate:TOC
+npm run generate:TOC
 ```
 
 ### Lint
@@ -32,7 +32,7 @@ yarn generate:TOC
 - lint-staged
 
 ```sh
-yarn lint
+npm run lint
 ```
 
 ## packages

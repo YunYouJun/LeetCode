@@ -1,11 +1,10 @@
-import { defineConfig } from 'tsup'
+import { defineBuildConfig } from 'unbuild'
 
-export default defineConfig({
-  entry: [
-    'src/index.ts',
-  ],
+export default defineBuildConfig({
+  entries: ['src/index'],
+  declaration: true,
   clean: true,
-  splitting: true,
-  format: ['cjs', 'esm'],
-  dts: true,
+  rollup: {
+    emitCJS: true,
+  },
 })

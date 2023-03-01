@@ -7,8 +7,7 @@ LeetCode 做题脚本工具
 ## Install
 
 ```bash
-yarn add @yunyoujun/leetcode
-# yarn global add @yunyoujun/leetcode
+pnpm add -g @yunyoujun/leetcode
 ```
 
 配置 `package.json`
