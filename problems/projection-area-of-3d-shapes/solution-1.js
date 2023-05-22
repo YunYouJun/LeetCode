@@ -2,7 +2,7 @@
  * @param {number[][]} grid
  * @return {number}
  */
-var projectionArea = function(grid) {
+const projectionArea = function (grid) {
   let xy = 0
   let yz = 0
   let zx = 0
@@ -10,7 +10,8 @@ var projectionArea = function(grid) {
     let maxCol = 0
     zx += Math.max(...grid[i])
     for (let j = 0; j < grid[i].length; j++) {
-      if (grid[i][j] > 0) xy += 1
+      if (grid[i][j] > 0)
+        xy += 1
       maxCol = Math.max(maxCol, grid[j][i])
     }
     yz += maxCol

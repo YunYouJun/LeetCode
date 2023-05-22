@@ -1,24 +1,25 @@
 {
   "name": "leetcode",
+  "type": "module",
   "version": "1.0.1",
   "private": true,
-  "type": "module",
+  "packageManager": "pnpm@8.5.1",
   "workspaces": [
     "packages/*"
   ],
   "description": "LeetCode Practice",
-  "repository": "https://github.com/YunYouJun/LeetCode.git",
   "author": {
     "email": "me@yunyoujun.cn",
     "name": "云游君",
     "url": "https://www.yunyoujun.cn"
   },
   "license": "MIT",
+  "repository": "https://github.com/YunYouJun/LeetCode.git",
   "scripts": {
     "build": "npm run generate:TOC && cp public/* dist",
     "build:cli": "pnpm -C packages/cli build",
     "generate:TOC": "tsx ./packages/cli/src/index.ts generate",
-    "lint": "eslint --fix ./**/*.js",
+    "lint": "eslint .",
     "start": "tsx ./packages/cli/src/index.ts start",
     "solve": "leet solve",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,20 +27,21 @@
   "dependencies": {
     "@yunyoujun/leetcode": "./packages/cli",
     "@yunyoujun/logger": "^0.3.5",
-    "commander": "^10.0.0",
-    "inquirer": "^9.1.4"
+    "commander": "^10.0.1",
+    "inquirer": "^9.2.6"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^0.39.1",
     "@types/inquirer": "^9.0.3",
-    "@types/node": "^18.14.2",
-    "eslint": "^8.35.0",
-    "fs-extra": "^11.1.0",
+    "@types/node": "^20.2.3",
+    "eslint": "^8.41.0",
+    "fs-extra": "^11.1.1",
     "husky": "^8.0.3",
-    "lint-staged": "^13.1.2",
-    "tsx": "^3.12.3",
-    "typescript": "^4.9.5",
-    "unbuild": "^1.1.2",
-    "zx": "^7.2.0"
+    "lint-staged": "^13.2.2",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4",
+    "unbuild": "^1.2.1",
+    "zx": "^7.2.2"
   },
   "husky": {
     "hooks": {

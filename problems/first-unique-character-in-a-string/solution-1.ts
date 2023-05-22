@@ -3,14 +3,13 @@
  * @param s 字符串
  */
 function firstUniqChar(s: string): number {
-  const l = s.length;
+  const l = s.length
   for (let i = 0; i < l; i++) {
-    const char = s[i];
-    if (s.indexOf(char) === s.lastIndexOf(char)) {
-      return i;
-    }
+    const char = s[i]
+    if (s.indexOf(char) === s.lastIndexOf(char))
+      return i
   }
-  return -1;
+  return -1
 }
 
 // const result = firstUniqChar("leetcode");

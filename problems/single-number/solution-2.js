@@ -2,20 +2,18 @@
  * @param {number[]} nums
  * @return {number}
  */
-var singleNumber = function(nums) {
+const singleNumber = function (nums) {
   const dic = {}
   const length = nums.length
   for (let i = 0; i < length; i++) {
     const num = nums[i]
-    if (num in dic) {
+    if (num in dic)
       dic[num] += 1
-    } else {
+    else
       dic[num] = 1
-    }
   }
   for (let i = 0; i < length; i++) {
-    if (dic[nums[i]] === 1) {
+    if (dic[nums[i]] === 1)
       return nums[i]
-    }
   }
 }

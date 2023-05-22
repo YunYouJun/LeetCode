@@ -3,13 +3,12 @@
  * @param {string} B
  * @return {string[]}
  */
-var uncommonFromSentences = function(A, B) {
-  let all = A.split(' ').concat(B.split(' '))
-  let ans = []
+const uncommonFromSentences = function (A, B) {
+  const all = A.split(' ').concat(B.split(' '))
+  const ans = []
   for (let i = 0; i < all.length; i++) {
-    if (all.indexOf(all[i]) === all.lastIndexOf(all[i])) {
+    if (all.indexOf(all[i]) === all.lastIndexOf(all[i]))
       ans.push(all[i])
-    }
   }
   return ans
 }

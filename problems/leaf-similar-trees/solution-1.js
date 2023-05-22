@@ -10,13 +10,14 @@
  * @param {TreeNode} root2
  * @return {boolean}
  */
-var leafSimilar = function(root1, root2) {
+const leafSimilar = function (root1, root2) {
   return getLeaves(root1).toString() === getLeaves(root2).toString()
 }
 
-function getLeaves (root) {
+function getLeaves(root) {
   let leaves = []
-  if (!root) return leaves
+  if (!root)
+    return leaves
   if (!root.left && !root.right) {
     leaves.push(root.val)
     return leaves

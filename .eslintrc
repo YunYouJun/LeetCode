@@ -1,4 +1,8 @@
 {
+  "extends": [
+    "eslint:recommended",
+    "@antfu"
+  ],
   "parserOptions": {
     "ecmaVersion": 2020
   },
@@ -6,15 +10,16 @@
     "es6": true,
     "node": true
   },
-  "extends": "eslint:recommended",
   "globals": {
     "ListNode": true
   },
   "rules": {
+    "unused-imports/no-unused-vars": "off",
     "no-unused-vars": "off",
-    "indent": ["error", 2],
-    "quotes": ["error", "single"],
-    "semi": ["error", "never"],
+    "semi": [
+      "error",
+      "never"
+    ],
     "no-console": "off"
   }
 }

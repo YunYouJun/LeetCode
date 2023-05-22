@@ -6,25 +6,24 @@
  * @return {number}
  */
 function reverseNumber(x) {
-  let s = x.toString()
+  const s = x.toString()
   return parseInt(s.split('').reverse().join(''))
 }
 
-var reverse = function(x) {
-  if (x < -2147483648 || x > 2147483647) {
+const reverse = function (x) {
+  if (x < -2147483648 || x > 2147483647)
     return 0
-  }
+
   let r = 0
   if (x < 0) {
     r = -reverseNumber(-x)
-    if (r < -2147483648) {
+    if (r < -2147483648)
       r = 0
-    }
-  } else {
+  }
+  else {
     r = reverseNumber(x)
-    if (r > 2147483647) {
+    if (r > 2147483647)
       r = 0
-    }
   }
   return r
 }

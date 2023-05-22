@@ -9,9 +9,10 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-var reverseList = function(head) {
-  if (head === null || head.next === null) return head
-  let p = reverseList(head.next)
+const reverseList = function (head) {
+  if (head === null || head.next === null)
+    return head
+  const p = reverseList(head.next)
   head.next.next = head
   head.next = null
   return p

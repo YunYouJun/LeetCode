@@ -2,7 +2,7 @@
  * @param {number} n
  * @return {string}
  */
-var countAndSay = function(n) {
+const countAndSay = function (n) {
   let say = '1'
   for (let i = 1; i < n; i++) {
     const temp = say
@@ -12,7 +12,8 @@ var countAndSay = function(n) {
     for (let j = 1; j < temp.length; j++) {
       if (temp[j] === tag) {
         count++
-      } else {
+      }
+      else {
         say += count + tag
         tag = temp[j]
         count = 1

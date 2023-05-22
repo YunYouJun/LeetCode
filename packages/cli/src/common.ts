@@ -8,27 +8,27 @@ export const categoryMap: Record<string, {
   }
 }> = {
   offer: {
-    name: "剑指 Offer",
+    name: '剑指 Offer',
     id: {
-      type: "string",
+      type: 'string',
     },
   },
   leetcode: {
-    name: "LeetCode",
+    name: 'LeetCode',
     id: {
-      type: "number",
+      type: 'number',
     },
   },
   lcp: {
-    name: "LCP",
+    name: 'LCP',
     id: {
-      type: "number",
+      type: 'number',
     },
   },
   custom: {
-    name: "自定义",
+    name: '自定义',
     id: {
-      type: "number",
+      type: 'number',
     },
   },
-};
+}

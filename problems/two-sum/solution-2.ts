@@ -3,22 +3,22 @@
  * @param nums
  * @param target
  */
-function twoSum(nums: number[], target: number): number[] {
-  const hashMap = new Map();
-  for (let i = 0; i < nums.length; i++) {
-    const num = nums[i];
-    const another = target - num;
-    if (hashMap.has(another)) {
-      return [i, hashMap.get(another)];
-    }
-    hashMap.set(num, i);
-  }
-  return [];
-}
+import { testFunction } from '@/utils'
 
-import { testFunction } from "@/utils";
+function twoSum(nums: number[], target: number): number[] {
+  const hashMap = new Map()
+  for (let i = 0; i < nums.length; i++) {
+    const num = nums[i]
+    const another = target - num
+    if (hashMap.has(another))
+      return [i, hashMap.get(another)]
+
+    hashMap.set(num, i)
+  }
+  return []
+}
 const testcases = [
   [[2, 7, 11, 15], 9],
   [[3, 2, 4], 6],
-];
-testFunction(twoSum, testcases);
+]
+testFunction(twoSum, testcases)

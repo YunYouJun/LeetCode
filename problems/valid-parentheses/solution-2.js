@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {boolean}
  */
-var isValid = function(s) {
+const isValid = function (s) {
   const map = {
     ')': '(',
     ']': '[',
@@ -15,9 +15,8 @@ var isValid = function(s) {
       arr.push(c)
       continue
     }
-    if (arr.pop() !== map[c]) {
+    if (arr.pop() !== map[c])
       return false
-    }
   }
   return !arr.length
 }

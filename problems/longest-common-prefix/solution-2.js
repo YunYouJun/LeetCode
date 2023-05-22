@@ -2,14 +2,14 @@
  * @param {string[]} strs
  * @return {string}
  */
-var longestCommonPrefix = function(strs) {
+const longestCommonPrefix = function (strs) {
   let str = ''
-  if (strs.length === 0) return str
+  if (strs.length === 0)
+    return str
   let minL = strs[0].length
   strs.forEach((item) => {
-    if (item.length < minL) {
+    if (item.length < minL)
       minL = item.length
-    }
   })
   for (let i = minL; i > 0; i--) {
     const _str = strs[0].substr(0, i)

@@ -10,14 +10,14 @@
  * @param {number} n
  * @return {ListNode}
  */
-var removeNthFromEnd = function(head, n) {
-  let dummy = new ListNode(0)
+const removeNthFromEnd = function (head, n) {
+  const dummy = new ListNode(0)
   dummy.next = head
   let first = dummy
   let second = dummy
-  for (let i = 0; i < n + 1; i++) {
+  for (let i = 0; i < n + 1; i++)
     first = first.next
-  }
+
   while (first) {
     first = first.next
     second = second.next

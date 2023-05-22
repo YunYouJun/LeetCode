@@ -2,7 +2,7 @@
  * @param {number} N
  * @return {number}
  */
-var binaryGap = function(N) {
+const binaryGap = function (N) {
   let res = 0
   let d = -Infinity
   while (N > 0) {

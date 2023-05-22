@@ -3,34 +3,36 @@
  * @param {number[][]} obstacles
  * @return {number}
  */
-var robotSim = function(commands, obstacles) {
-  let pos = [0, 0]
+const robotSim = function (commands, obstacles) {
+  const pos = [0, 0]
   let curDir = 0
-  let direction = [
+  const direction = [
     [0, 1],
     [1, 0],
     [0, -1],
-    [-1, 0]
+    [-1, 0],
   ]
   let ans = 0
-  let set = new Set()
-  obstacles.forEach(obs => {
+  const set = new Set()
+  obstacles.forEach((obs) => {
     set.add(`[${obs[0]},${obs[1]}]`)
   })
-  commands.forEach(cmd => {
+  commands.forEach((cmd) => {
     if (cmd === -2) {
       curDir = (curDir - 1 + 4) % 4
-    } else if (cmd === -1) {
+    }
+    else if (cmd === -1) {
       curDir = (curDir + 1) % 4
-    } else {
+    }
+    else {
       for (let i = 0; i < cmd; i++) {
-        let x = pos[0] + direction[curDir][0]
-        let y = pos[1] + direction[curDir][1]
+        const x = pos[0] + direction[curDir][0]
+        const y = pos[1] + direction[curDir][1]
         if (!set.has(`[${x},${y}]`)) {
           pos[0] = x
           pos[1] = y
         }
-        ans = Math.max(ans, pos[0]*pos[0] + pos[1]*pos[1])
+        ans = Math.max(ans, pos[0] * pos[0] + pos[1] * pos[1])
       }
     }
   })

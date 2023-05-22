@@ -11,10 +11,10 @@
  * @param {number} y
  * @return {boolean}
  */
-var isCousins = function(root, x, y) {
-  let parent = {}
-  let depth = {}
-  function dfs(node, par=null) {
+const isCousins = function (root, x, y) {
+  const parent = {}
+  const depth = {}
+  function dfs(node, par = null) {
     if (node) {
       depth[node.val] = par ? depth[par.val] + 1 : 1
       parent[node.val] = par

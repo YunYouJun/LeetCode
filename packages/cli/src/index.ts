@@ -2,17 +2,17 @@
 import { program } from 'commander'
 import inquirer from 'inquirer'
 
+import pkg from '../package.json'
 import {
-  pushSolvedProblem,
-  writeProblemInfo,
+  findProblemByID,
   promptCategory,
   promptID,
-  findProblemByID,
+  pushSolvedProblem,
+  writeProblemInfo,
 } from './utils'
 
 import { logger } from './logger'
 
-import pkg from '../package.json'
 import { generateToc } from './generateTOC'
 import { categoryMap } from './common'
 
@@ -29,20 +29,18 @@ program.command('start').action(async () => {
   }
 
   // 额外信息
-  let extraInfo: {
+  const extraInfo: {
     id: number
     category?: string
   } = {
     id,
   }
 
-  if (categoryMap[category].id.type === 'number') {
+  if (categoryMap[category].id.type === 'number')
     extraInfo.id = parseInt(id)
-  }
 
-  if (category !== 'leetcode') {
+  if (category !== 'leetcode')
     extraInfo.category = category
-  }
 
   const questions = [
     {
@@ -82,17 +80,15 @@ program
 
     const category = await promptCategory()
 
-    if (!cmd.id) {
+    if (!cmd.id)
       problemId = await promptID(category)
-    }
 
     // 提交
     const curProblem = findProblemByID(problemId, category)
-    if (curProblem) {
+    if (curProblem)
       await pushSolvedProblem(curProblem)
-    } else {
+    else
       logger.error('当前题号不存在！请先通过 `leet start` 新建。')
-    }
   })
 
 // 生成目录

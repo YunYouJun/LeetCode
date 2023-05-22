@@ -3,6 +3,6 @@
  * @param {string} target
  * @return {number}
  */
-var shortestWay = function(source, target) {
-    
+const shortestWay = function (source, target) {
+
 }

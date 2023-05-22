@@ -10,14 +10,14 @@
  * @param {ListNode} head
  * @return {boolean}
  */
-var hasCycle = function(head) {
+const hasCycle = function (head) {
   let i = 0
   while (head) {
-    if (head.index) {
+    if (head.index)
       return head.index
-    } else {
+    else
       head.index = i
-    }
+
     i++
     head = head.next
   }

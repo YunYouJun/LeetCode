@@ -9,16 +9,16 @@
  * @param {TreeNode} root
  * @return {boolean}
  */
-var isUnivalTree = function(root) {
-  let vals = []
+const isUnivalTree = function (root) {
+  const vals = []
   function dfs(node) {
-    if(node) {
+    if (node) {
       vals.push(node.val)
       dfs(node.left)
       dfs(node.right)
     }
   }
   dfs(root)
-  let set = new Set(vals)
+  const set = new Set(vals)
   return set.size === 1
 }

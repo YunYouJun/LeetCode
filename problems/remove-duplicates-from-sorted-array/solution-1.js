@@ -2,14 +2,13 @@
  * @param {number[]} nums
  * @return {number}
  */
-var removeDuplicates = function(nums) {
+const removeDuplicates = function (nums) {
   let oldNum = null
   for (let i = 0; i < nums.length; i++) {
-    if (nums[i] === oldNum) {
+    if (nums[i] === oldNum)
       nums[i] = null
-    } else {
+    else
       oldNum = nums[i]
-    }
   }
   let order = 0
   for (let i = 0; i < nums.length; i++) {

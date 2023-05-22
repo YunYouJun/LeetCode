@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-var singleNumber = function(nums) {
+const singleNumber = function (nums) {
   nums.sort()
   let curNum
   let curRecord = 0
@@ -10,11 +10,13 @@ var singleNumber = function(nums) {
     if (nums[i] === curNum) {
       curNum = null
       curRecord -= 1
-    } else {
+    }
+    else {
       if (curRecord === 0) {
         curNum = nums[i]
         curRecord += 1
-      } else {
+      }
+      else {
         return curNum
       }
     }

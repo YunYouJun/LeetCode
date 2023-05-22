@@ -10,23 +10,27 @@
  * @param {ListNode} l2
  * @return {ListNode}
  */
-var addTwoNumbers = function(l1, l2) {
-  let dummyHead = new ListNode(0)
-  let p = l1, q = l2, cur = dummyHead
+const addTwoNumbers = function (l1, l2) {
+  const dummyHead = new ListNode(0)
+  let p = l1
+  let q = l2
+  let cur = dummyHead
   let carry = 0
   while (p || q) {
-    let x = p ? p.val : 0
-    let y = q ? q.val : 0
-    let sum = x + y + carry
+    const x = p ? p.val : 0
+    const y = q ? q.val : 0
+    const sum = x + y + carry
     carry = sum >= 10 ? 1 : 0
     cur.next = new ListNode(sum % 10)
     cur = cur.next
-    if (p) p = p.next
-    if (q) q = q.next
+    if (p)
+      p = p.next
+    if (q)
+      q = q.next
   }
-  if (carry) {
+  if (carry)
     cur.next = new ListNode(carry)
-  }
+
   return dummyHead.next
 }
 

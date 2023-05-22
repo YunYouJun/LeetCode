@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {boolean}
  */
-var isValid = function(s) {
+const isValid = function (s) {
   const stack = []
   let shift = ''
   const l = s.length
@@ -10,39 +10,38 @@ var isValid = function(s) {
   for (let i = 0; i < l; i++) {
     shift = s.shift()
     switch (shift) {
-    case '(':
-    case '[':
-    case '{':
-      stack.push(shift)
-      break
-    case ')':
-      if (stack[stack.length - 1] === '(') {
-        stack.pop()
-      } else {
-        return false
-      }
-      break
-    case ']':
-      if (stack[stack.length - 1] === '[') {
-        stack.pop()
-      } else {
-        return false
-      }
-      break
-    case '}':
-      if (stack[stack.length - 1] === '{') {
-        stack.pop()
-      } else {
-        return false
-      }
-      break
-    default:
-      break
+      case '(':
+      case '[':
+      case '{':
+        stack.push(shift)
+        break
+      case ')':
+        if (stack[stack.length - 1] === '(')
+          stack.pop()
+        else
+          return false
+
+        break
+      case ']':
+        if (stack[stack.length - 1] === '[')
+          stack.pop()
+        else
+          return false
+
+        break
+      case '}':
+        if (stack[stack.length - 1] === '{')
+          stack.pop()
+        else
+          return false
+
+        break
+      default:
+        break
     }
   }
-  if (stack.length === 0) {
+  if (stack.length === 0)
     return true
-  } else {
+  else
     return false
-  }
 }

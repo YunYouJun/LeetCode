@@ -4,14 +4,14 @@
  * @param {string} S
  * @return {string}
  */
-var smallestEquivalentString = function(A, B, S) {
-  let dic = {}
-  for (let i = 0; i < 26; i++) {
+const smallestEquivalentString = function (A, B, S) {
+  const dic = {}
+  for (let i = 0; i < 26; i++)
     dic[String.fromCharCode(97 + i)] = String.fromCharCode(97 + i)
-  }
 
   function get(x) {
-    if (dic[x] === x) return x
+    if (dic[x] === x)
+      return x
     return dic[x] = get(dic[x])
   }
 
@@ -19,21 +19,20 @@ var smallestEquivalentString = function(A, B, S) {
     x = get(x)
     y = get(y)
     if (x < y) {
-      let temp = y
+      const temp = y
       y = x
       x = temp
     }
     dic[x] = y
   }
 
-  for (let i = 0; i < A.length; i++) {
+  for (let i = 0; i < A.length; i++)
     merge(A[i], B[i])
-  }
 
   let res = ''
-  for (let i = 0; i < S.length; i++) {
+  for (let i = 0; i < S.length; i++)
     res += get(S[i])
-  }
+
   return res
 }
 

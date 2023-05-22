@@ -3,11 +3,11 @@
  * @param {number[][]} queries
  * @return {number[]}
  */
-var sumEvenAfterQueries = function(A, queries) {
-  let answer = []
+const sumEvenAfterQueries = function (A, queries) {
+  const answer = []
   for (let i = 0; i < queries.length; i++) {
-    let val = queries[i][0]
-    let index = queries[i][1]
+    const val = queries[i][0]
+    const index = queries[i][1]
     A[index] += val
     answer[i] = A.filter(v => v % 2 === 0).reduce((sum, cur) => sum + cur, 0)
   }

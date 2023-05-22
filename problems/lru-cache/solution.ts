@@ -19,7 +19,8 @@ class LRUCache {
       this.cache.unshift(item)
 
       return item[1]
-    } else {
+    }
+    else {
       return -1
     }
   }
@@ -31,7 +32,8 @@ class LRUCache {
     if (i === -1) {
       this.cache.pop()
       this.cache.unshift([key, value])
-    } else {
+    }
+    else {
       this.cache = this.cache.slice(0, i).concat(this.cache.slice(i + 1))
       this.cache.unshift([key, value])
     }

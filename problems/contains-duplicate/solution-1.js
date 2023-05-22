@@ -2,16 +2,15 @@
  * @param {number[]} nums
  * @return {boolean}
  */
-var containsDuplicate = function(nums) {
+const containsDuplicate = function (nums) {
   nums.sort()
   let oldNum
   for (let i = 0; i < nums.length; i++) {
     const num = nums[i]
-    if (num === oldNum) {
+    if (num === oldNum)
       return true
-    } else {
+    else
       oldNum = num
-    }
   }
   return false
 }

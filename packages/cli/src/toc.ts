@@ -1,10 +1,10 @@
-import fs from 'fs-extra'
 import path from 'node:path'
+import fs from 'fs-extra'
+
+import type { Problem } from './types'
 
 const leetcode_url = 'https://leetcode-cn.com/problems/'
 const github_url = 'https://github.com/YunYouJun/LeetCode/tree/master/'
-
-import { Problem } from './types'
 
 /**
  * 获取当前已完成的所有题目信息
@@ -25,7 +25,7 @@ export function getAllProblems() {
 
   problemsFolder.forEach((problemFolder) => {
     const info = fs.readJsonSync(
-      `${rootFolder}/${problemsPath}/${problemFolder}/package.json`
+      `${rootFolder}/${problemsPath}/${problemFolder}/package.json`,
     )
     problems.push(info)
   })
@@ -43,12 +43,12 @@ export function getAllProblems() {
  * @param {*} problem
  */
 export function readLanguageByExt(problem: Problem) {
-  let extname = new Set<string>()
-  let problem_path = 'problems/' + problem.index
-  let files = fs.readdirSync(problem_path)
-  for (const file of files) {
+  const extname = new Set<string>()
+  const problem_path = `problems/${problem.index}`
+  const files = fs.readdirSync(problem_path)
+  for (const file of files)
     extname.add(path.extname(file).slice(1))
-  }
+
   return [...Array.from(extname)].join('/')
 }
 
@@ -71,7 +71,7 @@ export function getProblemById(id: string, problems: Problem[]) {
 export function generateProblemMd(problem: Problem) {
   return `|${problem.id}|[${problem.title}](${leetcode_url + problem.index})|[${
     problem.index
-  }](${github_url + 'problems/' + problem.index})|${problem.difficulty}|${
+  }](${`${github_url}problems/${problem.index}`})|${problem.difficulty}|${
     problem.language
   }|\n`
 }

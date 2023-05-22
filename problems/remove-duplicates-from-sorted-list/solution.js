@@ -9,15 +9,14 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-var deleteDuplicates = function(head) {
+const deleteDuplicates = function (head) {
   let p = head
   if (head) {
     while (p.next) {
-      if (p.val === p.next.val) {
+      if (p.val === p.next.val)
         p.next = p.next.next
-      } else {
+      else
         p = p.next
-      }
     }
   }
   return head
