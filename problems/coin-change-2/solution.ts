@@ -1,14 +1,13 @@
 import { testFunction } from '@/utils'
 
 function change(amount: number, coins: number[]): number {
-  const dp = []
+  const dp: any[] = []
   dp.length = amount + 1
   dp.fill(0)
   dp[0] = 1
 
-  for (const coin of coins) {
+  for (const coin of coins)
     for (let i = coin; i < amount + 1; i++) dp[i] += dp[i - coin]
-  }
 
   return dp[amount]
 }

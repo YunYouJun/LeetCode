@@ -88,7 +88,8 @@ export async function promptID(category = 'leetcode') {
   ]
 
   if (categoryMap[category].id.type === 'number') {
-    questions[0].validate = (val) => {
+    // @ts-expect-error validate
+    questions[0].validate = (val: any) => {
       if (Number.isInteger(parseInt(val)))
         return true
       else

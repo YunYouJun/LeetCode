@@ -22,7 +22,8 @@
     "lint": "eslint .",
     "start": "tsx ./packages/cli/src/index.ts start",
     "solve": "leet solve",
-    "test": "vitest"
+    "test": "vitest",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@yunyoujun/leetcode": "./packages/cli",

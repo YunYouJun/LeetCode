@@ -10,7 +10,8 @@ function maxRepeating(sequence: string, word: string): number {
       i += word.length
       temp += 1
       count = Math.max(count, temp)
-    } else {
+    }
+    else {
       i += temp > 0 ? 1 - word.length : 1
       temp = 0
     }

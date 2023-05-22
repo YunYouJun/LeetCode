@@ -1,6 +1,6 @@
 import type { TreeNode } from '../../helpers/ts/TreeNode'
 
-function maxDepth(root: TreeNode | null): number {
+export function maxDepth(root: TreeNode | null): number {
   if (!root)
     return 0
 

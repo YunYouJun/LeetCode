@@ -8,7 +8,8 @@ function purchasePlans(nums: number[], target: number): number {
   while (i < j) {
     if (nums[i] + nums[j] > target) {
       j -= 1
-    } else {
+    }
+    else {
       ans += j - i
       i += 1
     }

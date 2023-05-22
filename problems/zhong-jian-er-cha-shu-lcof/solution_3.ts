@@ -1,5 +1,5 @@
 // Definition for a binary tree node.
-import { testFunction } from '../../utils'
+import { testFunction } from '@/utils'
 
 class TreeNode {
   val: number
@@ -13,7 +13,7 @@ class TreeNode {
 }
 
 function arrayToTree(arr: any[]) {
-  const nodeList = arr.map((item) => (item ? new TreeNode(item) : item))
+  const nodeList = arr.map(item => (item ? new TreeNode(item) : item))
   nodeList.forEach((item, index) => {
     if (item && index * 2 + 1 < nodeList.length) {
       item.left = nodeList[index * 2 + 1]
@@ -30,7 +30,8 @@ function arrayToTree(arr: any[]) {
  * @param inorder
  */
 function buildTree(preorder: number[], inorder: number[]): TreeNode | null {
-  if (preorder.length < 1) return null
+  if (preorder.length < 1)
+    return null
 
   const root = new TreeNode(preorder[0])
   const index = inorder.indexOf(root.val)

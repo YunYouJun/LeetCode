@@ -1,7 +1,7 @@
 import { testFunction } from '@/utils'
 
 function coinChange(coins: number[], amount: number): number {
-  const dp = []
+  const dp: any[] = []
   dp.length = amount + 1
   dp.fill(Infinity, 0)
   dp[0] = 0

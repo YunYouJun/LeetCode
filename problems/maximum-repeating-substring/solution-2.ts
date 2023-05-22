@@ -4,7 +4,8 @@ import { testFunction } from '@/utils'
 function maxRepeating(sequence: string, word: string): number {
   let count = 1
   while (word.length * count <= sequence.length) {
-    if (sequence.includes(word.repeat(count))) count += 1
+    if (sequence.includes(word.repeat(count)))
+      count += 1
     else break
   }
   return count - 1
