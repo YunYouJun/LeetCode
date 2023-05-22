@@ -11,20 +11,18 @@ function merge(nums1: number[], m: number, nums2: number[], n: number): void {
     if (nums1[i] > nums2[j]) {
       nums1[k] = nums1[i]
       i -= 1
-    }
-    else {
+    } else {
       nums1[k] = nums2[j]
       j -= 1
     }
     k -= 1
   }
 
-  if (j >= 0)
-    nums1.splice(0, j + 1, ...nums2.slice(0, j + 1))
+  if (j >= 0) nums1.splice(0, j + 1, ...nums2.slice(0, j + 1))
 }
 const testcases = [
   [[1, 2, 3, 0, 0, 0], 3],
   [[2, 5, 6], 3],
 ]
-const expectedReults = []
-testFunction(merge, testcases, expectedReults)
+const expectedResults = []
+testFunction(merge, testcases, expectedResults)

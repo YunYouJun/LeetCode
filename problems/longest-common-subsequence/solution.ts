@@ -7,10 +7,8 @@ function longestCommonSubsequence(text1: string, text2: string): number {
 
   for (let i = 1; i <= m; i++) {
     for (let j = 1; j <= n; j++) {
-      if (text1[i - 1] === text2[j - 1])
-        dp[i][j] = dp[i - 1][j - 1] + 1
-      else
-        dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1])
+      if (text1[i - 1] === text2[j - 1]) dp[i][j] = dp[i - 1][j - 1] + 1
+      else dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1])
     }
   }
 
@@ -21,5 +19,5 @@ const testcases = [
   ['abc', 'abc'],
   ['abc', 'def'],
 ]
-const expectedReults = [3, 3, 0]
-testFunction(longestCommonSubsequence, testcases, expectedReults)
+const expectedResults = [3, 3, 0]
+testFunction(longestCommonSubsequence, testcases, expectedResults)

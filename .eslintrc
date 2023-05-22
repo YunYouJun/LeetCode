@@ -1,6 +1,5 @@
 {
   "extends": [
-    "eslint:recommended",
     "@antfu"
   ],
   "parserOptions": {

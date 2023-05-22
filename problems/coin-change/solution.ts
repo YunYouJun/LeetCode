@@ -18,5 +18,5 @@ const testcases = [
   [[1], 1],
   [[1], 2],
 ]
-const expectedReults = [3, -1, 0, 1, 2]
-testFunction(coinChange, testcases, expectedReults)
+const expectedResults = [3, -1, 0, 1, 2]
+testFunction(coinChange, testcases, expectedResults)
