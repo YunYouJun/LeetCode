@@ -1,0 +1,7 @@
+{
+  "id": 2628,
+  "title": "完全相等的 JSON 字符串",
+  "index": "json-deep-equal",
+  "difficulty": "medium",
+  "language": "ts"
+}

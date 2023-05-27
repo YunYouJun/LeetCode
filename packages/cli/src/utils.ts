@@ -40,7 +40,7 @@ export function writeProblemInfo(info: Problem) {
 
   fs.writeFileSync(
     `${problemFolder}/package.json`,
-    JSON.stringify(info, null, 2),
+    `${JSON.stringify(info, null, 2)}\n`,
   )
 
   const templateText = getTemplateByLanguage(info.language)
