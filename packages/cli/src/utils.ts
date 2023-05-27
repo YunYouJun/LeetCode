@@ -46,6 +46,11 @@ export function writeProblemInfo(info: Problem) {
   const templateText = getTemplateByLanguage(info.language)
   if (templateText)
     fs.writeFileSync(`${problemFolder}/solution.${info.language}`, templateText)
+
+  if (info.language === 'ts') {
+    const testTemplateText = fs.readFileSync('templates/index.test.ts', 'utf-8')
+    fs.writeFileSync(`${problemFolder}/index.test.ts`, testTemplateText)
+  }
 }
 
 /**

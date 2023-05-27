@@ -3,6 +3,6 @@ export interface Problem {
   index: string
   title: string
   difficulty: string
-  language: string
+  language: string | 'ts' | 'js' | 'py'
   category: string
 }
