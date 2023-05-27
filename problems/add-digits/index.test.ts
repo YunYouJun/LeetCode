@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { addDigits } from './solution'
+import { addDigits } from './solution-1'
 
 describe('', () => {
   it('should work', () => {
