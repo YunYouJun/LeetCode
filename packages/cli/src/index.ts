@@ -15,6 +15,7 @@ import { logger } from './logger'
 
 import { generateToc } from './generateTOC'
 import { categoryMap } from './common'
+import { languages } from './types'
 
 program.name('leet').version(pkg.version)
 
@@ -63,8 +64,8 @@ program.command('start').action(async () => {
       type: 'list',
       name: 'language',
       message: '使用语言: ',
-      choices: ['py', 'js', 'ts'],
-      default: 'py',
+      choices: languages,
+      default: 'ts',
     },
   ]
   const answers = await inquirer.prompt(questions)

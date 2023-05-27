@@ -3,11 +3,6 @@ import { } from './solution'
 
 describe('', () => {
   it('should work', () => {
-    expect(
-      // 1
-      1,
-    ).toStrictEqual(
-      1,
-    )
+    expect(1).toBe(1)
   })
 })
