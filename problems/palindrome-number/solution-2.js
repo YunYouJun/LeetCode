@@ -9,7 +9,7 @@ const isPalindrome = function (x) {
   let revertedNum = 0
   while (x > revertedNum) {
     revertedNum = revertedNum * 10 + x % 10
-    x = parseInt(x / 10)
+    x = Number.parseInt(x / 10)
   }
-  return revertedNum === x || parseInt(revertedNum / 10) === x
+  return revertedNum === x || Number.parseInt(revertedNum / 10) === x
 }

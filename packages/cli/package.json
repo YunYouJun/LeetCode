@@ -18,9 +18,6 @@
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "bin": {
-    "leet": "dist/index.js"
-  },
   "scripts": {
     "build": "unbuild",
     "dev": "unbuild --stub",
@@ -29,7 +26,7 @@
   },
   "dependencies": {
     "@yunyoujun/logger": "^0.3.5",
-    "commander": "^10.0.1",
-    "inquirer": "^9.2.6"
+    "commander": "^11.0.0",
+    "inquirer": "^9.2.7"
   }
 }

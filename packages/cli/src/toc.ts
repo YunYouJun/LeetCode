@@ -60,7 +60,7 @@ export function readLanguageByExt(problem: Problem) {
  */
 export function getProblemById(id: string, problems: Problem[]) {
   return problems.find((problem) => {
-    return problem.id === parseInt(id)
+    return problem.id === Number.parseInt(id)
   })
 }
 

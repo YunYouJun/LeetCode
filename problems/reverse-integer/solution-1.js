@@ -7,7 +7,7 @@
  */
 function reverseNumber(x) {
   const s = x.toString()
-  return parseInt(s.split('').reverse().join(''))
+  return Number.parseInt(s.split('').reverse().join(''))
 }
 
 const reverse = function (x) {

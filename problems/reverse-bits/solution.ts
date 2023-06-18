@@ -9,5 +9,5 @@ function reverseBits(n: number): number {
   for (let i = 0; i < 32 - length; i++)
     binary = `0${binary}`
 
-  return parseInt(binary.split('').reverse().join(''), 2)
+  return Number.parseInt(binary.split('').reverse().join(''), 2)
 }

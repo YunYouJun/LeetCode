@@ -38,7 +38,7 @@ program.command('start').action(async () => {
   }
 
   if (categoryMap[category].id.type === 'number')
-    extraInfo.id = parseInt(id)
+    extraInfo.id = Number.parseInt(id)
 
   if (category !== 'leetcode')
     extraInfo.category = category

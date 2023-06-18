@@ -15,7 +15,7 @@ const isValidSudoku = function (board) {
     for (let j = 0; j < 9; j++) {
       const num = board[i][j]
       if (num !== '.') {
-        const n = parseInt(num)
+        const n = Number.parseInt(num)
         const box_index = Math.floor((i / 3)) * 3 + Math.floor(j / 3)
         rows[i].set(n, rows[i].get(n) ? rows[i].get(n) + 1 : 1)
         columns[j].set(n, columns[j].get(n) ? columns[j].get(n) + 1 : 1)

@@ -95,7 +95,7 @@ export async function promptID(category = 'leetcode') {
   if (categoryMap[category].id.type === 'number') {
     // @ts-expect-error validate
     questions[0].validate = (val: any) => {
-      if (Number.isInteger(parseInt(val)))
+      if (Number.isInteger(Number.parseInt(val)))
         return true
       else
         return '题目 ID 应当是一个整数'
@@ -118,7 +118,7 @@ export function findProblemByID(id: string, category = 'leetcode') {
     let isValidCategory = problem.category === category
 
     if (categoryMap[category].id.type === 'number')
-      isValidId = problem.id === parseInt(id)
+      isValidId = problem.id === Number.parseInt(id)
     else
       isValidId = problem.id === id
 

@@ -17,7 +17,7 @@ const calPoints = function (ops) {
         stack.pop()
         break
       default:
-        stack.push(parseInt(op))
+        stack.push(Number.parseInt(op))
         break
     }
   }

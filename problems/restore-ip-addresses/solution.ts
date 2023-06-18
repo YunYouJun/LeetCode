@@ -24,7 +24,7 @@ export function restoreIpAddresses(s: string): string[] {
 
     let addr = 0
     for (let segEnd = segStart; segEnd < s.length; segEnd++) {
-      addr = addr * 10 + parseInt(s[segEnd])
+      addr = addr * 10 + Number.parseInt(s[segEnd])
 
       if (addr > 0 && addr <= 255) {
         segments[segId] = addr
