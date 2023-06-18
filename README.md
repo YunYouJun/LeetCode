@@ -39,8 +39,7 @@ npm run lint
 
 - [cli: @yunyoujun/leetcode](./packages/cli): [![npm (scoped)](https://img.shields.io/npm/v/@yunyoujun/leetcode)](https://www.npmjs.com/package/@yunyoujun/leetcode)
 
-## TODO
+## FAQ
 
-- [ ] vitest bug [RangeError: Maximum call stack size exceeded](https://github.com/vitest-dev/vitest/issues/3060)
-
-Works well when local.
+- [x] vitest bug [RangeError: Maximum call stack size exceeded](https://github.com/vitest-dev/vitest/issues/3060)
+  - Caused by `.env`. `PYTHONPATH=${workspaceFolder}:${PYTHONPATH}`

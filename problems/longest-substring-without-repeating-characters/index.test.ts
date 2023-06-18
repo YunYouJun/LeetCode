@@ -7,7 +7,7 @@ describe('', () => {
   })
 
   it('same numbers', () => {
-    expect('bbbbb').toBe(1)
-    expect('pwwkew').toBe(3)
+    expect(lengthOfLongestSubstring('bbbbb')).toBe(1)
+    expect(lengthOfLongestSubstring('pwwkew')).toBe(3)
   })
 })
