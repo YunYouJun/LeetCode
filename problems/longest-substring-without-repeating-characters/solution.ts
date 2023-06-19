@@ -5,11 +5,10 @@ export function lengthOfLongestSubstring(s: string): number {
 
   const charSet = new Set<string>()
   s.split('').forEach((_char, i) => {
-    if (i !== 0) {
+    if (i !== 0)
       charSet.delete(s[i - 1])
-    }
 
-    while (right + 1< s.length && !charSet.has(s[right + 1])) {
+    while (right + 1 < s.length && !charSet.has(s[right + 1])) {
       charSet.add(s[right + 1])
       right++
     }
