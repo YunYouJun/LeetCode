@@ -11,8 +11,16 @@
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
     "paths": {
-      "@/*": ["packages/*"]
+      "@/*": [
+        "packages/*"
+      ],
+      "@yunyoujun/leetcode-*": [
+        "packages/*/src"
+      ],
     }
   },
-  "exclude": ["**/dist/**", "node_modules"]
+  "exclude": [
+    "**/dist/**",
+    "node_modules"
+  ]
 }

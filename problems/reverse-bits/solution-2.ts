@@ -1,4 +1,4 @@
-import { testFunction } from '@/utils'
+import { testFunction } from '@/utils/src'
 
 function reverseBits(n: number): number {
   let rev = 0

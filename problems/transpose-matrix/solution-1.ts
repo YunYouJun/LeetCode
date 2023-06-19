@@ -2,7 +2,7 @@
  * 转置矩阵
  * @param matrix
  */
-import { testFunction } from '@/utils'
+import { testFunction } from '@/utils/src'
 
 function transpose(matrix: number[][]): number[][] {
   const ans = []

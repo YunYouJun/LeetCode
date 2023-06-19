@@ -1,4 +1,4 @@
-import { testFunction } from '@/utils'
+import { testFunction } from '@/utils/src'
 
 function largeGroupPositions(s: string): number[][] {
   let start = 0

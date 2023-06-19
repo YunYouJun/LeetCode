@@ -1,6 +1,6 @@
 import { reverseBits } from './solution-3'
 
-import { testFunction } from '@/utils'
+import { testFunction } from '@/utils/src'
 
 const testcases = [
   0b00000010100101000001111010011100, 0b11111111111111111111111111111101,

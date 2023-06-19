@@ -13,5 +13,8 @@
     "source.fixAll.eslint": true
   },
   "editor.formatOnSave": true,
-  "python.envFile": "${workspaceFolder}/.env"
+  "python.envFile": "${workspaceFolder}/.env",
+  "cSpell.words": [
+    "leetcode"
+  ]
 }
