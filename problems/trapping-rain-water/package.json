@@ -1,0 +1,7 @@
+{
+  "id": 42,
+  "title": "接雨水",
+  "index": "trapping-rain-water",
+  "difficulty": "hard",
+  "language": "ts"
+}
