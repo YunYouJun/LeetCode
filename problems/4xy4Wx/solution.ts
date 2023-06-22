@@ -1,4 +1,4 @@
-import { testFunction } from '@/utils/src'
+import { testFunction } from '@/utils'
 
 function purchasePlans(nums: number[], target: number): number {
   nums.sort((a, b) => a - b)

@@ -1,4 +1,4 @@
-import { testFunction } from '@/utils/src'
+import { testFunction } from '@/utils'
 
 function longestCommonSubsequence(text1: string, text2: string): number {
   const m = text1.length

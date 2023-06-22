@@ -1,5 +1,5 @@
 //  连续重复 k 次
-import { testFunction } from '@/utils/src'
+import { testFunction } from '@/utils'
 
 function maxRepeating(sequence: string, word: string): number {
   let count = 0

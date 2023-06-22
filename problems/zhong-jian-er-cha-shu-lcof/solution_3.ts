@@ -1,5 +1,5 @@
 // Definition for a binary tree node.
-import { testFunction } from '@/utils/src'
+import { testFunction } from '@/utils'
 
 class TreeNode {
   val: number

@@ -16,7 +16,7 @@
       ],
       "@/*": [
         "packages/*/src"
-      ],
+      ]
     }
   },
   "exclude": [

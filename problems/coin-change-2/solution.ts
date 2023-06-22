@@ -1,4 +1,4 @@
-import { testFunction } from '@/utils/src'
+import { testFunction } from '@/utils'
 
 function change(amount: number, coins: number[]): number {
   const dp: any[] = []
