@@ -267,6 +267,8 @@ importers:
 
   problems/k-th-symbol-in-grammar: {}
 
+  problems/kth-largest-element-in-an-array: {}
+
   problems/kth-smallest-element-in-a-bst: {}
 
   problems/largest-number-at-least-twice-of-others: {}
@@ -474,6 +476,8 @@ importers:
   problems/to-lower-case: {}
 
   problems/transpose-matrix: {}
+
+  problems/trapping-rain-water: {}
 
   problems/trim-a-binary-search-tree: {}
 
