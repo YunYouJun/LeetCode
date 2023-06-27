@@ -3,7 +3,7 @@ import { debounce } from './solution'
 
 const start = Date.now()
 const log = vi.fn((...inputs: any[]) => {
-  console.log([Date.now() - start, ...inputs])
+  // console.log([Date.now() - start, ...inputs])
 })
 const dlog = debounce(log, 50)
 

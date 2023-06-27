@@ -18,6 +18,7 @@
   "scripts": {
     "build": "npm run generate:TOC && cp public/* dist",
     "build:cli": "pnpm -C packages/cli build",
+    "dev": "npm run test",
     "generate:TOC": "tsx ./packages/cli/src/index.ts generate",
     "lint": "eslint .",
     "start": "tsx ./packages/cli/src/index.ts start",
