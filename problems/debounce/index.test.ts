@@ -1,7 +1,7 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { debounce } from './solution'
 
-const start = Date.now()
+// const start = Date.now()
 const log = vi.fn((...inputs: any[]) => {
   // console.log([Date.now() - start, ...inputs])
 })

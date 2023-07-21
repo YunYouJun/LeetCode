@@ -4,7 +4,7 @@
 
 > 用优雅的方式刷题吧！
 
-[LeetCode](https://leetcode-cn.com) Practice [TOC 目录](https://yunyoujun.cn/LeetCode/index.html)
+[LeetCode](https://leetcode-cn.com) Practice [TOC 目录](https://yunyoujun.github.io/LeetCode/)
 
 ## Language
 
