@@ -6,7 +6,7 @@
  * @param expectedResults 预期结果
  */
 export function testFunction(
-  callback: Function,
+  callback: () => void,
   testcases: any[],
   expectedResults?: any[],
 ) {

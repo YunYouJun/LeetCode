@@ -6,7 +6,7 @@
 export const convert = function (s, numRows) {
   if (numRows === 1)
     return s
-  const rows = Array.from({ length: numRows }).fill('')
+  const rows = Array.from({ length: numRows }, () => '')
   let curRow = 0
   let goingDown = false
   const ans = ''

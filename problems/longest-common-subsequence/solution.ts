@@ -15,6 +15,7 @@ function longestCommonSubsequence(text1: string, text2: string): number {
 
   return dp[m][n]
 }
+
 const testcases = [
   ['abcde', 'ace'],
   ['abc', 'abc'],
