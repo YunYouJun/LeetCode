@@ -2,22 +2,17 @@
   "compilerOptions": {
     "baseUrl": ".",
     "module": "ESNext",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
     "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "noUnusedLocals": true,
-    "strictNullChecks": true,
-    "forceConsistentCasingInFileNames": true,
     "paths": {
-      "@yunyoujun/leetcode-*": [
-        "packages/*/src"
-      ],
-      "@/*": [
-        "packages/*/src"
-      ]
-    }
+      "@/*": ["packages/*"]
+    },
+    "resolveJsonModule": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
   },
   "exclude": [
     "**/dist/**",

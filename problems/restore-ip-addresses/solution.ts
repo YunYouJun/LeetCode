@@ -1,6 +1,6 @@
 export function restoreIpAddresses(s: string): string[] {
   const SEG_COUNT = 4
-  const segments: number[] = new Array(SEG_COUNT)
+  const segments: number[] = Array.from({ length: SEG_COUNT })
 
   const ans: string[] = []
 

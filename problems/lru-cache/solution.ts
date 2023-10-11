@@ -6,7 +6,7 @@
 class LRUCache {
   cache: (null | [number, number])[]
   constructor(capacity: number) {
-    this.cache = new Array(capacity)
+    this.cache = Array.from({ length: capacity })
   }
 
   get(key: number): number {

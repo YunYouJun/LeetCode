@@ -1,7 +1,6 @@
 /**
  * 超时
  * @param height
- * @returns
  */
 export function maxArea(height: number[]): number {
   const sortedHeight: number[][] = []

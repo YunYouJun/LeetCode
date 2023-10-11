@@ -4,7 +4,7 @@
  */
 const binaryGap = function (N) {
   let res = 0
-  let d = -Infinity
+  let d = Number.NEGATIVE_INFINITY
   while (N > 0) {
     if (N & 1) {
       res = Math.max(res, d)

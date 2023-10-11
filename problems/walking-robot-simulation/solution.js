@@ -3,7 +3,7 @@
  * @param {number[][]} obstacles
  * @return {number}
  */
-const robotSim = function (commands, obstacles) {
+export const robotSim = function (commands, obstacles) {
   const pos = [0, 0]
   let curDir = 0
   const direction = [

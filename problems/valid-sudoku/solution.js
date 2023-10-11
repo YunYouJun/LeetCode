@@ -2,7 +2,7 @@
  * @param {character[][]} board
  * @return {boolean}
  */
-const isValidSudoku = function (board) {
+export const isValidSudoku = function (board) {
   const rows = []
   const columns = []
   const boxes = []

@@ -2,7 +2,7 @@
  * @param {number[][]} grid
  * @return {number}
  */
-const projectionArea = function (grid) {
+export const projectionArea = function (grid) {
   let xy = 0
   let yz = 0
   let zx = 0

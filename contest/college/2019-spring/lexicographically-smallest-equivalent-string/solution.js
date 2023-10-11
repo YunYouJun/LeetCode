@@ -4,7 +4,7 @@
  * @param {string} S
  * @return {string}
  */
-const smallestEquivalentString = function (A, B, S) {
+export const smallestEquivalentString = function (A, B, S) {
   const dic = {}
   for (let i = 0; i < 26; i++)
     dic[String.fromCharCode(97 + i)] = String.fromCharCode(97 + i)

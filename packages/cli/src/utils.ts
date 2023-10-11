@@ -67,7 +67,6 @@ export function getTemplateByLanguage(language: string) {
 
 /**
  * prompt for category
- * @returns
  */
 export async function promptCategory() {
   const questions = [
@@ -110,7 +109,6 @@ export async function promptID(category = 'leetcode') {
  * 根据 ID 查找问题
  * @param {*} id
  * @param {*} category
- * @returns
  */
 export function findProblemByID(id: string, category = 'leetcode') {
   return problems.find((problem) => {

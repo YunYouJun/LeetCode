@@ -1,8 +1,9 @@
-/** 循环记录次数
+/**
+ * 循环记录次数
  * @param {number[]} nums
  * @return {number}
  */
-const singleNumber = function (nums) {
+export const singleNumber = function (nums) {
   const dic = {}
   const length = nums.length
   for (let i = 0; i < length; i++) {

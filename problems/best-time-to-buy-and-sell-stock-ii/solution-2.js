@@ -1,4 +1,5 @@
-/** 峰谷法
+/**
+ * 峰谷法
  * @param {number[]} prices
  * @return {number}
  */

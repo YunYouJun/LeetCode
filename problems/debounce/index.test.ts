@@ -2,9 +2,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { debounce } from './solution'
 
 // const start = Date.now()
-const log = vi.fn((...inputs: any[]) => {
-  // console.log([Date.now() - start, ...inputs])
-})
+const log = vi.fn((...inputs: any[]) => {})
 const dlog = debounce(log, 50)
 
 describe('debounce', () => {

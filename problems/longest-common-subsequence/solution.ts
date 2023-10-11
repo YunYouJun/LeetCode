@@ -3,7 +3,7 @@ import { testFunction } from '@/utils'
 function longestCommonSubsequence(text1: string, text2: string): number {
   const m = text1.length
   const n = text2.length
-  const dp = new Array(m + 1).fill(0).map(() => new Array(n + 1).fill(0))
+  const dp = Array.from<number>({ length: m + 1 }).fill(0).map(() => Array.from<number>({ length: n + 1 }).fill(0))
 
   for (let i = 1; i <= m; i++) {
     for (let j = 1; j <= n; j++) {

@@ -1,4 +1,5 @@
-/** 与 solution-1 大同小异
+/**
+ * 与 solution-1 大同小异
  * Definition for a binary tree node.
  * function TreeNode(val) {
  *     this.val = val;

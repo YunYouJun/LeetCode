@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /**
  * 测试
  * @param callback 函数
@@ -36,7 +37,6 @@ export function testFunction(
  * 深层比较
  * @param a
  * @param b
- * @returns
  */
 function isEqual(a: any, b: any) {
   // 除了引用类型都可以判断

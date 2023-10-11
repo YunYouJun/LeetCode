@@ -1,4 +1,5 @@
-/** 超时
+/**
+ * 超时
  * @param {number[]} A
  * @param {number[][]} queries
  * @return {number[]}

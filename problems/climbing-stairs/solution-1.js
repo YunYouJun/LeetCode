@@ -1,4 +1,5 @@
-/** 超时
+/**
+ * 超时
  * @param {number} n
  * @return {number}
  */

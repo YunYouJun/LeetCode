@@ -9,7 +9,7 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-const middleNode = function (head) {
+export const middleNode = function (head) {
   let slow = head
   let fast = head
   while (fast && fast.next) {

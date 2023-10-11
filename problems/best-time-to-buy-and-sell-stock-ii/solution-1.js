@@ -1,4 +1,5 @@
-/** 暴力法（会超时）
+/**
+ * 暴力法（会超时）
  * @param {number[]} prices
  * @return {number}
  */

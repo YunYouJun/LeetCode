@@ -10,7 +10,7 @@
  * @param {ListNode} l2
  * @return {ListNode}
  */
-const mergeTwoLists = function (l1, l2) {
+export const mergeTwoLists = function (l1, l2) {
   const pre = new ListNode(-1)
   let prev = pre
   while (l1 && l2) {

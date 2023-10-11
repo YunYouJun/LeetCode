@@ -10,7 +10,7 @@ function reverseNumber(x) {
   return Number.parseInt(s.split('').reverse().join(''))
 }
 
-const reverse = function (x) {
+export const reverse = function (x) {
   if (x < -2147483648 || x > 2147483647)
     return 0
 

@@ -1,8 +1,9 @@
-/** 先排序
+/**
+ * 先排序
  * @param {number[]} nums
  * @return {number}
  */
-const singleNumber = function (nums) {
+export const singleNumber = function (nums) {
   nums.sort()
   let curNum
   let curRecord = 0

@@ -2,7 +2,7 @@
  * @param {number} numRows
  * @return {number[][]}
  */
-const generate = function (numRows) {
+export const generate = function (numRows) {
   const triangle = []
   for (let i = 0; i < numRows; i++) {
     triangle[i] = []

@@ -1,9 +1,10 @@
-/** 超时
+/**
+ * 超时
  * @param {number[]} A
  * @param {number[][]} queries
  * @return {number[]}
  */
-const sumEvenAfterQueries = function (A, queries) {
+export const sumEvenAfterQueries = function (A, queries) {
   const answer = []
   for (let i = 0; i < queries.length; i++) {
     const val = queries[i][0]

@@ -3,7 +3,7 @@
  * @param {number} k
  * @return {number}
  */
-const missingElement = function (nums, k) {
+export const missingElement = function (nums, k) {
   let n = nums[0]
   for (let i = 1; i < nums.length; i++) {
     while (n < nums[i] && k) {

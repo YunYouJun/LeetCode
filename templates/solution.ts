@@ -1,3 +1,3 @@
-export function xxx(arr: number): number {
+export function xxx(_arr: number): number {
   return 0
 }

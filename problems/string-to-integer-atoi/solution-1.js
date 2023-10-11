@@ -2,7 +2,7 @@
  * @param {string} str
  * @return {number}
  */
-const myAtoi = function (str) {
+export const myAtoi = function (str) {
   const num = Number.parseInt(str.trim().match(/^[+-]?\d+/g))
   if (Number.isNaN(num))
     return 0

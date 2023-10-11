@@ -2,7 +2,7 @@
  * @param {number[]} A
  * @return {number[]}
  */
-const sortedSquares = function (A) {
+export const sortedSquares = function (A) {
   const N = A.length
   let j = 0
   while (j < N && A[j] < 0)

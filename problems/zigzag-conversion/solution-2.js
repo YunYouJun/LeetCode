@@ -3,7 +3,7 @@
  * @param {number} numRows
  * @return {string}
  */
-const convert = function (s, numRows) {
+export const convert = function (s, numRows) {
   if (numRows === 1)
     return s
   let ans = ''

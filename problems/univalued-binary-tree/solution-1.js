@@ -9,7 +9,7 @@
  * @param {TreeNode} root
  * @return {boolean}
  */
-const isUnivalTree = function (root) {
+export const isUnivalTree = function (root) {
   const vals = []
   function dfs(node) {
     if (node) {

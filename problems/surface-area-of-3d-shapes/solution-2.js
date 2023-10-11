@@ -2,7 +2,7 @@
  * @param {number[][]} grid
  * @return {number}
  */
-const surfaceArea = function (grid) {
+export const surfaceArea = function (grid) {
   let area = 0
   for (let i = 0; i < grid.length; i++) {
     for (let j = 0; j < grid.length; j++) {

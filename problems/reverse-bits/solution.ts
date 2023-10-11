@@ -1,7 +1,6 @@
 /**
  * 字符串方式
  * @param n
- * @returns
  */
 function reverseBits(n: number): number {
   let binary = n.toString(2)

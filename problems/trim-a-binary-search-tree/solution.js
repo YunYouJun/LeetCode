@@ -11,7 +11,7 @@
  * @param {number} R
  * @return {TreeNode}
  */
-const trimBST = function (root, L, R) {
+export const trimBST = function (root, L, R) {
   if (!root)
     return root
   if (root.val > R)

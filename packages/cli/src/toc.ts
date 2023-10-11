@@ -1,4 +1,5 @@
 import path from 'node:path'
+import process from 'node:process'
 import fs from 'fs-extra'
 
 import type { Problem } from './types'
@@ -56,7 +57,6 @@ export function readLanguageByExt(problem: Problem) {
  * return problem info by id
  *
  * @param {*} id
- * @returns
  */
 export function getProblemById(id: string, problems: Problem[]) {
   return problems.find((problem) => {

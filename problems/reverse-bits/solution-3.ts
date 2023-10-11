@@ -1,7 +1,6 @@
 /**
  * 分治
  * @param n
- * @returns
  */
 export function reverseBits(n: number): number {
   const M1 = 0x55555555 // 01010101010101010101010101010101

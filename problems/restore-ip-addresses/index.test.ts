@@ -18,7 +18,7 @@ describe('restore-ip-addresses', () => {
     )
   })
 
-  it('should work', () => {
+  it('101023', () => {
     expect(
       restoreIpAddresses('101023'),
     ).toStrictEqual(

@@ -2,7 +2,7 @@
  * @param {number[]} A
  * @return {boolean}
  */
-const isMonotonic = function (A) {
+export const isMonotonic = function (A) {
   return increasing(A) || decreasing(A)
   function increasing(A) {
     for (let i = 0; i < A.length - 1; i++) {

@@ -3,10 +3,10 @@
  * @param {number} numRows
  * @return {string}
  */
-const convert = function (s, numRows) {
+export const convert = function (s, numRows) {
   if (numRows === 1)
     return s
-  const rows = new Array(numRows).fill('')
+  const rows = Array.from({ length: numRows }).fill('')
   let curRow = 0
   let goingDown = false
   const ans = ''
