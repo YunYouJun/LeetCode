@@ -1,11 +1,12 @@
-#!/usr/bin/env node
 import process from 'node:process'
 import { program } from 'commander'
 import inquirer from 'inquirer'
 
+import chalk from 'chalk'
 import pkg from '../package.json'
 import {
   findProblemByID,
+  findProblemByIndex,
   promptCategory,
   promptID,
   pushSolvedProblem,
@@ -17,12 +18,51 @@ import { logger } from './logger'
 import { generateToc } from './generateTOC'
 import { categoryMap } from './common'
 import { languages } from './types'
+import { queryQuestionByTitleSlug } from '@/api'
 
 program.name('leet').version(pkg.version)
+
+export function promptLanguage() {
+  return inquirer.prompt([{
+    type: 'list',
+    name: 'language',
+    message: '使用语言: ',
+    choices: languages,
+    default: 'ts',
+  }])
+}
 
 // 开始问题
 program.command('start').action(async () => {
   const category = await promptCategory()
+  if (category === 'leetcode') {
+    const answers = await inquirer.prompt([{
+      type: 'input',
+      name: 'titleSlug',
+      message: '请输入 titleSlug: ',
+      default: 'two-sum',
+    }])
+    const { titleSlug } = answers
+
+    if (findProblemByIndex(titleSlug)) {
+      logger.warning(`当前题目 ${chalk.yellow(titleSlug)} 已存在。`)
+      return
+    }
+
+    const { question } = await queryQuestionByTitleSlug(titleSlug)
+
+    const { language } = await promptLanguage()
+    writeProblemInfo({
+      ...question,
+      id: question.questionFrontendId,
+      index: question.titleSlug,
+      title: question.translatedTitle,
+      category: 'leetcode',
+      language,
+    })
+    return
+  }
+
   const id = await promptID(category)
 
   if (findProblemByID(id, category)) {
@@ -61,15 +101,9 @@ program.command('start').action(async () => {
       message: '请输入题目难易度: ',
       choices: ['easy', 'medium', 'hard'],
     },
-    {
-      type: 'list',
-      name: 'language',
-      message: '使用语言: ',
-      choices: languages,
-      default: 'ts',
-    },
   ]
   const answers = await inquirer.prompt(questions)
+  answers.language = await promptLanguage()
   writeProblemInfo(Object.assign(extraInfo, answers))
 })
 

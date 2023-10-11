@@ -1,15 +1,17 @@
 import fs from 'node:fs'
+import path from 'node:path'
 import inquirer from 'inquirer'
 
 import { $ } from 'zx'
+import consola from 'consola'
 import { getAllProblems } from './toc'
 import { logger } from './logger'
 
 import { categoryMap } from './common'
 
 import type { Problem } from './types'
+import { problemsFolder, templatesFolder } from '~/config'
 
-const problemsFolder = './problems'
 // all problems info
 const problems = getAllProblems()
 const choices = Object.keys(categoryMap).map((key) => {
@@ -34,7 +36,7 @@ export async function pushSolvedProblem(problem: Problem) {
  * @param {*} info 题目信息
  */
 export function writeProblemInfo(info: Problem) {
-  const problemFolder = `${problemsFolder}/${info.index}`
+  const problemFolder = path.resolve(problemsFolder, info.index)
   if (!fs.existsSync(problemFolder))
     fs.mkdirSync(problemFolder)
 
@@ -42,13 +44,16 @@ export function writeProblemInfo(info: Problem) {
     `${problemFolder}/package.json`,
     `${JSON.stringify(info, null, 2)}\n`,
   )
+  consola.success(`题目 ${info.index} 创建成功！`)
+  // eslint-disable-next-line no-console
+  console.log(info)
 
   const templateText = getTemplateByLanguage(info.language)
   if (templateText)
     fs.writeFileSync(`${problemFolder}/solution.${info.language}`, templateText)
 
   if (info.language === 'ts') {
-    const testTemplateText = fs.readFileSync('templates/index.test.ts', 'utf-8')
+    const testTemplateText = fs.readFileSync(path.resolve(templatesFolder, 'index.test.ts'), 'utf-8')
     fs.writeFileSync(`${problemFolder}/index.test.ts`, testTemplateText)
   }
 }
@@ -58,7 +63,7 @@ export function writeProblemInfo(info: Problem) {
  * @param {string} language
  */
 export function getTemplateByLanguage(language: string) {
-  const template = `templates/solution.${language}`
+  const template = path.resolve(templatesFolder, `solution.${language}`)
   if (fs.existsSync(template))
     return fs.readFileSync(template, 'utf-8')
   else
@@ -125,4 +130,8 @@ export function findProblemByID(id: string, category = 'leetcode') {
 
     return isValidCategory && isValidId
   })
+}
+
+export function findProblemByIndex(index: string) {
+  return problems.find(problem => problem.index === index)
 }

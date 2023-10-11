@@ -1,0 +1,16 @@
+{
+  "questionId": "695",
+  "questionFrontendId": "695",
+  "title": "岛屿的最大面积",
+  "translatedTitle": "岛屿的最大面积",
+  "titleSlug": "max-area-of-island",
+  "isPaidOnly": false,
+  "difficulty": "Medium",
+  "likes": 1015,
+  "dislikes": 0,
+  "categoryTitle": "Algorithms",
+  "id": "695",
+  "index": "max-area-of-island",
+  "category": "leetcode",
+  "language": "ts"
+}

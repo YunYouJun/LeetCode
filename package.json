@@ -22,8 +22,8 @@
     "generate:TOC": "tsx ./packages/cli/src/index.ts generate",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "start": "tsx ./packages/cli/src/index.ts start",
-    "solve": "tsx ./packages/cli/src/index.ts solve",
+    "start": "pnpm -C packages/cli run start",
+    "solve": "pnpm -C packages/cli run solve",
     "test": "vitest",
     "typecheck": "tsc --noEmit"
   },

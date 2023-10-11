@@ -43,3 +43,7 @@ npm run lint
 
 - [x] vitest bug [RangeError: Maximum call stack size exceeded](https://github.com/vitest-dev/vitest/issues/3060)
   - Caused by `.env`. `PYTHONPATH=${workspaceFolder}:${PYTHONPATH}`
+
+## Ref
+
+- [高频题 - CodeTop](https://codetop.cc/)

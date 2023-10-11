@@ -1,10 +1,13 @@
+import type { Question } from '@/api'
+
 export const languages = ['ts', 'js', 'py'] as const
 
-export interface Problem {
+export interface Problem extends Question {
   id: number | string
   index: string
   title: string
   difficulty: string
   language: string | typeof languages[number]
   category: string
+  categoryTitle: string
 }

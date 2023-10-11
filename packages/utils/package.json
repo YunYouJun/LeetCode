@@ -1,4 +1,5 @@
 {
   "name": "@yunyoujun/leetcode-utils",
+  "type": "module",
   "private": true
 }

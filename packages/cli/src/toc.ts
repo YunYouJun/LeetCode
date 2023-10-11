@@ -1,8 +1,9 @@
 import path from 'node:path'
-import process from 'node:process'
 import fs from 'fs-extra'
 
 import type { Problem } from './types'
+
+import { problemsFolder as problemsPath } from '~/config'
 
 const leetcode_url = 'https://leetcode-cn.com/problems/'
 const github_url = 'https://github.com/YunYouJun/LeetCode/tree/master/'
@@ -11,9 +12,6 @@ const github_url = 'https://github.com/YunYouJun/LeetCode/tree/master/'
  * 获取当前已完成的所有题目信息
  */
 export function getAllProblems() {
-  const rootFolder = process.cwd()
-  const problemsPath = './problems'
-
   let problemsFolder = fs.readdirSync(problemsPath)
 
   const problems: Problem[] = []
@@ -26,7 +24,7 @@ export function getAllProblems() {
 
   problemsFolder.forEach((problemFolder) => {
     const info = fs.readJsonSync(
-      `${rootFolder}/${problemsPath}/${problemFolder}/package.json`,
+      `${problemsPath}/${problemFolder}/package.json`,
     )
     problems.push(info)
   })
