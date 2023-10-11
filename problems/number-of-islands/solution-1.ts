@@ -1,7 +1,6 @@
 /**
  * DFS
  * @param grid
- * @returns
  */
 function dfs(grid: string[][], r: number, c: number) {
   const nr = grid.length

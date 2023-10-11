@@ -1,6 +1,6 @@
 export function maxProfit(prices: number[]): number {
   let max = 0
-  let minPrice = Infinity
+  let minPrice = Number.POSITIVE_INFINITY
   for (let i = 0; i < prices.length; i++) {
     const price = prices[i]
     if (price < minPrice)

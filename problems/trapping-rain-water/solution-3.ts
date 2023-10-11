@@ -1,7 +1,6 @@
 /**
  * 动态规划
  * @param height
- * @returns
  */
 export function trap(height: number[]): number {
   let result = 0

@@ -56,7 +56,6 @@ class UnionFind {
 /**
  * UNION FIND
  * @param grid
- * @returns
  */
 export function numIslands(grid: string[][]): number {
   const nr = grid.length

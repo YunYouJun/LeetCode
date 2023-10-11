@@ -1,7 +1,6 @@
 /**
  * BFS
  * @param grid
- * @returns
  */
 export function numIslands(grid: string[][]): number {
   const nr = grid.length

@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { LRUCache } from './index'
 
-describe('LRU Cache', () => {
+describe('lRU Cache', () => {
   it('should work', () => {
     const lru = new LRUCache(2)
 

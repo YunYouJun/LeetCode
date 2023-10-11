@@ -6,7 +6,6 @@
  * 10 < n < 1000 个元素使用快速排序，取中间值作为 pivot
  * n > 1000 个元素使用快速排序，每隔 200-215 个元素取一个样本，取中间值作为 pivot 加入到一个数组中，对这个数组进行排序，取中间值作为 pivot
  * @param nums
- * @returns
  */
 export function sortArray(nums: number[]): number[] {
   return nums.sort((a, b) => a - b)

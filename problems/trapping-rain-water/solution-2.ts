@@ -1,7 +1,6 @@
 /**
  * 列遍历
  * @param height
- * @returns
  */
 export function trap(height: number[]): number {
   let result = 0

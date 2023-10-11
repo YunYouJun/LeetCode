@@ -24,7 +24,6 @@ function swap(nums: number[], i: number, j: number) {
  * 快速排序
  * @param nums
  * @param k
- * @returns
  */
 export function findKthLargest(nums: number[], k: number): number {
   const len = nums.length

@@ -4,7 +4,8 @@
     "module": "ESNext",
     "moduleResolution": "node",
     "paths": {
-      "@/*": ["packages/*"]
+      "@/*": ["packages/*/src"],
+      "@yunyoujun/leetcode-*": ["packages/*/src"]
     },
     "resolveJsonModule": true,
     "strict": true,

@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
-import { ListNode } from '@yunyoujun/leetcode-utils'
 import { getIntersectionNode } from './solution-2'
 import pkg from './package.json'
+import { ListNode } from '@/utils'
 
 describe(pkg.title, () => {
   it('intersect', () => {
@@ -14,7 +14,7 @@ describe(pkg.title, () => {
     ).toBe(commonList)
   })
 
-  it('intersect', () => {
+  it('19124 intersect', () => {
     const commonList = new ListNode(2, new ListNode(4))
     const listA = new ListNode(1, new ListNode(9, new ListNode(1, commonList)))
     const listB = new ListNode(3, commonList)
