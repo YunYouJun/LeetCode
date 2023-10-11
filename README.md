@@ -2,7 +2,7 @@
 
 [![LeetCode TOC](https://github.com/YunYouJun/LeetCode/workflows/LeetCode%20TOC/badge.svg)](https://github.com/YunYouJun/LeetCode/actions?query=workflow%3A%22LeetCode+TOC%22)
 
-> 用优雅的方式刷题吧！
+> 用优雅的方式刷题吧！（自动生成题目信息与推送）
 
 [LeetCode](https://leetcode-cn.com) Practice [TOC 目录](https://yunyoujun.github.io/LeetCode/)
 
@@ -18,26 +18,14 @@
 
 ## Usage
 
-### Generate TOC
+- `npm run test`: Run all test cases by vitest.
+- `npm run start`: Start solve problem, input `titleSlug` to generate info
+- `npm run solve`: Solve problem and push to github
+- `npm run generate:TOC`: Generate TOC
+- `npm run lint`: Lint all files by [ESLint](https://eslint.org/)
 
-```sh
-npm run generate:TOC
-```
-
-### Lint
-
-[ESLint](https://eslint.org/)
-
-- husky
-- lint-staged
-
-```sh
-npm run lint
-```
-
-## packages
-
-- [cli: @yunyoujun/leetcode](./packages/cli): [![npm (scoped)](https://img.shields.io/npm/v/@yunyoujun/leetcode)](https://www.npmjs.com/package/@yunyoujun/leetcode)
+<!-- ## packages -->
+<!-- - [cli: @yunyoujun/leetcode](./packages/cli): [![npm (scoped)](https://img.shields.io/npm/v/@yunyoujun/leetcode)](https://www.npmjs.com/package/@yunyoujun/leetcode) -->
 
 ## FAQ
 
