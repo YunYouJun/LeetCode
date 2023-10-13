@@ -1,7 +1,15 @@
 {
-  "id": 322,
-  "title": "零钱兑换",
+  "questionId": "322",
+  "questionFrontendId": "322",
+  "title": "Coin Change",
+  "translatedTitle": "零钱兑换",
+  "titleSlug": "coin-change",
+  "isPaidOnly": false,
+  "difficulty": "Medium",
+  "likes": 2597,
+  "dislikes": 0,
+  "categoryTitle": "Algorithms",
+  "id": "322",
   "index": "coin-change",
-  "difficulty": "medium",
-  "language": "py"
+  "category": "leetcode"
 }

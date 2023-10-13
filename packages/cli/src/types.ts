@@ -7,7 +7,7 @@ export interface Problem extends Question {
   index: string
   title: string
   difficulty: string
-  language: string | typeof languages[number]
+  language?: string | typeof languages[number]
   category: string
   categoryTitle: string
 }

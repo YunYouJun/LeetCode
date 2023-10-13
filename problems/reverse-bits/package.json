@@ -1,6 +1,15 @@
 {
-  "id": 190,
-  "title": "颠倒二进制位",
+  "questionId": "190",
+  "questionFrontendId": "190",
+  "title": "Reverse Bits",
+  "translatedTitle": "颠倒二进制位",
+  "titleSlug": "reverse-bits",
+  "isPaidOnly": false,
+  "difficulty": "Easy",
+  "likes": 656,
+  "dislikes": 0,
+  "categoryTitle": "Algorithms",
+  "id": "190",
   "index": "reverse-bits",
-  "difficulty": "easy"
+  "category": "leetcode"
 }

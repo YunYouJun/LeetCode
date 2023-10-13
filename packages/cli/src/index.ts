@@ -1,8 +1,12 @@
 import process from 'node:process'
+import path from 'node:path'
 import { program } from 'commander'
 import inquirer from 'inquirer'
 
 import chalk from 'chalk'
+import fs from 'fs-extra'
+import consola from 'consola'
+import open from 'open'
 import pkg from '../package.json'
 import {
   findProblemByID,
@@ -17,8 +21,10 @@ import { logger } from './logger'
 
 import { generateToc } from './generateTOC'
 import { categoryMap } from './common'
+import type { Problem } from './types'
 import { languages } from './types'
 import { queryQuestionByTitleSlug } from '@/api'
+import { problemsFolder } from '~/config'
 
 program.name('leet').version(pkg.version)
 
@@ -31,6 +37,48 @@ export function promptLanguage() {
     default: 'ts',
   }])
 }
+
+program.command('open [titleSlug]')
+  .description('在浏览器中打开题目链接')
+  .action(async (titleSlug) => {
+    if (!titleSlug) {
+      titleSlug = await inquirer.prompt({
+        type: 'input',
+        name: 'titleSlug',
+        message: '请输入 titleSlug: ',
+        default: 'two-sum',
+      })
+    }
+    open(`https://leetcode-cn.com/problems/${titleSlug}/`)
+  })
+
+program.command('question').action(async () => {
+  const answers = await inquirer.prompt([{
+    type: 'input',
+    name: 'titleSlug',
+    message: '请输入 titleSlug: ',
+    default: 'two-sum',
+  }])
+  const { titleSlug } = answers
+  const { question } = await queryQuestionByTitleSlug(titleSlug)
+  // eslint-disable-next-line no-console
+  console.log(question)
+
+  const problemFolder = path.resolve(problemsFolder, titleSlug)
+  const problemInfo: Problem = {
+    ...question,
+    id: question.questionFrontendId,
+    index: question.titleSlug,
+    category: 'leetcode',
+  }
+  // eslint-disable-next-line no-console
+  console.log(problemInfo)
+  fs.writeFileSync(
+    `${problemFolder}/package.json`,
+    `${JSON.stringify(problemInfo, null, 2)}\n`,
+  )
+  consola.success('Update ' + `${problemFolder}/package.json`)
+})
 
 // 开始问题
 program.command('start').action(async () => {
@@ -56,7 +104,6 @@ program.command('start').action(async () => {
       ...question,
       id: question.questionFrontendId,
       index: question.titleSlug,
-      title: question.translatedTitle,
       category: 'leetcode',
       language,
     })

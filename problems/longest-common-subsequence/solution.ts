@@ -1,6 +1,4 @@
-import { testFunction } from '@/utils'
-
-function longestCommonSubsequence(text1: string, text2: string): number {
+export function longestCommonSubsequence(text1: string, text2: string): number {
   const m = text1.length
   const n = text2.length
   const dp = Array.from<number>({ length: m + 1 }).fill(0).map(() => Array.from<number>({ length: n + 1 }).fill(0))
@@ -15,11 +13,3 @@ function longestCommonSubsequence(text1: string, text2: string): number {
 
   return dp[m][n]
 }
-
-const testcases = [
-  ['abcde', 'ace'],
-  ['abc', 'abc'],
-  ['abc', 'def'],
-]
-const expectedResults = [3, 3, 0]
-testFunction(longestCommonSubsequence, testcases, expectedResults)

@@ -6,7 +6,7 @@
  * @param expectedResults 预期结果
  */
 export function testFunction(
-  callback: () => void,
+  callback: (...args: any) => void,
   testcases: any[],
   expectedResults?: any[],
 ) {
@@ -24,7 +24,7 @@ export function testFunction(
     }
 
     console.log(title)
-    console.log('输入:', ...testcase)
+    console.log('输入:', testcase)
     console.log('输出:', result)
 
     if (expectedResults)

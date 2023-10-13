@@ -36,7 +36,8 @@
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "cSpell.words": [
-    "leetcode"
+    "leetcode",
+    "nums"
   ],
   "python.envFile": "${workspaceFolder}/.env"
 }

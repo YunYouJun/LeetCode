@@ -1,6 +1,4 @@
 // Definition for a binary tree node.
-import { testFunction } from '@/utils'
-
 class TreeNode {
   val: number
   left: TreeNode | null
@@ -12,7 +10,7 @@ class TreeNode {
   }
 }
 
-function arrayToTree(arr: any[]) {
+export function arrayToTree(arr: any[]) {
   const nodeList = arr.map(item => (item ? new TreeNode(item) : item))
   nodeList.forEach((item, index) => {
     if (item && index * 2 + 1 < nodeList.length) {
@@ -29,7 +27,7 @@ function arrayToTree(arr: any[]) {
  * @param preorder
  * @param inorder
  */
-function buildTree(preorder: number[], inorder: number[]): TreeNode | null {
+export function buildTree(preorder: number[], inorder: number[]): TreeNode | null {
   if (preorder.length < 1)
     return null
 
@@ -39,11 +37,3 @@ function buildTree(preorder: number[], inorder: number[]): TreeNode | null {
   root.right = buildTree(preorder.slice(index + 1), inorder.slice(index + 1))
   return root
 }
-const testcases = [
-  [
-    [3, 9, 20, 15, 7],
-    [9, 3, 15, 20, 7],
-  ],
-]
-const expectedResults = [arrayToTree([3, 9, 20, null, null, 15, 7])]
-testFunction(buildTree, testcases, expectedResults)

@@ -1,6 +1,4 @@
-import { testFunction } from '@/utils'
-
-function purchasePlans(nums: number[], target: number): number {
+export function purchasePlans(nums: number[], target: number): number {
   nums.sort((a, b) => a - b)
   let ans = 0
   let i = 0
@@ -16,10 +14,3 @@ function purchasePlans(nums: number[], target: number): number {
   }
   return ans % 1000000007
 }
-const testcases = [
-  [[2, 5, 3, 5], 6],
-  [[2, 2, 1, 9], 10],
-  [[40330, 31957, 63879, 13204, 47923, 56282, 75126, 3423, 98483], 60482],
-]
-const expectedResults = [1, 4, 7]
-testFunction(purchasePlans, testcases, expectedResults)
