@@ -114,18 +114,13 @@ export async function promptID(category = 'leetcode') {
 
 /**
  * 根据 ID 查找问题
- * @param {*} id
- * @param {*} category
  */
 export function findProblemByID(id: string, category = 'leetcode') {
   return problems.find((problem) => {
     let isValidId = false
     let isValidCategory = problem.category === category
 
-    if (categoryMap[category].id.type === 'number')
-      isValidId = problem.id === Number.parseInt(id)
-    else
-      isValidId = problem.id === id
+    isValidId = problem.id.toString() === id.toString()
 
     if (category === 'leetcode')
       isValidCategory = true

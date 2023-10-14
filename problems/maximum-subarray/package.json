@@ -1,6 +1,15 @@
 {
-  "id": 53,
-  "title": "最大子序和",
+  "questionId": "53",
+  "questionFrontendId": "53",
+  "title": "Maximum Subarray",
+  "translatedTitle": "最大子数组和",
+  "titleSlug": "maximum-subarray",
+  "isPaidOnly": false,
+  "difficulty": "Medium",
+  "likes": 6366,
+  "dislikes": 0,
+  "categoryTitle": "Algorithms",
+  "id": "53",
   "index": "maximum-subarray",
-  "difficulty": "easy"
+  "category": "leetcode"
 }
