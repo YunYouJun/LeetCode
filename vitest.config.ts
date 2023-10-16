@@ -9,6 +9,7 @@ export default defineConfig({
     include: [
       './problems/**/*.{test,spec}.{js,ts}',
       './contest/**/*.{test,spec}.{js,ts}',
+      './custom/**/*.{test,spec}.{js,ts}',
     ],
   },
 })

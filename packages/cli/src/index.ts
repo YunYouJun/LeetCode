@@ -6,7 +6,6 @@ import inquirer from 'inquirer'
 import chalk from 'chalk'
 import fs from 'fs-extra'
 import consola from 'consola'
-import open from 'open'
 import pkg from '../package.json'
 import {
   findProblemByID,
@@ -42,13 +41,15 @@ program.command('open [titleSlug]')
   .description('在浏览器中打开题目链接')
   .action(async (titleSlug) => {
     if (!titleSlug) {
-      titleSlug = await inquirer.prompt({
+      const answers = await inquirer.prompt({
         type: 'input',
         name: 'titleSlug',
         message: '请输入 titleSlug: ',
         default: 'two-sum',
       })
+      titleSlug = answers.titleSlug
     }
+    const open = (await import('open')).default
     open(`https://leetcode-cn.com/problems/${titleSlug}/`)
   })
 

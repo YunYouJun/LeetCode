@@ -27,6 +27,7 @@
     "start": "pnpm -C packages/cli run start",
     "solve": "pnpm -C packages/cli run solve",
     "test": "vitest",
+    "test:custom": "",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
