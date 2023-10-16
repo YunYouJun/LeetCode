@@ -6,6 +6,7 @@ import inquirer from 'inquirer'
 import chalk from 'chalk'
 import fs from 'fs-extra'
 import consola from 'consola'
+import { camelCase } from 'scule'
 import pkg from '../package.json'
 import {
   findProblemByID,
@@ -23,7 +24,7 @@ import { categoryMap } from './common'
 import type { Problem } from './types'
 import { languages } from './types'
 import { queryQuestionByTitleSlug } from '@/api'
-import { problemsFolder } from '~/config'
+import { customFolder, problemsFolder } from '~/config'
 
 program.name('leet').version(pkg.version)
 
@@ -36,6 +37,37 @@ export function promptLanguage() {
     default: 'ts',
   }])
 }
+
+program.command('custom [titleSlug]')
+  .description('新建自定义模板')
+  .action(async (titleSlug) => {
+    if (!titleSlug) {
+      const answers = await inquirer.prompt({
+        type: 'input',
+        name: 'titleSlug',
+        message: '请输入 titleSlug: ',
+        default: 'two-sum',
+      })
+      titleSlug = answers.titleSlug
+    }
+    const problemFolder = path.resolve(customFolder, titleSlug)
+    if (fs.existsSync(problemFolder)) {
+      consola.warn(`当前题目 ${chalk.yellow(titleSlug)} 已存在。`)
+      return
+    }
+
+    fs.ensureDirSync(problemFolder)
+    fs.writeJSONSync(`${problemFolder}/package.json`, {
+      name: titleSlug,
+      title: titleSlug,
+      difficulty: '',
+    }, { spaces: 2 })
+    const testTemplate = fs.readFileSync(`${customFolder}/example/index.test.ts`, 'utf-8')
+    const indexTemplate = fs.readFileSync(`${customFolder}/example/index.ts`, 'utf-8')
+    const camelCaseTitle = camelCase(titleSlug)
+    fs.writeFileSync(`${problemFolder}/index.test.ts`, testTemplate.replace(/__example__/g, camelCaseTitle))
+    fs.writeFileSync(`${problemFolder}/index.ts`, indexTemplate.replace(/__example__/g, camelCaseTitle))
+  })
 
 program.command('open [titleSlug]')
   .description('在浏览器中打开题目链接')
