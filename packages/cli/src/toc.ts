@@ -1,7 +1,7 @@
-import path from 'node:path'
-import fs from 'fs-extra'
-
 import type { Problem } from './types'
+import path from 'node:path'
+
+import fs from 'fs-extra'
 
 import { problemsFolder as problemsPath } from '~/config'
 

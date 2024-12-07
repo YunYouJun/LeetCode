@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
-import { findKthLargest } from './solution-1'
 import pkg from './package.json'
+import { findKthLargest } from './solution-1'
 
 describe(pkg.title, () => {
   it('should work', () => {

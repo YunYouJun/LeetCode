@@ -9,6 +9,9 @@
       "@yunyoujun/leetcode-*": ["packages/*/src"]
     },
     "resolveJsonModule": true,
+    "types": [
+      "node"
+    ],
     "strict": true,
     "strictNullChecks": true,
     "noUnusedLocals": true,

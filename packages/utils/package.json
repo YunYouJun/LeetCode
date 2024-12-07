@@ -1,5 +1,8 @@
 {
   "name": "@yunyoujun/leetcode-utils",
   "type": "module",
-  "private": true
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts"
+  }
 }

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
-import { maxAreaOfIsland } from './solution'
 import pkg from './package.json'
+import { maxAreaOfIsland } from './solution'
 
 describe(pkg.title, () => {
   it('should work', () => {

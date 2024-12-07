@@ -1,13 +1,22 @@
-import process from 'node:process'
+import type { Problem } from './types'
 import path from 'node:path'
-import { program } from 'commander'
-import inquirer from 'inquirer'
+import process from 'node:process'
+import { queryQuestionByTitleSlug } from '@/api'
 
 import chalk from 'chalk'
-import fs from 'fs-extra'
+import { program } from 'commander'
 import consola from 'consola'
+import fs from 'fs-extra'
+import inquirer from 'inquirer'
 import { camelCase } from 'scule'
+
+import { customFolder, problemsFolder } from '~/config'
+
 import pkg from '../package.json'
+import { categoryMap } from './common'
+import { generateToc } from './generateTOC'
+import { logger } from './logger'
+import { languages } from './types'
 import {
   findProblemByID,
   findProblemByIndex,
@@ -16,15 +25,6 @@ import {
   pushSolvedProblem,
   writeProblemInfo,
 } from './utils'
-
-import { logger } from './logger'
-
-import { generateToc } from './generateTOC'
-import { categoryMap } from './common'
-import type { Problem } from './types'
-import { languages } from './types'
-import { queryQuestionByTitleSlug } from '@/api'
-import { customFolder, problemsFolder } from '~/config'
 
 program.name('leet').version(pkg.version)
 
@@ -94,7 +94,7 @@ program.command('question').action(async () => {
   }])
   const { titleSlug } = answers
   const { question } = await queryQuestionByTitleSlug(titleSlug)
-  // eslint-disable-next-line no-console
+
   console.log(question)
 
   const problemFolder = path.resolve(problemsFolder, titleSlug)
@@ -104,7 +104,7 @@ program.command('question').action(async () => {
     index: question.titleSlug,
     category: 'leetcode',
   }
-  // eslint-disable-next-line no-console
+
   console.log(problemInfo)
   fs.writeFileSync(
     `${problemFolder}/package.json`,

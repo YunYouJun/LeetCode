@@ -1,7 +1,7 @@
-import { describe, expect, it } from 'vitest'
-import { getIntersectionNode } from './solution-2'
-import pkg from './package.json'
 import { ListNode } from '@/utils'
+import { describe, expect, it } from 'vitest'
+import pkg from './package.json'
+import { getIntersectionNode } from './solution-2'
 
 describe(pkg.title, () => {
   it('intersect', () => {

@@ -1,6 +1,6 @@
 import fs from 'node:fs'
-import { generateProblemMd, getAllProblems, readLanguageByExt } from './toc'
 import { logger } from './logger'
+import { generateProblemMd, getAllProblems, readLanguageByExt } from './toc'
 
 const distFolder = './dist'
 

@@ -16,7 +16,7 @@ export function numIslands(grid: string[][]): number {
         num_islands++
         grid[r][c] = '0'
 
-        const neighbors: { r: number; c: number }[] = []
+        const neighbors: { r: number, c: number }[] = []
         neighbors.push({
           r,
           c,

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
-import { reverseBits } from './solution'
 import pkg from './package.json'
+import { reverseBits } from './solution'
 
 describe(pkg.title, () => {
   it('should work', () => {

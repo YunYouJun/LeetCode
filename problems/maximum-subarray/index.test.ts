@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
-import { maxSubArray } from './solution'
 import pkg from './package.json'
+import { maxSubArray } from './solution'
 
 describe(pkg.title, () => {
   it('should work', () => {

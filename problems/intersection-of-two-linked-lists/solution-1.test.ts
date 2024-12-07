@@ -1,7 +1,7 @@
-import { describe, expect, it } from 'vitest'
 import { ListNode } from '@yunyoujun/leetcode-utils'
-import { getIntersectionNode } from './solution-1'
+import { describe, expect, it } from 'vitest'
 import pkg from './package.json'
+import { getIntersectionNode } from './solution-1'
 
 describe(pkg.title, () => {
   it('intersect', () => {

@@ -1,16 +1,16 @@
+import type { Problem } from './types'
 import fs from 'node:fs'
 import path from 'node:path'
-import inquirer from 'inquirer'
 
-import { $ } from 'zx'
 import consola from 'consola'
-import { getAllProblems } from './toc'
-import { logger } from './logger'
+import inquirer from 'inquirer'
+import { $ } from 'zx'
+import { problemsFolder, templatesFolder } from '~/config'
 
 import { categoryMap } from './common'
 
-import type { Problem } from './types'
-import { problemsFolder, templatesFolder } from '~/config'
+import { logger } from './logger'
+import { getAllProblems } from './toc'
 
 // all problems info
 const problems = getAllProblems()
@@ -45,7 +45,7 @@ export function writeProblemInfo(info: Problem) {
     `${JSON.stringify(info, null, 2)}\n`,
   )
   consola.success(`题目 ${info.index} 创建成功！`)
-  // eslint-disable-next-line no-console
+
   console.log(info)
 
   if (info.language) {

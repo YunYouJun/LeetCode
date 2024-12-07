@@ -1,6 +1,6 @@
-import { createClient } from 'graphql-http'
-
 import type { Question } from './types'
+
+import { createClient } from 'graphql-http'
 
 export const client = createClient({
   url: 'https://leetcode.cn/graphql',

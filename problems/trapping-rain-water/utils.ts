@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
-import { } from './solution-1'
 import pkg from './package.json'
+import { } from './solution-1'
 
 export function testFunction(func: (height: number[]) => number) {
   const trap = func

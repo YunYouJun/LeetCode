@@ -1,5 +1,5 @@
-import { describe, expect, it } from 'vitest'
 import { ListNode } from '@yunyoujun/leetcode-utils'
+import { describe, expect, it } from 'vitest'
 import { reverseList } from './solution-2'
 
 describe('reverseList', () => {

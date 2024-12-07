@@ -1,7 +1,7 @@
-import { describe, expect, it } from 'vitest'
 import { ListNode } from '@yunyoujun/leetcode-utils'
-import { reverseKGroup } from './solution'
+import { describe, expect, it } from 'vitest'
 import pkg from './package.json'
+import { reverseKGroup } from './solution'
 
 describe(pkg.title, () => {
   it('should work 2', () => {
