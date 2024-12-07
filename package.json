@@ -33,12 +33,12 @@
   },
   "dependencies": {
     "@yunyoujun/logger": "^0.3.5",
-    "commander": "^11.1.0",
-    "inquirer": "^9.2.11"
+    "commander": "^12.1.0",
+    "inquirer": "^12.1.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.11.2",
-    "@types/inquirer": "^9.0.4",
+    "@types/inquirer": "^9.0.7",
     "@types/node": "^22.10.1",
     "eslint": "^9.16.0",
     "fs-extra": "^11.2.0",

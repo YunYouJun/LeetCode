@@ -3,17 +3,18 @@ import path from 'node:path'
 import process from 'node:process'
 import { queryQuestionByTitleSlug } from '@/api'
 
+import { input, select } from '@inquirer/prompts'
 import chalk from 'chalk'
 import { program } from 'commander'
 import consola from 'consola'
 import fs from 'fs-extra'
 import inquirer from 'inquirer'
+
 import { camelCase } from 'scule'
 
 import { customFolder, problemsFolder } from '~/config'
 
 import pkg from '../package.json'
-import { categoryMap } from './common'
 import { generateToc } from './generateTOC'
 import { logger } from './logger'
 import { languages } from './types'
@@ -28,14 +29,12 @@ import {
 
 program.name('leet').version(pkg.version)
 
-export function promptLanguage() {
-  return inquirer.prompt([{
-    type: 'list',
-    name: 'language',
+export async function promptLanguage(): Promise<string> {
+  return await select({
     message: '使用语言: ',
     choices: languages,
     default: 'ts',
-  }])
+  })
 }
 
 program.command('custom [titleSlug]')
@@ -131,8 +130,8 @@ program.command('start').action(async () => {
     }
 
     const { question } = await queryQuestionByTitleSlug(titleSlug)
+    const language = await promptLanguage()
 
-    const { language } = await promptLanguage()
     writeProblemInfo({
       ...question,
       id: question.questionFrontendId,
@@ -145,46 +144,40 @@ program.command('start').action(async () => {
 
   const id = await promptID(category)
 
-  if (findProblemByID(id, category)) {
+  if (findProblemByID(id?.toString() || '', category)) {
     logger.warning('当前题号已存在。')
     return
   }
 
   // 额外信息
   const extraInfo: {
-    id: number
+    id: number | string
     category?: string
   } = {
-    id,
+    id: id!,
   }
-
-  if (categoryMap[category].id.type === 'number')
-    extraInfo.id = Number.parseInt(id)
 
   if (category !== 'leetcode')
     extraInfo.category = category
 
-  const questions = [
-    {
-      type: 'input',
-      name: 'title',
-      message: '请输入题目标题: ',
-    },
-    {
-      type: 'input',
-      name: 'index',
-      message: '请输入题目索引: ',
-    },
-    {
-      type: 'list',
-      name: 'difficulty',
-      message: '请输入题目难易度: ',
-      choices: ['easy', 'medium', 'hard'],
-    },
-  ]
-  const answers = await inquirer.prompt(questions)
-  answers.language = await promptLanguage()
-  writeProblemInfo(Object.assign(extraInfo, answers))
+  const title = await input({
+    message: '请输入题目标题: ',
+  })
+  const index = await input({
+    message: '请输入题目索引: ',
+  })
+  const difficulty = await select<string>({
+    message: '请输入题目难易度: ',
+    choices: ['easy', 'medium', 'hard'],
+  })
+  const language = await promptLanguage()
+  writeProblemInfo({
+    ...extraInfo,
+    title,
+    index,
+    difficulty,
+    language,
+  })
 })
 
 // 解决问题

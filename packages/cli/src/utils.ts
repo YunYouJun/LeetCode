@@ -2,13 +2,13 @@ import type { Problem } from './types'
 import fs from 'node:fs'
 import path from 'node:path'
 
+import { input, number, select } from '@inquirer/prompts'
 import consola from 'consola'
-import inquirer from 'inquirer'
 import { $ } from 'zx'
+
 import { problemsFolder, templatesFolder } from '~/config'
 
 import { categoryMap } from './common'
-
 import { logger } from './logger'
 import { getAllProblems } from './toc'
 
@@ -76,40 +76,33 @@ export function getTemplateByLanguage(language: string) {
  * prompt for category
  */
 export async function promptCategory() {
-  const questions = [
-    {
-      type: 'list',
-      name: 'category',
-      message: '题目类型',
-      choices,
-    },
-  ]
-
-  const answers = await inquirer.prompt(questions)
-  return answers.category
+  const category = await select({
+    message: '选择题目类型',
+    choices,
+  })
+  return category
 }
 
 export async function promptID(category = 'leetcode') {
-  const questions = [
-    {
-      type: 'input',
-      name: 'id',
-      message: '请输入题目 ID（序号）:',
-    },
-  ]
-
+  let id
   if (categoryMap[category].id.type === 'number') {
-    // @ts-expect-error validate
-    questions[0].validate = (val: any) => {
-      if (Number.isInteger(Number.parseInt(val)))
-        return true
-      else
-        return '题目 ID 应当是一个整数'
-    }
+    id = await number({
+      message: '请输入题目 ID（序号）:',
+      validate(value: any) {
+        if (Number.isInteger(Number.parseInt(value)))
+          return true
+        else
+          return '题目 ID 应当是一个整数'
+      },
+    })
+  }
+  else {
+    id = await input({
+      message: '请输入题目 ID（序号）:',
+    })
   }
 
-  const answers = await inquirer.prompt(questions)
-  return answers.id
+  return id
 }
 
 /**

@@ -13,6 +13,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "graphql-http": "^1.22.0"
+    "graphql-http": "^1.22.3"
   }
 }
